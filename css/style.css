@@ -1795,17 +1795,18 @@ aside {
 .navbar-header .navbar-brand {
   float: left; }
   .navbar-header .navbar-brand > img {
-    width: 100%; }
+    width: 230px; 
+    }
   @media (min-width: 320px) {
     .navbar-header .navbar-brand {
       height: auto;
-      padding: 15px;
-      width: 160px; } }
+      padding: 1px;
+      width: 120px; } }
   @media (min-width: 768px) {
     .navbar-header .navbar-brand {
       height: 110px;
-      padding: 30px 15px;
-      width: 196px; } }
+      padding: 25px 10px;
+      width: 250px; } }
 
 .navbar-default .navbar-nav {
   background-color: #ffffff;
