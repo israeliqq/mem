@@ -96,7 +96,7 @@
 .color-3,
 .block .list-inline.btn-red .btn-link:hover,
 .courseList .media-body .list-inline.btnPart.btn-red > li a.btn-link:hover {
-  color: #00cc33  !important; }
+  color: #99cc99  !important; }
 
 a,
 .sectionTitle h2,
@@ -129,11 +129,11 @@ a,
 .checkoutInfo .checkbox a:hover,
 .lowerPartTitle h4,
 .product-review .tab-content h3 {
-  color: #00cc33; }
+  color: #99cc99; }
 
 .bg-color-3,
 .courseList .media-body .list-inline.btnPart.btn-red > li a.btn-primary:hover {
-  background-color: #00cc33 !important; }
+  background-color: #99cc99 !important; }
 
 .btn-primary,
 .btn-primary:hover,
@@ -168,13 +168,13 @@ a,
 .continueBtnArea .btn-primary:hover,
 .dropGeneral.bg-color-3 .sbHolder,
 .progress-wizard > .progress-wizard-step.complete > .progress-wizard-dot i {
-  background-color: #00cc33; }
+  background-color: #99cc99; }
 
 @media (min-width: 768px) {
   .progress-wizard > .progress-wizard-step > .progress > .progress-bar {
-    background: #00cc33; } }
+    background: #99cc99; } }
 .border-color-3 {
-  border-color: #00cc33 !important; }
+  border-color: #99cc99 !important; }
 
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
@@ -183,16 +183,16 @@ a,
 .progress-wizard > .progress-wizard-step > .progress-wizard-dot,
 .dropGeneral.border-color-3 .sbHolder,
 .dropGeneral.bg-color-3 .sbHolder {
-  border-color: #00cc33; }
+  border-color: #99cc99; }
 
 .cart-dropdown .dropdown-menu {
-  border-top-color: #00cc33; }
+  border-top-color: #99cc99; }
 
 .navbar-nav > li.color-3.dropdown.singleDrop .dropdown-menu .dropdown-menu:after {
-  border-right-color: ##00cc33; }
+  border-right-color: #99cc99; }
 
 .navbar-nav > li.color-3.dropdown a:after {
-  border-bottom-color: #00cc33; }
+  border-bottom-color: #99cc99; }
 
 @media (min-width: 768px) {
   .navbar-nav > li.color-3 > a > span,
@@ -203,12 +203,12 @@ a,
   border-color: transparent transparent transparent #00cc33; }
 
 .cart-dropdown .dropdown-menu:before {
-  border-bottom-color: #00cc33; }
+  border-bottom-color: #99cc99; }
 
 .sectionTitle h2 span.bg-color-3,
 .sectionTitle h2 span.bg-color-3:after,
 .sectionTitle h2 span.bg-color-3:before {
-  background-color: #00cc33 !important; }
+  background-color: #99cc99 !important; }
 
 /*================= $color4 ==================*/
 .color-4,
@@ -262,7 +262,7 @@ a,
 .courseList .media-body .list-inline.btnPart.btn-purple > li a.btn-link:hover,
 .rightSidebar .panel .panel-body .media-list.blogListing li .media-heading a:hover,
 .eventSidebar.panel .panel-body .media-list.blogListing li .media-heading a:hover {
-  color: #a597e7 !important; }
+  color: #99cc99 !important; }
 
 .navbar-default.lightHeader .navbar-nav > li.active.color-5 > a,
 .navbar-nav > li.color-5 > a:hover span,
@@ -271,39 +271,39 @@ a,
 .navbar-nav > li.color-5.singleDrop.open a > span,
 .block .list-inline.btn-purple .btn-link:hover,
 .eventContent .list-inline.btn-purple .btn-primary:hover {
-  color: #a597e7; }
+  color: #99cc99; }
 
 .bg-color-5,
 .courseList .media-body .list-inline.btnPart.btn-purple > li a.btn-primary:hover {
-  background-color: #a597e7 !important; }
+  background-color: #99cc99 !important; }
 
 .navbar-nav > li.color-5.singleDrop > .dropdown-menu li a:hover,
 .block .list-inline.btn-purple .btn-primary:hover,
 .dropGeneral.bg-color-5 .sbHolder {
-  background-color: #a597e7; }
+  background-color: #99cc99; }
 
 .dropGeneral.bg-color-5 .sbHolder,
 .dropGeneral.border-color-5 .sbHolder {
-  border-color: #a597e7; }
+  border-color: #99cc99; }
 
 .border-color-5 {
-  border-color: #a597e7 !important; }
+  border-color: #99cc99 !important; }
 
 .navbar-nav > li.color-5.dropdown.singleDrop .dropdown-menu .dropdown-menu:after {
-  border-right-color: #a597e7; }
+  border-right-color: #99cc99; }
 
 .navbar-nav > li.color-5.dropdown a:after {
-  border-bottom-color: #a597e7; }
+  border-bottom-color: #99cc99; }
 
 @media (min-width: 768px) {
   .navbar-nav > li.color-5 > a > span,
   .navbar-nav > li.color-5.singleDrop > .dropdown-menu,
   .navbar-nav > li.color-5.singleDrop > .dropdown-menu li .dropdown-menu {
-    border-color: #a597e7; } }
+    border-color: #99cc99; } }
 /*================= $color6 ==================*/
 .color-6,
 .courseList .media-body .list-inline.btnPart.btn-pink > li a.btn-link:hover {
-  color: #ea77ad !important; }
+  color: #58ab58 !important; }
 
 .navbar-default.lightHeader .navbar-nav > li.active.color-6 > a,
 .navbar-nav > li.color-6 > a:hover span,
@@ -312,34 +312,34 @@ a,
 .navbar-nav > li.color-6.singleDrop.open a > span,
 .block .list-inline.btn-pink .btn-link:hover,
 .eventContent .list-inline.btn-pink .btn-primary:hover {
-  color: #ea77ad; }
+  color: #58ab58; }
 
 .bg-color-6,
 .courseList .media-body .list-inline.btnPart.btn-pink > li a.btn-primary:hover {
-  background-color: #ea77ad !important; }
+  background-color: #58ab58 !important; }
 
 .navbar-nav > li.color-6.singleDrop > .dropdown-menu li a:hover,
 .block .list-inline.btn-pink .btn-primary:hover,
 .dropGeneral.bg-color-6 .sbHolder {
-  background-color: #ea77ad; }
+  background-color: #58ab58; }
 
 .border-color-6 {
-  border-color: #ea77ad !important; }
+  border-color: #58ab58 !important; }
 
 .table-curved > thead:first-child > tr > th:last-child,
 .dropGeneral.bg-color-6 .sbHolder,
 .dropGeneral.border-color-6 .sbHolder {
-  border-color: #ea77ad; }
+  border-color: #58ab58; }
 
 .navbar-nav > li.color-6.dropdown.singleDrop .dropdown-menu .dropdown-menu:after {
-  border-right-color: #ea77ad; }
+  border-right-color: #58ab58; }
 
 .navbar-nav > li.color-6.dropdown a:after {
-  border-bottom-color: #ea77ad; }
+  border-bottom-color: #58ab58; }
 
 @media (min-width: 768px) {
   .navbar-nav > li.color-6.singleDrop > .dropdown-menu,
   .navbar-nav > li.color-6.singleDrop > .dropdown-menu li .dropdown-menu {
-    border-color: #ea77ad; } }
+    border-color: #58ab58; } }
 
 /*# sourceMappingURL=default.css.map */

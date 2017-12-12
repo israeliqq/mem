@@ -80,14 +80,14 @@ $con->conectar();
           <div class="row">
             <div class="col-sm-7">
               <ul class="list-inline topList">
-                <li><i class="fa fa-envelope bg-color-3" aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
-                <li><i class="fa fa-phone bg-color-5" aria-hidden="true"></i> +56 9 1234 5678</li>
-                <li><i class="fa fa-clock-o bg-color-6" aria-hidden="true"></i> Horario 8:00 a 18:00</li>
+                <li><i class="fa fa-envelope " style="background-color:#4c664c " aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
+                <li><i class="fa fa-phone " style="background-color:#4c664c " aria-hidden="true"></i> +56 9 1234 5678</li>
+                <li><i class="fa fa-clock-o" style="background-color:#4c664c " aria-hidden="true"></i> Horario 8:00 a 18:00</li>
               </ul>
             </div>
             <div class="col-sm-5">
               <ul class="list-inline functionList">
-                <li><i class="fa fa-globe bg-color-4" aria-hidden="true"></i></li>
+                <li><i class="fa fa-globe" style="background-color:#4c664c " aria-hidden="true"></i></li>
                 <li class="LanguageList">
                   <select name="guiest_id1" id="guiest_id1" class="select-drop">
                     <option value="1">Español</option>
@@ -1227,11 +1227,9 @@ $con->conectar();
       <div class="row">
         <div class="col-sm-5 col-sm-push-7 col-xs-12">
           <ul class="list-inline">
-            <li><a href="#" class="bg-color-1"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-5"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-6"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-4"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-5"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+            <li><a href="#" style="background-color: #3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#" style="background-color: #00aced"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          
           </ul>
         </div>
         <div class="col-sm-7 col-sm-pull-5 col-xs-12">
