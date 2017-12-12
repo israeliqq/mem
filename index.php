@@ -1,3 +1,15 @@
+
+<?php   
+
+include("conexion.php");
+$con = new conexion();
+$con->conectar();
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -126,6 +138,24 @@
                   <i class="fa fa-file-text-o bg-color-3" aria-hidden="true"></i>
                   <span>Colegios</span>
                 </a>
+
+<?php 
+
+  // Imprimir los resultados en HTML
+  //echo "<table>\n";
+  //while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+  //    echo "\t<tr>\n";
+  //    foreach ($line as $col_value) {  echo "\t\t<td>$col_value</td>\n"; }
+  //    echo "\t</tr>\n";
+  //}
+  //echo "</table>\n";
+
+
+
+?>
+
+
+                
                 <ul class="row dropdown-menu">
                   <li class="col-sm-3 col-xs-12">
                     <ul class="list-unstyled ">
@@ -161,13 +191,13 @@
                   </li>
                 </ul>
               </li>
-              <li class="dropdown singleDrop color-3">
+              <li class="dropdown singleDrop color-4 ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-pencil-square-o bg-color-3" aria-hidden="true"></i>
+                  <i class="fa fa-pencil-square-o bg-color-4" aria-hidden="true"></i>
                   <span>Documentos</span>
                 </a>
-                <!--
                 <ul class="dropdown-menu dropdown-menu-right">
+                  <!--
                   <li class="dropdown dropdown-submenu
                      ||
                      ||
@@ -180,18 +210,8 @@
                       <li class=""><a href="product-right-sidebar.html">Products Right Sidebar</a></li>
                     </ul>
                   </li>
-                  <li class=""><a href="single-product.html">Single Product</a></li>
-                  <li class=""><a href="category.html">Product Categories</a></li>
-                  <li class=""><a href="cart-page.html">Cart</a></li>
-                  <li class="dropdown dropdown-submenu">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Checkout
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class=" "><a href="checkout-step-1.html">Personal Info</a></li>
-                      <li class=" "><a href="checkout-step-2.html">Payment Info</a></li>
-                      <li class=" "><a href="checkout-step-3.html">Confirmation</a></li>
-                    </ul>
-                  </li>
+                  -->
+                  <li class=""><a href="documentos/reglamentointerno.pdf">Reglamento Interno</a></li>
                 </ul>
                 -->
               </li>
