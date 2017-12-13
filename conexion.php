@@ -17,7 +17,10 @@ function Consulta($distrito){
    return $result;  
 }
 
-
+function Colegio($id){  
+   $result = Conexion()->query("SELECT * FROM institucion WHERE id = '".$id."';");
+   return $result;  
+}
 
 
 ?> 
