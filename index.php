@@ -1051,21 +1051,21 @@ include("conexion.php");
   </div>
   
   <!-- FOOTER INFO AREA -->
-  <div class="footerInfoArea full-width clearfix" style="background-color:#660033">
+   <div class="footerInfoArea full-width clearfix" style="background-image: url(img/footer/footer-bg-1.png);">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
-            <a href="index.html"><img src="img/logomem.jpg"></a>
+            <a href="index.html"><img src="img/logomem.png"></a>
           </div>
           <div class="footerInfo">
             <p>“Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia.”</p>
             <p>Proverbios 2:3-6.</p>
           </div>
         </div>
-        <div class="col-sm-2 col-xs-12">
+        <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
-            <h4 class="color-1">Enlaces</h4>
+            <h4>Useful Links</h4>
           </div>
           <div class="footerInfo">
             <ul class="list-unstyled footerList">
@@ -1097,16 +1097,16 @@ include("conexion.php");
             </ul>
           </div>
         </div>
-        <div class="col-sm-4 col-xs-12">
+        <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
-            <h4 class="color-2">Noticias Recientes</h4>
+            <h4>Noticias Recientes</h4>
           </div>
           <div class="footerInfo">
             <ul class="list-unstyled postLink">
               <li>
                 <div class="media">
                   <a class="media-left" href="single-blog.html">
-                    <img class="media-object img-rounded border-color-1" src="img/footer/footer-img-1.png" alt="Image">
+                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-1.png" alt="Image">
                   </a>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="single-blog.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -1117,7 +1117,7 @@ include("conexion.php");
               <li>
                 <div class="media">
                   <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-2" src="img/footer/footer-img-2.png" alt="Image">
+                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-2.png" alt="Image">
                   </a>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -1128,7 +1128,7 @@ include("conexion.php");
               <li>
                 <div class="media">
                   <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-4" src="img/footer/footer-img-3.png" alt="Image">
+                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-3.png" alt="Image">
                   </a>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -1139,10 +1139,9 @@ include("conexion.php");
             </ul>
           </div>
         </div>
-        <!--
-        <div class="col-sm-3 col-xs-12">
+     <!--   <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
-            <h4 class="color-3">Mailing List</h4>
+            <h4>Mailing List</h4>
           </div>
           <div class="footerInfo">
             <p>Sign up for our mailing list to get latest updates and offers.</p>
@@ -1151,28 +1150,19 @@ include("conexion.php");
               <button type="submit" class="input-group-addon" id="basic-addon21"><i class="fa fa-check" aria-hidden="true"></i></button>
             </div>
           </div>
-          <div class="footerTitle">
-            <h4 class="color-5">Payment Method</h4>
-          </div>
-          <ul class="list-inline">
-            <li><img src="img/footer/card1.png"></li>
-            <li><img src="img/footer/card2.png"></li>
-            <li><img src="img/footer/card3.png"></li>
-            <li><img src="img/footer/card4.png"></li>
-          </ul>
-        </div>
-        -->
+        </div>-->
       </div>
     </div>
   </div>
   <!-- COPY RIGHT -->
   <div class="copyRight clearfix">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-sm-5 col-sm-push-7 col-xs-12">
-            <ul class="list-inline">
-             <li><a href="#" style="background-color: #3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <ul class="list-inline">
+            <li><a href="#" style="background-color: #3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li><a href="#" style="background-color: #00aced"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          
           </ul>
         </div>
         <div class="col-sm-7 col-sm-pull-5 col-xs-12">
@@ -1185,6 +1175,7 @@ include("conexion.php");
   </div>
 </footer>
 </div>
+
 <div class="scrolling">
 <a href="#pageTop" class="backToTop hidden-xs" id="backToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 </div>
