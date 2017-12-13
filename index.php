@@ -1,11 +1,9 @@
 
-<?php   
-
-include("conexion.php");
-$con = new conexion();
-$con->conectar();
+<?php 
+include("conexion.php");  
 
 ?>
+
 
 
 
@@ -57,40 +55,25 @@ $con->conectar();
     <!-- HEADER -->
     <header id="pageTop" class="header-wrapper">
       <!-- COLOR BAR -->
-      <div class="container-fluid color-bar top-fixed clearfix">
-        <div class="row">
-          <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
-          <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
-        </div>
-      </div>
+
 
       <!-- TOP INFO BAR -->
       <div class="top-info-bar bg-color-6 hidden-xs">
         <div class="container">
           <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-10">
               <ul class="list-inline topList">
                 <li><i class="fa fa-envelope " style="background-color:#4c664c " aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
                 <li><i class="fa fa-phone " style="background-color:#4c664c " aria-hidden="true"></i> +56 9 1234 5678</li>
                 <li><i class="fa fa-clock-o" style="background-color:#4c664c " aria-hidden="true"></i> Horario 8:00 a 18:00</li>
               </ul>
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-2">
               <ul class="list-inline functionList">
                 <li><i class="fa fa-globe" style="background-color:#4c664c " aria-hidden="true"></i></li>
                 <li class="LanguageList">
                   <select name="guiest_id1" id="guiest_id1" class="select-drop">
-                    <option value="1">Español</option>
+                    <option>ES </option>
                     <!--<option value="2">English</option>-->
 
                   </select>
@@ -124,76 +107,75 @@ $con->conectar();
                   <i class="fa fa-home bg-color-3" aria-hidden="true"></i> <span class="active">Inicio</span>
                 </a>
               </li>
+
+              <li class=" dropdown singleDrop color-3 ">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-file-text bg-color-3" aria-hidden="true"></i> <span>Colegios</span></a>
+                </a>
+
+ 
+
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li class="dropdown dropdown-submenu">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Norte</a>
+                    <ul class="dropdown-menu">
+                      <?php  $array = Consulta('norte');  while ($dato = $array->fetch_assoc()){  ?>
+                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <?php }  ?> 
+                    </ul>
+                  </li>
+                  <li class="dropdown dropdown-submenu">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Norte Verde</a>
+                    <ul class="dropdown-menu">
+                      <?php  $array = Consulta('norte verde');  while ($dato = $array->fetch_assoc()){  ?>
+                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <?php }  ?> 
+                    </ul>
+                  </li>
+                  <li class="dropdown dropdown-submenu">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Metropolitano</a>
+                    <ul class="dropdown-menu">
+                      <?php  $array = Consulta('metropolitano');  while ($dato = $array->fetch_assoc()){  ?>
+                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <?php }  ?> 
+                    </ul>
+                  </li>
+                  <li class="dropdown dropdown-submenu">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Concepción</a>
+                    <ul class="dropdown-menu">
+                      <?php  $array = Consulta('concepción');  while ($dato = $array->fetch_assoc()){  ?>
+                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <?php }  ?> 
+                    </ul>
+                  </li>
+                  <li class="dropdown dropdown-submenu">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Sur</a>
+                    <ul class="dropdown-menu">
+                      <?php  $array = Consulta('sur');  while ($dato = $array->fetch_assoc()){  ?>
+                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <?php }  ?> 
+                    </ul>
+                  </li>                                   
+                </ul>
+              </li>
+
+
+
+
               <li class="dropdown singleDrop color-3">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list-ul bg-color-3" aria-hidden="true"></i> <span>Nosotros</span></a>
-                <ul class="dropdown-menu dropdown-menu-left ">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-list-ul bg-color-3" aria-hidden="true"></i> <span>Nosotros</span></a>
+                <ul class="dropdown-menu dropdown-menu-right">
                   <li><a href="#">Misión y Visión</a></li>
                   <li><a href="#">Equipo Directivo</a></li>
                   <li><a href="#">Proyecto Educativo</a></li>
                 </ul>
                 
               </li>
-              <li class=" dropdown megaDropMenu color-3 ">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true" aria-expanded="false">
-                  <i class="fa fa-file-text-o bg-color-3" aria-hidden="true"></i>
-                  <span>Colegios</span>
-                </a>
 
-<?php 
-
-  // Imprimir los resultados en HTML
-  //echo "<table>\n";
-  //while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
-  //    echo "\t<tr>\n";
-  //    foreach ($line as $col_value) {  echo "\t\t<td>$col_value</td>\n"; }
-  //    echo "\t</tr>\n";
-  //}
-  //echo "</table>\n";
-
-
-
-?>
-
-
-                
-                <ul class="row dropdown-menu">
-                  <li class="col-sm-3 col-xs-12">
-                    <ul class="list-unstyled ">
-                      <li>Distrito Norte</li>
-                      <li class=""><a href="course-grid-full.html">Colegio 1</a></li>
-                      <li class=""><a href="course-grid-left-sidebar.html">Colegio 2</a></li>
-                      <li class=""><a href="course-grid-right-sidebar.html">Colegio 3</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3 col-xs-12">
-                    <ul class="list-unstyled">
-                      <li>Distrito Norte Verde</li>
-                      <li class=""><a href="course-list-fullwidth.html">Colegio 4</a></li>
-                      <li class=""><a href="course-list-left-sidebar.html">Colegio 5</a></li>
-                      <li class=""><a href="course-list-right-sidebar.html">Colegio 6</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3 col-xs-12">
-                    <ul class="list-unstyled">
-                      <li>Distrito Metropolitano</li>
-                      <li class=""><a href="course-single.html">Colegio 7</a></li>
-                      <li class=""><a href="course-single-left-sidebar.html">Colegio 8</a></li>
-                      <li class=""><a href="course-single-right-sidebar.html">Colegio 9</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3 col-xs-12">
-                    <ul class="list-unstyled">
-                      <li>Distrito Sur</li>
-                      <li class="" ><a href="checkout-step-1.html">Colegio 10</a></li>
-                      <li class="" ><a href="checkout-step-2.html">Colegio 11</a></li>
-                      <li class="" ><a href="checkout-step-3.html">Colegio 12</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown singleDrop color-4 ">
+              <li class="dropdown singleDrop color-3 ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-pencil-square-o bg-color-4" aria-hidden="true"></i>
+                  <i class="fa fa-pencil-square-o bg-color-3" aria-hidden="true"></i>
                   <span>Documentos</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right">
@@ -213,7 +195,7 @@ $con->conectar();
                   -->
                   <li class=""><a href="documentos/reglamentointerno.pdf">Reglamento Interno</a></li>
                 </ul>
-                -->
+              
               </li>
               <li class="dropdown singleDrop color-3  ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -1060,46 +1042,9 @@ $con->conectar();
       </div>
     </section>
 
-    <!-- LIGHT SECTION -->
-    <section class="lightSection full-width clearfix homeContactSection">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-xs-12">
-            <div class="homeContactContent">
-              <h2>Contacto</h2>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <address>
-                <p><i class="fa fa-map-marker bg-color-3" aria-hidden="true"></i>Ministerio de Educación Metodista Direción #1234 Chile</p>
-                <p><i class="fa fa-envelope bg-color-3" aria-hidden="true"></i><a href="mailto:contacto@mem.cl">contacto@mem.cl</a></p>
-                <p><i class="fa fa-phone bg-color-3" aria-hidden="true"></i>+56 9 1234 5678</p>
-              </address>
-            </div>
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <div class="homeContactContent">
-              <form action="#" method="POST" role="form">
-                <div class="form-group">
-                  <i class="fa fa-user"></i>
-                  <input type="text" class="form-control border-color-3" id="exampleInputEmail1" placeholder="Nombre">
-                </div>
-                <div class="form-group">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <input type="text" class="form-control border-color-3" id="exampleInputEmail2" placeholder="Email">
-                </div>
-                <div class="form-group">
-                  <i class="fa fa-comments" aria-hidden="true"></i>
-                  <textarea class="form-control border-color-3" placeholder="Mensaje"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-		<!-- FOOTER -->
-<footer>
+<!-- FOOTER -->
+<footer class="footer-2">
   <!-- COLOR BAR -->
   <div class="container-fluid color-bar clearfix">
     <div class="row">
@@ -1117,22 +1062,23 @@ $con->conectar();
       <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
     </div>
   </div>
+  
   <!-- FOOTER INFO AREA -->
-  <div class="footerInfoArea full-width clearfix" style="background-image: url(img/footer/footer-bg-1.png);">
+  <div class="footerInfoArea full-width clearfix">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3 col-xs-12">
+        <div class="col-sm-6 col-xs-12">
           <div class="footerTitle">
-            <a href="index.html"><img src="img/logomem.png"></a>
+            <a href="index.html"><img src="img/logov2.png"></a>
           </div>
           <div class="footerInfo">
             <p>“Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia.”</p>
             <p>Proverbios 2:3-6.</p>
           </div>
         </div>
-        <div class="col-sm-3 col-xs-12">
+        <div class="col-sm-2 col-xs-12">
           <div class="footerTitle">
-            <h4>Useful Links</h4>
+            <h4 class="color-1">Enlaces</h4>
           </div>
           <div class="footerInfo">
             <ul class="list-unstyled footerList">
@@ -1164,16 +1110,16 @@ $con->conectar();
             </ul>
           </div>
         </div>
-        <div class="col-sm-3 col-xs-12">
+        <div class="col-sm-4 col-xs-12">
           <div class="footerTitle">
-            <h4>Noticias Recientes</h4>
+            <h4 class="color-2">Noticias Recientes</h4>
           </div>
           <div class="footerInfo">
             <ul class="list-unstyled postLink">
               <li>
                 <div class="media">
                   <a class="media-left" href="single-blog.html">
-                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-1.png" alt="Image">
+                    <img class="media-object img-rounded border-color-1" src="img/footer/footer-img-1.png" alt="Image">
                   </a>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="single-blog.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -1184,7 +1130,7 @@ $con->conectar();
               <li>
                 <div class="media">
                   <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-2.png" alt="Image">
+                    <img class="media-object img-rounded border-color-2" src="img/footer/footer-img-2.png" alt="Image">
                   </a>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -1195,7 +1141,7 @@ $con->conectar();
               <li>
                 <div class="media">
                   <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-3.png" alt="Image">
+                    <img class="media-object img-rounded border-color-4" src="img/footer/footer-img-3.png" alt="Image">
                   </a>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -1206,9 +1152,12 @@ $con->conectar();
             </ul>
           </div>
         </div>
-     <!--   <div class="col-sm-3 col-xs-12">
+
+
+        <!--
+        <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
-            <h4>Mailing List</h4>
+            <h4 class="color-3">Mailing List</h4>
           </div>
           <div class="footerInfo">
             <p>Sign up for our mailing list to get latest updates and offers.</p>
@@ -1217,7 +1166,22 @@ $con->conectar();
               <button type="submit" class="input-group-addon" id="basic-addon21"><i class="fa fa-check" aria-hidden="true"></i></button>
             </div>
           </div>
-        </div>-->
+          <div class="footerTitle">
+            <h4 class="color-5">Payment Method</h4>
+          </div>
+          <ul class="list-inline">
+            <li><img src="img/footer/card1.png"></li>
+            <li><img src="img/footer/card2.png"></li>
+            <li><img src="img/footer/card3.png"></li>
+            <li><img src="img/footer/card4.png"></li>
+          </ul>
+        </div>
+        -->
+
+
+
+
+
       </div>
     </div>
   </div>
@@ -1226,11 +1190,6 @@ $con->conectar();
     <div class="container">
       <div class="row">
         <div class="col-sm-5 col-sm-push-7 col-xs-12">
-          <ul class="list-inline">
-            <li><a href="#" style="background-color: #3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#" style="background-color: #00aced"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          
-          </ul>
         </div>
         <div class="col-sm-7 col-sm-pull-5 col-xs-12">
           <div class="copyRightText">
@@ -1241,77 +1200,9 @@ $con->conectar();
     </div>
   </div>
 </footer>
-</div>
 
 <div class="scrolling">
 <a href="#pageTop" class="backToTop hidden-xs" id="backToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-</div>
-
-<!-- LOGIN MODAL -->
-<div class="modal fade customModal" id="loginModal" tabindex="-1" role="dialog">
-<div class="modal-dialog">
-  <div class="modal-content">
-    <div class="panel panel-default formPanel">
-      <div class="panel-heading bg-color-1 border-color-1">
-        <h3 class="panel-title">Ingresar</h3>
-      </div>
-      <div class="panel-body">
-        <form action="#" method="POST" role="form">
-          <div class="form-group formField">
-            <input type="text" class="form-control" placeholder="User name">
-          </div>
-          <div class="form-group formField">
-            <input type="password" class="form-control" placeholder="Password">
-          </div>
-          <div class="form-group formField">
-            <input type="submit" class="btn btn-primary btn-block bg-color-3 border-color-3" value="Log in">
-          </div>
-          <div class="form-group formField">
-            <p class="help-block"><a href="#">Recuperar password?</a></p>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- CREATE ACCOUNT MODAL -->
-<div class="modal fade customModal" id="createAccount" tabindex="-1" role="dialog">
-<div class="modal-dialog">
-  <div class="modal-content">
-    <div class="panel panel-default formPanel">
-      <div class="panel-heading bg-color-1 border-color-1">
-        <h3 class="panel-title">Crear una Cuenta</h3>
-      </div>
-      <div class="panel-body">
-        <form action="#" method="POST" role="form">
-          <div class="form-group formField">
-            <input type="text" class="form-control" placeholder="Nombre">
-          </div>
-          <div class="form-group formField">
-            <input type="text" class="form-control" placeholder="Usuario">
-          </div>
-          <div class="form-group formField">
-            <input type="text" class="form-control" placeholder="Teléfono">
-          </div>
-          <div class="form-group formField">
-            <input type="password" class="form-control" placeholder="Password">
-          </div>
-          <div class="form-group formField">
-            <input type="password" class="form-control" placeholder="Re-Password">
-          </div>
-          <div class="form-group formField">
-            <input type="submit" class="btn btn-primary btn-block bg-color-3 border-color-3" value="Registrar">
-          </div>
-          <div class="form-group formField">
-            <p class="help-block">Ya tienes una cuenta? <a href="#">Ingresar</a></p>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

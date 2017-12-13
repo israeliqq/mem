@@ -1,27 +1,23 @@
-<?php
+<?php  
+function Conexion(){  
+   $link = new mysqli('localhost', 'user','', 'mem');
+   if ($link -> connect_errno) {
 
-	class conexion{
-		function listar(){
+   die( "Fallo la conexión a MySQL: (" . $link -> mysqli_connect_errno() 
+   . ") " . $link -> mysqli_connect_error());
+   }
+   //$link -> mysqli_close();
 
-			$host = "localhost";
-			$user = "root";
-			$pass = "";
-			$db = "mem";
+   return $link;  
+}
 
-			$con = mysql_connect($host, $user, $pass) or die('No se pudo conectar: ' . mysql_error());
-			mysql_select_db($db, $con) or die("NO SE ENCONTRO LA BD");
 
-			$query = 'SELECT * FROM instituciones';
-			$result = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
+function Consulta($distrito){  
+   $result = Conexion()->query("SELECT * FROM institucion WHERE distrito = '".$distrito."';");
+   return $result;  
+}
 
-			// Liberar resultados
-			//ysql_free_result($result);
 
-			// Cerrar la conexión
-			mysql_close($con);
 
-			return $result;
-		}
-	}
 
-?>
+?> 
