@@ -143,7 +143,7 @@ include("conexion.php");
                   <li class="dropdown dropdown-submenu">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Concepción</a>
                     <ul class="dropdown-menu">
-                      <?php  $array = Consulta('concepción');  while ($dato = $array->fetch_assoc()){  ?>
+                      <?php  $array = Consulta('concepcion');  while ($dato = $array->fetch_assoc()){  ?>
                       <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
                       <?php }  ?> 
                     </ul>

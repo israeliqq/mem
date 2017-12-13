@@ -13,7 +13,7 @@ function Conexion(){
 
 
 function Consulta($distrito){  
-   $result = Conexion()->query("SELECT * FROM institucion WHERE distrito = '".$distrito."';");
+   $result = Conexion()->query("SELECT * FROM institucion WHERE distrito = '".utf8_encode($distrito)."';");
    return $result;  
 }
 
