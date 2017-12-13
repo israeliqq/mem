@@ -2,7 +2,7 @@ var map;
 
 function initMap() {
 
-    var latlng = new google.maps.LatLng(53.385873, -1.471471);
+    var latlng = new google.maps.LatLng(-20.2229297,-70.151067,241);
 
     var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
     var beachMarker = new google.maps.Marker({
@@ -20,7 +20,7 @@ function initMap() {
     },{
         featureType: "natural",
         stylers: [
-        { hue: '#ff0000' }
+        { hue: '#4647fa' }
         ]
     },{
         featureType: "road",
@@ -44,7 +44,7 @@ function initMap() {
 
 
     var myOptions = {
-        zoom: 14,
+        zoom: 18,
         center: latlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI: true,
