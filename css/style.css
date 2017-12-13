@@ -123,6 +123,9 @@ h5 {
 
 .form-control {
   box-shadow: none; }
+#color-icons-topbar{
+    background-color: #99cc99;
+}
 
 /*=== 1.COMMON ===*/
 .container {

@@ -51,20 +51,36 @@ include("conexion.php");
     <!-- HEADER -->
     <header id="pageTop" class="header-wrapper">
       <!-- COLOR BAR -->
+    <div class="container-fluid color-bar top-fixed clearfix">
+        <div class="row">
+          <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
+          <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
+          <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
+          <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
+        </div>
+      </div>
       <!-- TOP INFO BAR -->
       <div class="top-info-bar  hidden-xs" id="color-top-footer">
         <div class="container">
           <div class="row">
             <div class="col-sm-7">
               <ul class="list-inline topList">
-                <li><i class="fa fa-envelope " style="background-color:#4c664c " aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
-                <li><i class="fa fa-phone " style="background-color:#4c664c " aria-hidden="true"></i> 57-2-398000</li>
-                <li><i class="fa fa-clock-o" style="background-color:#4c664c " aria-hidden="true"></i> Horario 8:00 a 18:00</li>
+                <li><i class="fa fa-envelope " id="color-icons-topbar" aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
+                <li><i class="fa fa-phone " id="color-icons-topbar"  aria-hidden="true"></i> 57-2-398000</li>
+                <li><i class="fa fa-clock-o" id="color-icons-topbar" aria-hidden="true"></i> Horario 8:00 a 18:00</li>
               </ul>
             </div>
             <div class="col-sm-5">
               <ul class="list-inline functionList">
-                <li><i class="fa fa-globe" style="background-color:#4c664c " aria-hidden="true"></i></li>
+                <li><i class="fa fa-globe" id="color-icons-topbar" aria-hidden="true"></i></li>
                 <li class="LanguageList">
                   <select name="guiest_id1" id="guiest_id1" class="select-drop">
                     <option>Español </option>
