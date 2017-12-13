@@ -4,10 +4,6 @@ include("conexion.php");
 
 ?>
 
-
-
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -55,8 +51,6 @@ include("conexion.php");
     <!-- HEADER -->
     <header id="pageTop" class="header-wrapper">
       <!-- COLOR BAR -->
-
-
       <!-- TOP INFO BAR -->
       <div class="top-info-bar bg-color-6 hidden-xs">
         <div class="container">
@@ -64,7 +58,7 @@ include("conexion.php");
             <div class="col-sm-7">
               <ul class="list-inline topList">
                 <li><i class="fa fa-envelope " style="background-color:#4c664c " aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
-                <li><i class="fa fa-phone " style="background-color:#4c664c " aria-hidden="true"></i> +56 9 1234 5678</li>
+                <li><i class="fa fa-phone " style="background-color:#4c664c " aria-hidden="true"></i> 57-2-398000</li>
                 <li><i class="fa fa-clock-o" style="background-color:#4c664c " aria-hidden="true"></i> Horario 8:00 a 18:00</li>
               </ul>
             </div>
@@ -156,9 +150,6 @@ include("conexion.php");
                 </ul>
               </li>
 
-
-
-
               <li class="dropdown singleDrop color-3">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-list-ul bg-color-3" aria-hidden="true"></i> <span>Nosotros</span></a>
@@ -190,7 +181,7 @@ include("conexion.php");
                     </ul>
                   </li>
                   -->
-                  <li class=""><a href="documentos/reglamentointerno.pdf">Reglamento Interno</a></li>
+                  <li><a target="_blank" href="documentos/reglamentointerno.pdf">Reglamento Interno</a></li>
                 </ul>
               
               </li>
@@ -1060,12 +1051,12 @@ include("conexion.php");
   </div>
   
   <!-- FOOTER INFO AREA -->
-  <div class="footerInfoArea full-width clearfix" style="background-color:#58ab58">
+  <div class="footerInfoArea full-width clearfix" style="background-color:#660033">
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-xs-12">
           <div class="footerTitle">
-            <a href="index.html"><img src="img/logov2.png"></a>
+            <a href="index.html"><img src="img/logomem.jpg"></a>
           </div>
           <div class="footerInfo">
             <p>“Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia.”</p>
@@ -1176,7 +1167,7 @@ include("conexion.php");
   </div>
   <!-- COPY RIGHT -->
   <div class="copyRight clearfix">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-sm-5 col-sm-push-7 col-xs-12">
             <ul class="list-inline">
