@@ -1051,7 +1051,7 @@ include("conexion.php");
   </div>
   
   <!-- FOOTER INFO AREA -->
-   <div class="footerInfoArea full-width clearfix" style="background-image: url(img/footer/footer-bg-1.png);">
+   <div class="footerInfoArea full-width clearfix" style="background-color: #99cc99">
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-xs-12">
