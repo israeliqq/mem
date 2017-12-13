@@ -1783,6 +1783,9 @@ aside {
   -o-transition: height 0.15s ease;
   transition: height 0.15s ease;
   height: 53px; }
+#color-top-footer{
+    background-color: #58ab58;
+}
 
 /*=== 3.3 HEADER TRANSPARENT ===*/
 .navbar-default {
@@ -3043,18 +3046,18 @@ footer {
 .featuresContent {
   margin-bottom: 50px;
   text-align: justify;}
-/*@media (min-width: 320px){
+@media (min-width: 320px){
     .featuresContent{
         margin-bottom: 40px;
         width: 320px;
     }
-}*/
-/*@media (min-width: 720px){
+}
+@media (min-width: 720px){
     .featuresContent{
         margin-bottom: 40px;
-        width: 220px;
+        width: 550px;
     }
-}*/
+}
   .featuresContent .media-left {
     width: 76px;
     height: 76px;

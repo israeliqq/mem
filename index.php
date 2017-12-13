@@ -52,7 +52,7 @@ include("conexion.php");
     <header id="pageTop" class="header-wrapper">
       <!-- COLOR BAR -->
       <!-- TOP INFO BAR -->
-      <div class="top-info-bar bg-color-6 hidden-xs">
+      <div class="top-info-bar  hidden-xs" id="color-top-footer">
         <div class="container">
           <div class="row">
             <div class="col-sm-7">
@@ -1155,7 +1155,7 @@ include("conexion.php");
     </div>
   </div>
   <!-- COPY RIGHT -->
-  <div class="copyRight clearfix">
+  <div class="copyRight clearfix" id="color-top-footer">
     <div class="container">
       <div class="row">
         <div class="col-sm-5 col-sm-push-7 col-xs-12">
