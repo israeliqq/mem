@@ -111,10 +111,7 @@ include("conexion.php");
               <li class=" dropdown singleDrop color-3 ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-file-text bg-color-3" aria-hidden="true"></i> <span>Colegios</span></a>
-                </a>
-
- 
-
+                
                 <ul class="dropdown-menu dropdown-menu-right">
                   <li class="dropdown dropdown-submenu">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Norte</a>
@@ -263,7 +260,6 @@ include("conexion.php");
               </li>-->
             </ul>
           </div>
-
         </div>
       </nav>
     </header>
@@ -443,7 +439,7 @@ include("conexion.php");
         </div>
 
         <div class="row">
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-5">
                 <i class="fa fa-line-chart bg-color-5" aria-hidden="true"></i>
@@ -455,7 +451,7 @@ include("conexion.php");
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-2">
                 <i class="fa fa-leaf bg-color-2" aria-hidden="true"></i>
@@ -468,7 +464,7 @@ include("conexion.php");
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-6">
                 <i class="fa fa-university bg-color-6" aria-hidden="true"></i>
@@ -480,7 +476,7 @@ include("conexion.php");
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-7">
                 <i class="fa fa-sticky-note bg-color-7" aria-hidden="true"></i>
@@ -492,7 +488,7 @@ include("conexion.php");
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-5">
                 <i class="fa fa-plus-square bg-color-5" aria-hidden="true"></i>
@@ -504,7 +500,7 @@ include("conexion.php");
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-3">
                 <i class="fa fa-shield bg-color-3" aria-hidden="true"></i>
