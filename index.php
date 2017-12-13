@@ -1060,7 +1060,7 @@ include("conexion.php");
   </div>
   
   <!-- FOOTER INFO AREA -->
-  <div class="footerInfoArea full-width clearfix">
+  <div class="footerInfoArea full-width clearfix" style="background-color:#58ab58">
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-xs-12">
@@ -1148,8 +1148,6 @@ include("conexion.php");
             </ul>
           </div>
         </div>
-
-
         <!--
         <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
@@ -1173,11 +1171,6 @@ include("conexion.php");
           </ul>
         </div>
         -->
-
-
-
-
-
       </div>
     </div>
   </div>
@@ -1187,8 +1180,8 @@ include("conexion.php");
       <div class="row">
         <div class="col-sm-5 col-sm-push-7 col-xs-12">
             <ul class="list-inline">
-             <li><a href="#" class="bg-color-1"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-5"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+             <li><a href="#" style="background-color: #3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#" style="background-color: #00aced"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           </ul>
         </div>
         <div class="col-sm-7 col-sm-pull-5 col-xs-12">
@@ -1200,7 +1193,7 @@ include("conexion.php");
     </div>
   </div>
 </footer>
-
+</div>
 <div class="scrolling">
 <a href="#pageTop" class="backToTop hidden-xs" id="backToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 </div>
