@@ -22,5 +22,10 @@ function Colegio($id){
    return $result;  
 }
 
+function matricula(){  
+   $result = Conexion()->query("SELECT SUM(matricula) as total FROM institucion;");
+   return $result;  
+}
+
 
 ?> 
