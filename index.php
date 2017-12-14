@@ -458,7 +458,7 @@ include("conexion.php");
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-xs-12">
+          <div class=" col-sm-6 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-2">
                 <i class="fa fa-leaf bg-color-2" aria-hidden="true"></i>
@@ -471,7 +471,7 @@ include("conexion.php");
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-xs-12">
+          <div class=" col-sm-6 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-6">
                 <i class="fa fa-university bg-color-6" aria-hidden="true"></i>
