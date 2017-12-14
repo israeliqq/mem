@@ -27,5 +27,16 @@ function matricula(){
    return $result;  
 }
 
+function funcionarios(){  
+   $result = Conexion()->query("SELECT SUM(funcionarios) as total FROM institucion;");
+   //total
+   return $result;  
+}
+
+function cantidadColegios(){  
+   $result = Conexion()->query("SELECT count(*) as total FROM institucion");
+   //count(*)
+   return $result;  
+}
 
 ?> 

@@ -937,6 +937,15 @@ include("conexion.php");
     </section>
 
     <!-- COUNT UP SECTION-->
+<?php
+$matricula = matricula();
+$funcionarios = funcionarios();
+$colegios = cantidadColegios();
+
+$dato = $array->fetch_assoc();
+
+?>
+
     <section class="countUpSection">
       <div class="container">
         <div class="sectionTitleSmall">
@@ -953,19 +962,22 @@ include("conexion.php");
           </div>
           <div class="col-sm-3 col-xs-12">
             <div class="text-center">
-              <div class="counter">15</div>
+              <?php $colegios = cantidadColegios(); $dato = $colegios->fetch_assoc(); ?>
+              <div class="counter"><?php echo $dato['total']; ?></div>
               <div class="counterInfo bg-color-2">Colegios</div>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12">
             <div class="text-center">
-              <div class="counter">122</div>
-              <div class="counterInfo bg-color-3">Documentos</div>
+              <?php $matricula = matricula(); $dato = $matricula->fetch_assoc(); ?>
+              <div class="counter" style="font-size: 40px"><?php echo $dato['total']; ?></div>
+              <div class="counterInfo bg-color-3">Alumnos</div>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12">
             <div class="text-center">
-              <div class="counter">1500</div>
+              <?php $funcionarios = funcionarios(); $dato = $funcionarios->fetch_assoc(); ?>
+              <div class="counter"><?php echo $dato['total']; ?></div>
               <div class="counterInfo bg-color-5">Funcionarios</div>
             </div>
           </div>
