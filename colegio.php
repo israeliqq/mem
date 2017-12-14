@@ -116,7 +116,7 @@ $id = $_GET["id"];
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Norte</a>
                     <ul class="dropdown-menu">
                       <?php  $array = Consulta('norte');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
                       <?php }  ?> 
                     </ul>
                   </li>
@@ -124,7 +124,7 @@ $id = $_GET["id"];
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Norte Verde</a>
                     <ul class="dropdown-menu">
                       <?php  $array = Consulta('norte verde');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
                       <?php }  ?> 
                     </ul>
                   </li>
@@ -132,7 +132,7 @@ $id = $_GET["id"];
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Metropolitano</a>
                     <ul class="dropdown-menu">
                       <?php  $array = Consulta('metropolitano');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
                       <?php }  ?> 
                     </ul>
                   </li>
@@ -140,7 +140,7 @@ $id = $_GET["id"];
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Concepción</a>
                     <ul class="dropdown-menu">
                       <?php  $array = Consulta('concepcion');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
                       <?php }  ?> 
                     </ul>
                   </li>
@@ -148,7 +148,7 @@ $id = $_GET["id"];
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Sur</a>
                     <ul class="dropdown-menu">
                       <?php  $array = Consulta('sur');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="product.html"><?php echo utf8_encode($dato['nombre']); ?></a></li>
+                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
                       <?php }  ?> 
                     </ul>
                   </li>                                   
