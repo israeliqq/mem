@@ -3,11 +3,10 @@
 include("conexion.php");  
 
 $id = $_GET["id"];
-echo "<h1>".$id."</h1>";
 
-//$array = Colegio($id);
 
-//while ($dato = $array->fetch_assoc()){  echo utf8_encode($dato['nombre']); }            
+
+
 ?>
 
 <!DOCTYPE html>
@@ -261,19 +260,22 @@ echo "<h1>".$id."</h1>";
       </nav>
     </header>
 
+<?php 
+$array = Colegio($id);
+$dato = $array->fetch_assoc();
 
-
+?>
 
     <!-- PAGE TITLE SECTION-->
     <section class="pageTitleSection">
       <div class="container">
         <div class="pageTitleInfo">
-          <h2>NOMBRE DEL COLEGIO</h2>
+          <h2><?php echo utf8_encode($dato['nombre']); ?></h2>
           <ol class="breadcrumb">
             <li><a href="index.html">Inicio</a></li>
             <li>Colegio</li>
-            <li>Distrito</li>
-            <li class="active">Nombre Colegio</li>
+            <li><?php echo utf8_encode($dato['distrito']); ?></li>
+            <li class="active"><?php echo utf8_encode(str_replace("<br>","",$dato['nombre'])); ?></li>
           </ol>
         </div>
       </div>
@@ -286,13 +288,20 @@ echo "<h1>".$id."</h1>";
           <div class="col-md-9 col-sm-8 col-xs-12 block pull-right">
             <div class="thumbnail thumbnailContent alt">
               <img src="img/course-single/course-single-title.jpg" alt="image" class="img-responsive">
-              <div class="sticker bg-color-1">$50</div>
               <div class="caption border-color-1">
                 <h3 class="color-1">Visión</h3>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-
+                <p><?php echo utf8_encode($dato['vision']); ?></p>
+                <hr>
                 <h3 class="color-1">Misión</h3>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                <p><?php echo utf8_encode($dato['mision']); ?></p>
+                <hr>
+                <h3 class="color-1"><i class="fa fa-calendar" aria-hidden="true"></i> Telefono: <span style="color: #666666;">+56 <?php echo utf8_encode($dato['telefono']); ?></span></h3>
+                <hr>
+                <h3 class="color-1"><i class="fa fa-calendar" aria-hidden="true"></i> Email: <span style="color: #666666;"><?php echo utf8_encode($dato['email']); ?></span></h3>
+                <hr>
+                <h3 class="color-1"><i class="fa fa-calendar" aria-hidden="true"></i> Dirección: <span style="color: #666666;"><?php echo utf8_encode($dato['direccion']); ?></span></h3>
+
+
 
 
 <!--        
@@ -451,71 +460,7 @@ echo "<h1>".$id."</h1>";
                         </div>
                         <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Nombre</h4>
-                          <p>15 Oct,2016</p>
-                        </div>
-                      </li>
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">RBD</h4>
-                          <p>15 Oct,2016</p>
-                        </div>
-                      </li>
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">Matricula</h4>
-                          <p>15 Oct,2016</p>
-                        </div>
-                      </li>
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">Funcionarios</h4>
-                          <p>15 Oct,2016</p>
-                        </div>
-                      </li>
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">Director</h4>
-                          <p>15 Oct,2016</p>
-                        </div>
-                      </li>
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">Capellan</h4>
-                          <p>15 Oct,2016</p>
-                        </div>
-                      </li>                                                                 
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="panel panel-default">
-                  <div class="panel-heading bg-color-1 border-color-1">
-                    <h3 class="panel-title">Datos de Contacto</h3>
-                  </div>
-                  <div class="panel-body">
-                    <ul class="media-list">
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">Distrito</h4>
-                          <p>15 Oct,2016</p>
+                          <p><?php echo utf8_encode($dato['nombre']); ?></p>
                         </div>
                       </li>
                       <li class="media">
@@ -524,7 +469,7 @@ echo "<h1>".$id."</h1>";
                         </div>
                         <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Ciudad</h4>
-                          <p>15 Oct,2016</p>
+                          <p><?php echo utf8_encode($dato['ciudad']); ?></p>
                         </div>
                       </li>
                       <li class="media">
@@ -532,8 +477,17 @@ echo "<h1>".$id."</h1>";
                           <i class="fa fa-calendar" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">Dirección</h4>
-                          <p>15 Oct,2016</p>
+                          <h4 class="media-heading color-2">Distrito</h4>
+                          <p><?php echo utf8_encode($dato['distrito']); ?></p>
+                        </div>
+                      </li>                                            
+                      <li class="media">
+                        <div class="media-left iconContent bg-color-2">
+                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body iconContent">
+                          <h4 class="media-heading color-2">RBD</h4>
+                          <p><?php echo utf8_encode($dato['rbd']); ?></p>
                         </div>
                       </li>
                       <li class="media">
@@ -541,8 +495,8 @@ echo "<h1>".$id."</h1>";
                           <i class="fa fa-calendar" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">Teléfono</h4>
-                          <p>15 Oct,2016</p>
+                          <h4 class="media-heading color-2">Matricula</h4>
+                          <p><?php echo utf8_encode($dato['matricula']); ?> ALUMNOS</p>
                         </div>
                       </li>
                       <li class="media">
@@ -550,8 +504,17 @@ echo "<h1>".$id."</h1>";
                           <i class="fa fa-calendar" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">Email</h4>
-                          <p>15 Oct,2016</p>
+                          <h4 class="media-heading color-2">Funcionarios</h4>
+                          <p><?php echo utf8_encode($dato['funcionarios']); ?> FUNCIONARIOS</p>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <div class="media-left iconContent bg-color-2">
+                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body iconContent">
+                          <h4 class="media-heading color-2">Director</h4>
+                          <p><?php echo utf8_encode($dato['director']); ?></p>
                         </div>
                       </li>
                       <li class="media">
@@ -560,12 +523,13 @@ echo "<h1>".$id."</h1>";
                         </div>
                         <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Capellan</h4>
-                          <p>15 Oct,2016</p>
+                          <p><?php echo utf8_encode($dato['capellan']); ?></p>
                         </div>
                       </li>                                                                 
                     </ul>
                   </div>
                 </div>
+
               </div>
             </aside>
           </div>
@@ -725,72 +689,8 @@ echo "<h1>".$id."</h1>";
 <a href="#pageTop" class="backToTop hidden-xs" id="backToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 </div>
 
-<!-- LOGIN MODAL -->
-<div class="modal fade customModal" id="loginModal" tabindex="-1" role="dialog">
-<div class="modal-dialog">
-  <div class="modal-content">
-    <div class="panel panel-default formPanel">
-      <div class="panel-heading bg-color-1 border-color-1">
-        <h3 class="panel-title">Login</h3>
-      </div>
-      <div class="panel-body">
-        <form action="#" method="POST" role="form">
-          <div class="form-group formField">
-            <input type="text" class="form-control" placeholder="User name">
-          </div>
-          <div class="form-group formField">
-            <input type="password" class="form-control" placeholder="Password">
-          </div>
-          <div class="form-group formField">
-            <input type="submit" class="btn btn-primary btn-block bg-color-3 border-color-3" value="Log in">
-          </div>
-          <div class="form-group formField">
-            <p class="help-block"><a href="#">Forgot password?</a></p>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
 
-<!-- CREATE ACCOUNT MODAL -->
-<div class="modal fade customModal" id="createAccount" tabindex="-1" role="dialog">
-<div class="modal-dialog">
-  <div class="modal-content">
-    <div class="panel panel-default formPanel">
-      <div class="panel-heading bg-color-1 border-color-1">
-        <h3 class="panel-title">Create  an account</h3>
-      </div>
-      <div class="panel-body">
-        <form action="#" method="POST" role="form">
-          <div class="form-group formField">
-            <input type="text" class="form-control" placeholder="Name">
-          </div>
-          <div class="form-group formField">
-            <input type="text" class="form-control" placeholder="User name">
-          </div>
-          <div class="form-group formField">
-            <input type="text" class="form-control" placeholder="Phone">
-          </div>
-          <div class="form-group formField">
-            <input type="password" class="form-control" placeholder="Password">
-          </div>
-          <div class="form-group formField">
-            <input type="password" class="form-control" placeholder="Re-Password">
-          </div>
-          <div class="form-group formField">
-            <input type="submit" class="btn btn-primary btn-block bg-color-3 border-color-3" value="Register">
-          </div>
-          <div class="form-group formField">
-            <p class="help-block">Allready have an account? <a href="#">Log in</a></p>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="plugins/jquery-ui/jquery-ui.js"></script>
