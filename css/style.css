@@ -3036,7 +3036,7 @@ footer {
   opacity: 1; }
 
 .media-body h3.media-heading {
-  font-size: 22px;
+  font-size: auto;
   line-height:45px;
   color: #ffffff;
   font-family: 'Dosis', sans-serif;
@@ -3048,17 +3048,17 @@ footer {
 
 .featuresContent {
   margin-bottom: 50px;
-  text-align: justify;}
+  text-align: left;}
 @media (min-width: 320px){
     .featuresContent{
         margin-bottom: 40px;
-        width: 320px;
+        width: auto;
     }
 }
 @media (min-width: 720px){
     .featuresContent{
         margin-bottom: 40px;
-        width: 550px;
+        width: auto;
     }
 }
   .featuresContent .media-left {

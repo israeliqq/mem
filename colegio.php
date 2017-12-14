@@ -62,18 +62,18 @@ $id = $_GET["id"];
           <div class="row">
             <div class="col-sm-7">
               <ul class="list-inline topList">
-                <li><i class="fa fa-envelope " style="background-color:#4c664c " aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
-                <li><i class="fa fa-phone " style="background-color:#4c664c " aria-hidden="true"></i> 57-2-398000</li>
-                <li><i class="fa fa-clock-o" style="background-color:#4c664c " aria-hidden="true"></i> Horario 8:00 a 18:00</li>
+                <li><i class="fa fa-envelope " id="color-icons-topbar" aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
+                <li><i class="fa fa-phone " id="color-icons-topbar" aria-hidden="true"></i> 57-2-398000</li>
+                <li><i class="fa fa-clock-o" id="color-icons-topbar" aria-hidden="true"></i> Horario 8:00 a 18:00</li>
               </ul>
             </div>
             <div class="col-sm-5">
               <ul class="list-inline functionList">
-                <li><i class="fa fa-globe" style="background-color:#4c664c " aria-hidden="true"></i></li>
+                <li><i class="fa fa-globe" id="color-icons-topbar"  aria-hidden="true"></i></li>
                 <li class="LanguageList">
                   <select name="guiest_id1" id="guiest_id1" class="select-drop">
                     <option>Español </option>
-                    <!--<option value="2">English</option>-->
+                    <option value="2">Inglés</option>-->
 
                   </select>
                 </li>
@@ -95,21 +95,21 @@ $id = $_GET["id"];
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="img/logomem.png" alt="MEM-CHILE"></a>
+            <a class="navbar-brand" href="index.php"><img src="img/logomem.png" alt="MEM-CHILE"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown singleDrop color-3">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-home bg-color-3" aria-hidden="true"></i> <span class="active">Inicio</span>
+                <a href="index.php">
+                  <i class="fa fa-home bg-color-4" aria-hidden="true"></i> <span class="active">Inicio</span>
                 </a>
               </li>
 
               <li class=" dropdown singleDrop color-3 ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-file-text bg-color-3" aria-hidden="true"></i> <span>Colegios</span></a>
+                  <i class="fa fa-file-text bg-color-4" aria-hidden="true"></i> <span >Colegios</span></a>
                 
                 <ul class="dropdown-menu dropdown-menu-right">
                   <li class="dropdown dropdown-submenu">
@@ -157,7 +157,7 @@ $id = $_GET["id"];
 
               <li class="dropdown singleDrop color-3">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-list-ul bg-color-3" aria-hidden="true"></i> <span>Nosotros</span></a>
+                  <i class="fa fa-list-ul bg-color-4" aria-hidden="true"></i> <span>Nosotros</span></a>
                 <ul class="dropdown-menu dropdown-menu-right">
                   <li><a href="#">Misión y Visión</a></li>
                   <li><a href="#">Equipo Directivo</a></li>
@@ -168,7 +168,7 @@ $id = $_GET["id"];
 
               <li class="dropdown singleDrop color-3 ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-pencil-square-o bg-color-3" aria-hidden="true"></i>
+                  <i class="fa fa-pencil-square-o bg-color-4" aria-hidden="true"></i>
                   <span>Documentos</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right">
@@ -192,7 +192,7 @@ $id = $_GET["id"];
               </li>
               <li class="dropdown singleDrop color-3  ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-calendar bg-color-3" aria-hidden="true"></i>
+                  <i class="fa fa-calendar bg-color-4" aria-hidden="true"></i>
                   <span>Eventos</span>
                 </a>
                 <!--
@@ -538,7 +538,7 @@ $dato = $array->fetch_assoc();
     </section>
 
 <!-- FOOTER -->
-<footer>
+<footer class="footer-2">
   <!-- COLOR BAR -->
   <div class="container-fluid color-bar clearfix">
     <div class="row">
@@ -557,16 +557,16 @@ $dato = $array->fetch_assoc();
     </div>
   </div>
   <!-- FOOTER INFO AREA -->
-  <div class="footerInfoArea full-width clearfix" style="background-image: url(img/footer/footer-bg-1.png);">
+  <div class="footerInfoArea full-width clearfix" style="background-color: #99cc99">
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
-            <a href="index.html"><img src="img/logo-footer.png"></a>
+            <a href="index.html"><img src="img/logomem.png"></a>
           </div>
           <div class="footerInfo">
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia.Lorem ipsum dolor sit amet.</p>
-            <p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>“Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia.”</p>
+            <p>Proverbios 2:3-6.</p>
           </div>
         </div>
         <div class="col-sm-3 col-xs-12">
@@ -577,28 +577,27 @@ $dato = $array->fetch_assoc();
             <ul class="list-unstyled footerList">
               <li>
                 <a href="index.html">
-                <i class="fa fa-angle-double-right" aria-hidden="true"></i>Kidz School
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>Noticias
                 </a>
               </li>
               <li>
                 <a href="about_us.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>About Kidz School
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Eventos
                 </a>
               </li>
               <li>
                 <a href="index-v2.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Kidz Store
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Documentos
                 </a>
               </li>
               <li>
                 <a href="index-v3.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Kidz Daycare
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Webmail
                 </a>
               </li>
               <li>
                 <a href="photo-gallery.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                  Photo Gallery
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Galería
                 </a>
               </li>
             </ul>
@@ -606,14 +605,14 @@ $dato = $array->fetch_assoc();
         </div>
         <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
-            <h4>Recent Post</h4>
+            <h4>Noticias Recientes</h4>
           </div>
           <div class="footerInfo">
             <ul class="list-unstyled postLink">
               <li>
                 <div class="media">
                   <a class="media-left" href="single-blog.html">
-                    <img class="media-object img-rounded border-color-1" src="img/footer/footer-img-1.png" alt="Image">
+                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-1.png" alt="Image">
                   </a>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="single-blog.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -624,7 +623,7 @@ $dato = $array->fetch_assoc();
               <li>
                 <div class="media">
                   <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-2" src="img/footer/footer-img-2.png" alt="Image">
+                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-2.png" alt="Image">
                   </a>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -635,7 +634,7 @@ $dato = $array->fetch_assoc();
               <li>
                 <div class="media">
                   <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-4" src="img/footer/footer-img-3.png" alt="Image">
+                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-3.png" alt="Image">
                   </a>
                   <div class="media-body">
                     <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -646,7 +645,7 @@ $dato = $array->fetch_assoc();
             </ul>
           </div>
         </div>
-        <div class="col-sm-3 col-xs-12">
+       <!-- <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
             <h4>Mailing List</h4>
           </div>
@@ -657,26 +656,24 @@ $dato = $array->fetch_assoc();
               <button type="submit" class="input-group-addon" id="basic-addon21"><i class="fa fa-check" aria-hidden="true"></i></button>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
   <!-- COPY RIGHT -->
-  <div class="copyRight clearfix">
+    <div class="copyRight clearfix" id="color-top-footer">
     <div class="container">
       <div class="row">
         <div class="col-sm-5 col-sm-push-7 col-xs-12">
           <ul class="list-inline">
-            <li><a href="#" class="bg-color-1"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-3"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-4"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-5"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+            <li><a href="#" style="background-color: #3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#" style="background-color: #00aced"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          
           </ul>
         </div>
         <div class="col-sm-7 col-sm-pull-5 col-xs-12">
           <div class="copyRightText">
-            <p>© 2016 Copyright Kidz School Bootstrap Template by <a href="https://www.iamabdus.com/">Abdus</a>.</p>
+            <p>© 2018 Copyright Ministerio de Educación Metodista - <a href="https://www.mem.cl/">MEM</a></p>
           </div>
         </div>
       </div>

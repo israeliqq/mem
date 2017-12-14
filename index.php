@@ -84,7 +84,7 @@ include("conexion.php");
                 <li class="LanguageList">
                   <select name="guiest_id1" id="guiest_id1" class="select-drop">
                     <option>Español </option>
-                    <!--<option value="2">English</option>-->
+                    <option value="2">Inglés</option>
 
                   </select>
                 </li>
@@ -106,21 +106,21 @@ include("conexion.php");
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="img/logomem.png" alt="MEM-CHILE"></a>
+            <a class="navbar-brand" href="index.php"><img src="img/logomem.png" alt="MEM-CHILE"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown singleDrop color-3">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-home bg-color-3" aria-hidden="true"></i> <span class="active">Inicio</span>
+                <a href="index.php">
+                  <i class="fa fa-home bg-color-4"  aria-hidden="false"></i> <span>Inicio</span>
                 </a>
               </li>
 
-              <li class=" dropdown singleDrop color-3 ">
+              <li class=" dropdown singleDrop  color-3">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-file-text bg-color-3" aria-hidden="true"></i> <span>Colegios</span></a>
+                  <i class="fa fa-file-text bg-color-4" aria-hidden="true"></i> <span>Colegios</span></a>
                 
                 <ul class="dropdown-menu dropdown-menu-right">
                   <li class="dropdown dropdown-submenu">
@@ -168,7 +168,7 @@ include("conexion.php");
 
               <li class="dropdown singleDrop color-3">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-list-ul bg-color-3" aria-hidden="true"></i> <span>Nosotros</span></a>
+                  <i class="fa fa-list-ul bg-color-4" aria-hidden="true"></i> <span>Nosotros</span></a>
                 <ul class="dropdown-menu dropdown-menu-right">
                   <li><a href="#">Misión y Visión</a></li>
                   <li><a href="#">Equipo Directivo</a></li>
@@ -179,7 +179,7 @@ include("conexion.php");
 
               <li class="dropdown singleDrop color-3 ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-pencil-square-o bg-color-3" aria-hidden="true"></i>
+                  <i class="fa fa-pencil-square-o bg-color-4" aria-hidden="true"></i>
                   <span>Documentos</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right">
@@ -203,7 +203,7 @@ include("conexion.php");
               </li>
               <li class="dropdown singleDrop color-3  ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-calendar bg-color-3" aria-hidden="true"></i>
+                  <i class="fa fa-calendar bg-color-4" aria-hidden="true"></i>
                   <span>Eventos</span>
                 </a>
                 <!--

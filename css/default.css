@@ -214,7 +214,7 @@ a,
 .color-4,
 .courseList .media-body .list-inline.btnPart.btn-sky > li a.btn-link:hover,
 .coursesCounter .counterInner > .btn-primary {
-  color: #702963 !important; }
+  color: #58ab58 !important; }
 
 .navbar-default.lightHeader .navbar-nav > li.active.color-4 > a,
 .navbar-nav > li.color-4.singleDrop > .dropdown-menu li.active > a,
@@ -225,26 +225,26 @@ a,
 .eventContent .list-inline.btn-sky .btn-primary:hover,
 .count-down #simple_timer .table-cell.second .tab-val,
 .product-info .price span {
-  color: #702963; }
+  color: #58ab58; }
 
 .bg-color-4,
 .courseList .media-body .list-inline.btnPart.btn-sky > li a.btn-primary:hover {
-  background-color: #00cc33 !important; }
+  background-color: #58ab58 !important; }
 
 .navbar-nav > li.color-4.singleDrop > .dropdown-menu li a:hover,
 .block .list-inline.btn-sky .btn-primary:hover,
 .sticker-round,
 .LanguageList .sbOptions a:hover {
-  background-color: #00cc33; }
+  background-color: #58ab58; }
 
 .border-color-4 {
-  border-color: #702963 !important; }
+  border-color: #58ab58 !important; }
 
 .navbar-nav > li.color-4.dropdown.singleDrop .dropdown-menu .dropdown-menu:after {
-  border-right-color: #00cc33; }
+  border-right-color: #58ab58; }
 
 .navbar-nav > li.color-4.dropdown a:after {
-  border-bottom-color: #00cc33; }
+  border-bottom-color: #58ab58; }
 
 @media (min-width: 768px) {
   .navbar-nav > li.color-4 > a > span,
@@ -254,7 +254,7 @@ a,
 .sectionTitle h2 span.bg-color-4,
 .sectionTitle h2 span.bg-color-4:after,
 .sectionTitle h2 span.bg-color-4:before {
-  background-color: #00cc33 !important; }
+  background-color: #58ab58 !important; }
 
 /*================= $color5 ==================*/
 .color-5,
