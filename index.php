@@ -664,7 +664,7 @@
         </div>
 
         <div class="btnArea">
-          <a href="photo-gallery.html" class="btn btn-primary">VER MÁS</a>
+          <a href="galeria1.php" class="btn btn-primary">VER MÁS</a>
         </div>
 
       </div>

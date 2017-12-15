@@ -39,4 +39,5 @@ function cantidadColegios(){
    return $result;  
 }
 
+
 ?> 

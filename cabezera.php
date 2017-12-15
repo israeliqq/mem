@@ -103,7 +103,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img src="img/logomem.png" alt="MEM-CHILE"></a>
+            <a class="navbar-brand" href="index.php"><img src="" alt="MEM-CHILE"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -199,7 +199,7 @@
                 </ul>
               
               </li>
-              <li class="dropdown singleDrop color-3  ">
+              <!--<li class="dropdown singleDrop color-3  ">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-calendar bg-color-4" aria-hidden="true"></i>
                   <span>Eventos</span>
@@ -245,8 +245,12 @@
                   </li>
                 </ul>
                 -->
+              
+            <li class="dropdown singleDrop color-3">
+                <a href="galeria1.php">
+                  <i class="fa fa-picture-o bg-color-4"  aria-hidden="false"></i> <span>Galeria</span>
+                </a>
               </li>
-
               <li class="dropdown singleDrop color-3">
                 <a href="contacto.php">
                   <i class="fa fa-envelope bg-color-4"  aria-hidden="false"></i> <span>Contacto</span>
