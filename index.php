@@ -1,275 +1,9 @@
 
-<?php 
-include("conexion.php");  
-
-?>
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-
-  <!-- SITE TITTLE -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MINISTERIO DE EDUCACIÓN METODISTA</title>
-
-  <!-- PLUGINS CSS STYLE -->
-  <link href="plugins/jquery-ui/jquery-ui.css" rel="stylesheet">
-  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="plugins/rs-plugin/css/settings.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="plugins/selectbox/select_option1.css">
-  <link rel="stylesheet" type="text/css" href="plugins/owl-carousel/owl.carousel.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="plugins/isotope/jquery.fancybox.css">
-  <link rel="stylesheet" type="text/css" href="plugins/isotope/isotope.css">
-
-  <!-- GOOGLE FONT -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,600,700' rel='stylesheet' type='text/css'>
-
-  <!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/default.css" id="option_color">
-
-  <!-- Icons -->
-  <link rel="shortcut icon" href="img/logomem.jpg">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-</head>
-
-<body class="body-wrapper">
 
 
-  <div class="main-wrapper">
-    <!-- HEADER -->
-    <header id="pageTop" class="header-wrapper">
-      <!-- COLOR BAR -->
-    <div class="container-fluid color-bar top-fixed clearfix">
-        <div class="row">
-          <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
-          <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
-        </div>
-      </div>
-      <!-- TOP INFO BAR -->
-      <div class="top-info-bar  hidden-xs" id="color-top-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-7">
-              <ul class="list-inline topList">
-                <li><i class="fa fa-envelope " id="color-icons-topbar" aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
-                <li><i class="fa fa-phone " id="color-icons-topbar"  aria-hidden="true"></i> 57-2-398000</li>
-                <li><i class="fa fa-clock-o" id="color-icons-topbar" aria-hidden="true"></i> Horario 8:00 a 18:00</li>
-              </ul>
-            </div>
-            <div class="col-sm-5">
-              <ul class="list-inline functionList">
-                <li><i class="fa fa-globe" id="color-icons-topbar" aria-hidden="true"></i></li>
-                <li class="LanguageList">
-                  <select name="guiest_id1" id="guiest_id1" class="select-drop">
-                    <option>Español </option>
-                    <option value="2">Inglés</option>
-
-                  </select>
-                </li>
-                <!--<li><i class="fa fa-unlock-alt bg-color-5" aria-hidden="true"></i> <a href='#loginModal' data-toggle="modal" >Ingresar</a><span>o</span><a href='#createAccount' data-toggle="modal">Crear una cuenta</a></li>-->
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- NAVBAR -->
-      <nav id="menuBar" class="navbar navbar-default lightHeader" role="navigation">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.php"><img src="img/logomem.png" alt="MEM-CHILE"></a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown singleDrop color-3">
-                <a href="index.php">
-                  <i class="fa fa-home bg-color-4"  aria-hidden="false"></i> <span>Inicio</span>
-                </a>
-              </li>
-
-              <li class=" dropdown singleDrop  color-3">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-file-text bg-color-4" aria-hidden="true"></i> <span>Colegios</span></a>
-                
-                <ul class="dropdown-menu dropdown-menu-right">
-                  <li class="dropdown dropdown-submenu">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Norte</a>
-                    <ul class="dropdown-menu">
-                      <?php  $array = Consulta('norte');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
-                      <?php }  ?> 
-                    </ul>
-                  </li>
-                  <li class="dropdown dropdown-submenu">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Norte Verde</a>
-                    <ul class="dropdown-menu">
-                      <?php  $array = Consulta('norte verde');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
-                      <?php }  ?> 
-                    </ul>
-                  </li>
-                  <li class="dropdown dropdown-submenu">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Metropolitano</a>
-                    <ul class="dropdown-menu">
-                      <?php  $array = Consulta('metropolitano');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
-                      <?php }  ?> 
-                    </ul>
-                  </li>
-                  <li class="dropdown dropdown-submenu">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Concepción</a>
-                    <ul class="dropdown-menu">
-                      <?php  $array = Consulta('concepcion');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
-                      <?php }  ?> 
-                    </ul>
-                  </li>
-                  <li class="dropdown dropdown-submenu">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Distrito Sur</a>
-                    <ul class="dropdown-menu">
-                      <?php  $array = Consulta('sur');  while ($dato = $array->fetch_assoc()){  ?>
-                      <li class=""><a href="colegio.php?id=<?php echo $dato['id']; ?>"><?php echo utf8_encode($dato['nombre']); ?></a></li>
-                      <?php }  ?> 
-                    </ul>
-                  </li>                                   
-                </ul>
-              </li>
-
-              <li class="dropdown singleDrop color-3">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-list-ul bg-color-4" aria-hidden="true"></i> <span>Nosotros</span></a>
-                <ul class="dropdown-menu dropdown-menu-right">
-                  <li><a href="#">Misión y Visión</a></li>
-                  <li><a href="#">Equipo Directivo</a></li>
-                  <li><a href="#">Proyecto Educativo</a></li>
-                </ul>
-                
-              </li>
-
-              <li class="dropdown singleDrop color-3 ">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-pencil-square-o bg-color-4" aria-hidden="true"></i>
-                  <span>Documentos</span>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-right">
-                  <!--
-                  <li class="dropdown dropdown-submenu
-                     ||
-                     ||
-                     ">
-                    <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown">Products
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class=""><a href="product.html">Products Fullwidth</a></li>
-                      <li class=""><a href="product-left-sidebar.html">Products Left Sidebar</a></li>
-                      <li class=""><a href="product-right-sidebar.html">Products Right Sidebar</a></li>
-                    </ul>
-                  </li>
-                  -->
-                  <li><a target="_blank" href="documentos/reglamentointerno.pdf">Reglamento Interno</a></li>
-                </ul>
-              
-              </li>
-              <li class="dropdown singleDrop color-3  ">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-calendar bg-color-4" aria-hidden="true"></i>
-                  <span>Eventos</span>
-                </a>
-                <!--
-                <ul class="dropdown-menu dropdown-menu-right">
-                  <li class="dropdown dropdown-submenu
-                     ||
-                    
-                    
-                  ">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Grid
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class=""><a href="blog-grid.html">Blog Grid Fullwidth</a></li>
-                      <li class=""><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
-                      <li class=""><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown dropdown-submenu
-                     ||
-                     ||
-                     ">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog List
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class="" ><a href="blog-list.html">Blog List Fullwidth</a></li>
-                      <li class=""><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
-                      <li class=""><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown dropdown-submenu
-                     ||
-                     ||
-                     ">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Single Blog
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li class=""><a href="single-blog.html">Single Blog Fullwidth</a></li>
-                      <li class=""><a href="single-blog-left-sidebar.html">Single Blog Left Sidebar</a></li>
-                      <li class=""><a href="single-blog-right-sidebar.html">Single Blog Right Sidebar</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                -->
-              </li>
-            <!--    
-              <li class="dropdown singleDrop color-3 ">
-                <a href="javascript:void(0)"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-gg bg-color-3" aria-hidden="true"></i><span>Contacto</span></a>
-                
-                <ul class="dropdown-menu dropdown-menu-right">
-                  <li class=" "><a href="accordion-toggles.html">Accordions &amp; Toggles</a></li>
-                  <li class=""><a href="tabs-dropdown.html">Tabs &amp; Dropdowns</a></li>
-                  <li class=" "><a href="alert-label-badges.html">Alert-Label-badges</a></li>
-                  <li class=" "><a href="progress-bar.html">Progress Bar</a></li>
-                  <li class=" "><a href="buttons.html">Buttons</a></li>
-                  <li class=" "><a href="forms.html">Forms</a></li>
-                  <li class=" "><a href="list-panel.html">Listgroups Panel</a></li>
-                  <li class=" "><a href="tooltip-pagination.html">Tooltip Pagination</a></li>
-                  <li class=" "><a href="typography.html">Typography</a></li>
-                  <li class=" "><a href="responsive-embed.html">Responsive Embed</a></li>
-                </ul>
-              </li>-->
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+<!-- HEADER -->
+<?php include("cabezera.php");  ?>
+<!-- HEADER -->
 
 
     <!-- BANNER -->
@@ -402,29 +136,29 @@ include("conexion.php");
         <div class="container">
           <div class="row">
             <div class="col-sm-3">
-              <a href="#ourCourses" class="sectionLink bg-color-3" id="coursesLink">
-                <i class="fa fa-calendar linkIcon border-color-3" aria-hidden="true"></i>
+              <a href="#ourCourses" class="sectionLink bg-color-4" id="coursesLink">
+                <i class="fa fa-calendar linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Eventos</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="#ourTeam" class="sectionLink bg-color-3" id="teamLink">
-                <i class="fa fa-users linkIcon border-color-3" aria-hidden="true"></i>
+              <a href="#ourTeam" class="sectionLink bg-color-4" id="teamLink">
+                <i class="fa fa-users linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Directiva</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="#ourGallery" class="sectionLink bg-color-3" id="galleryLink">
-                <i class="fa fa-picture-o linkIcon border-color-3" aria-hidden="true"></i>
+              <a href="#ourGallery" class="sectionLink bg-color-4" id="galleryLink">
+                <i class="fa fa-picture-o linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Galería</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="#latestNews" class="sectionLink bg-color-3" id="newsLink">
-                <i class="fa fa-newspaper-o linkIcon border-color-3" aria-hidden="true"></i>
+              <a href="#latestNews" class="sectionLink bg-color-4" id="newsLink">
+                <i class="fa fa-newspaper-o linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Noticias</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
               </a>
@@ -435,12 +169,12 @@ include("conexion.php");
     </section>
 
     <!-- FEATURE SECTION -->
-    <section class="mainContent full-width clearfix featureSection">
+    <section class="mainContent full-width clearfix featureSection" >
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
             <span class="shape shape-left bg-color-3"></span>
-            <span>Nuestro Objetivo</span>
+            <span id="objetivos">Nuestros Objetivos</span>
             <span class="shape shape-right bg-color-3"></span>
           </h2>
         </div>
@@ -448,11 +182,11 @@ include("conexion.php");
         <div class="row">
           <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
-              <span class="media-left bg-color-5">
-                <i class="fa fa-line-chart bg-color-5" aria-hidden="true"></i>
+              <span class="media-left bg-color-4">
+                <i class="fa fa-line-chart bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-5">Crecimiento Educativo</h3>
+                <h3 class="media-heading color-4">Crecimiento Educativo</h3>
                 <p>Potenciar el crecimiento y desarrollo de todas las unidades educativas
                     afiliadas.</p>
               </div>
@@ -460,11 +194,11 @@ include("conexion.php");
           </div>
           <div class=" col-sm-6 col-xs-12">
             <div class="media featuresContent">
-              <span class="media-left bg-color-2">
-                <i class="fa fa-leaf bg-color-2" aria-hidden="true"></i>
+              <span class="media-left bg-color-4">
+                <i class="fa fa-arrows bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-2">Directrices Educacionales</h3>
+                <h3 class="media-heading color-4">Directrices Educacionales</h3>
                 <p>Establecer, ejecutar y supervisar las políticas y            directrices educacionales
                     de la Iglesia Metodista de Chile para sus instituciones y pastorales
                     educativas.</p>
@@ -473,11 +207,11 @@ include("conexion.php");
           </div>
           <div class=" col-sm-6 col-xs-12">
             <div class="media featuresContent">
-              <span class="media-left bg-color-6">
-                <i class="fa fa-university bg-color-6" aria-hidden="true"></i>
+              <span class="media-left bg-color-4">
+                <i class="fa fa-university bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-6">Educación Pedagógica</h3>
+                <h3 class="media-heading color-4">Educación Pedagógica</h3>
                 <p>Monitorear y evaluar la tarea educativa en lo pedagógico y confesante
                     de cada una de las instituciones y pastorales afiliadas.</p>
               </div>
@@ -485,11 +219,11 @@ include("conexion.php");
           </div>
           <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
-              <span class="media-left bg-color-7">
-                <i class="fa fa-sticky-note bg-color-7" aria-hidden="true"></i>
+              <span class="media-left bg-color-4">
+                <i class="fa fa-users bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-1">Coordinación</h3>
+                <h3 class="media-heading color-4">Coordinación</h3>
                 <p>Coordinar las tareas de las Fundaciones locales, distritales o nacionales
                     que cree la Iglesia Metodista de Chile en el área de la educación.</p>
               </div>
@@ -497,11 +231,11 @@ include("conexion.php");
           </div>
           <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
-              <span class="media-left bg-color-5">
-                <i class="fa fa-plus-square bg-color-5" aria-hidden="true"></i>
+              <span class="media-left bg-color-4">
+                <i class="fa fa-map bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-5">Desarrollo estratégico</h3>
+                <h3 class="media-heading color-4">Desarrollo estratégico</h3>
                 <p>Promover un plan de desarrollo estratégico de la Educación Metodista
                     en el país.</p>
               </div>
@@ -509,11 +243,11 @@ include("conexion.php");
           </div>
           <div class="col-sm-6 col-xs-12">
             <div class="media featuresContent">
-              <span class="media-left bg-color-3">
-                <i class="fa fa-shield bg-color-3" aria-hidden="true"></i>
+              <span class="media-left bg-color-4">
+                <i class="fa fa-globe bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-3">Descentralización </h3>
+                <h3 class="media-heading color-4">Descentralización </h3>
                 <p>Descentralizar la acción educativa nacional fortaleciendo el trabajo en
                     los distritos.</p>
               </div>
@@ -528,8 +262,8 @@ include("conexion.php");
       <div class="container">
         <div class="promotionInfo">
           <h2>Necesitas más información?</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod </p>
-          <a href="contacto.html" class="btn btn-primary"><i class="fa fa-phone" aria-hidden="true"></i>Contacto</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod</p>
+          <a href="contacto.php" class="btn btn-primary"><i class="fa fa-phone" aria-hidden="true"></i>Contacto</a>
         </div>
       </div>
     </section>
@@ -950,35 +684,35 @@ $dato = $array->fetch_assoc();
       <div class="container">
         <div class="sectionTitleSmall">
           <h2>Datos Estadisticos</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod</p>
+          <p>Estos datos estan actualizados al 15 de diciembre del 2017.</p>
         </div>
 
         <div class="row">
           <div class="col-sm-3 col-xs-12">
             <div class="text-center">
               <div class="counter">179</div>
-              <div class="counterInfo bg-color-1">Eventos</div>
+              <div class="counterInfo bg-color-4">Eventos</div>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12">
             <div class="text-center">
               <?php $colegios = cantidadColegios(); $dato = $colegios->fetch_assoc(); ?>
               <div class="counter"><?php echo $dato['total']; ?></div>
-              <div class="counterInfo bg-color-2">Colegios</div>
+              <div class="counterInfo bg-color-4">Colegios</div>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12">
             <div class="text-center">
               <?php $matricula = matricula(); $dato = $matricula->fetch_assoc(); ?>
               <div class="counter" style="font-size: 40px"><?php echo $dato['total']; ?></div>
-              <div class="counterInfo bg-color-3">Alumnos</div>
+              <div class="counterInfo bg-color-4">Alumnos</div>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12">
             <div class="text-center">
               <?php $funcionarios = funcionarios(); $dato = $funcionarios->fetch_assoc(); ?>
               <div class="counter"><?php echo $dato['total']; ?></div>
-              <div class="counterInfo bg-color-5">Funcionarios</div>
+              <div class="counterInfo bg-color-4">Funcionarios</div>
             </div>
           </div>
         </div>
@@ -1058,172 +792,8 @@ $dato = $array->fetch_assoc();
     </section>
 
 
+
 <!-- FOOTER -->
-<footer class="footer-2">
-  <!-- COLOR BAR -->
-  <div class="container-fluid color-bar clearfix">
-    <div class="row">
-      <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
-      <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
-    </div>
-  </div>
-  
-  <!-- FOOTER INFO AREA -->
-   <div class="footerInfoArea full-width clearfix" style="background-color: #99cc99">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-xs-12">
-          <div class="footerTitle">
-            <a href="index.html"><img src="img/logomem.png"></a>
-          </div>
-          <div class="footerInfo">
-            <p>“Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia.”</p>
-            <p>Proverbios 2:3-6.</p>
-          </div>
-        </div>
-        <div class="col-sm-3 col-xs-12">
-          <div class="footerTitle">
-            <h4>Useful Links</h4>
-          </div>
-          <div class="footerInfo">
-            <ul class="list-unstyled footerList">
-              <li>
-                <a href="index.html">
-                <i class="fa fa-angle-double-right" aria-hidden="true"></i>Noticias
-                </a>
-              </li>
-              <li>
-                <a href="about_us.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Eventos
-                </a>
-              </li>
-              <li>
-                <a href="index-v2.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Documentos
-                </a>
-              </li>
-              <li>
-                <a href="index-v3.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Webmail
-                </a>
-              </li>
-              <li>
-                <a href="photo-gallery.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Galería
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-3 col-xs-12">
-          <div class="footerTitle">
-            <h4>Noticias Recientes</h4>
-          </div>
-          <div class="footerInfo">
-            <ul class="list-unstyled postLink">
-              <li>
-                <div class="media">
-                  <a class="media-left" href="single-blog.html">
-                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-1.png" alt="Image">
-                  </a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="single-blog.html">A Clean Website Gives More Experience To The Visitors</a></h5>
-                    <p>July 7 - 2016</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="media">
-                  <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-2.png" alt="Image">
-                  </a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
-                    <p>July 7 - 2016</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="media">
-                  <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-3.png" alt="Image">
-                  </a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
-                    <p>July 7 - 2016</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-     <!--   <div class="col-sm-3 col-xs-12">
-          <div class="footerTitle">
-            <h4>Mailing List</h4>
-          </div>
-          <div class="footerInfo">
-            <p>Sign up for our mailing list to get latest updates and offers.</p>
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Email address" aria-describedby="basic-addon21">
-              <button type="submit" class="input-group-addon" id="basic-addon21"><i class="fa fa-check" aria-hidden="true"></i></button>
-            </div>
-          </div>
-        </div>-->
-      </div>
-    </div>
-  </div>
-  <!-- COPY RIGHT -->
-  <div class="copyRight clearfix" id="color-top-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-5 col-sm-push-7 col-xs-12">
-          <ul class="list-inline">
-            <li><a href="#" style="background-color: #3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#" style="background-color: #00aced"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          
-          </ul>
-        </div>
-        <div class="col-sm-7 col-sm-pull-5 col-xs-12">
-          <div class="copyRightText">
-            <p>© 2018 Copyright Ministerio de Educación Metodista - <a href="https://www.mem.cl/">MEM</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-</div>
-
-<div class="scrolling">
-<a href="#pageTop" class="backToTop hidden-xs" id="backToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="plugins/jquery-ui/jquery-ui.js"></script>
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
-<script src="plugins/owl-carousel/owl.carousel.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script src="plugins/counter-up/jquery.counterup.min.js"></script>
-<script src="plugins/isotope/isotope.min.js"></script>
-<script src="plugins/isotope/jquery.fancybox.pack.js"></script>
-<script src="plugins/isotope/isotope-triger.js"></script>
-<script src="plugins/countdown/jquery.syotimer.js"></script>
-<script src="plugins/velocity/velocity.min.js"></script>
-<script src="plugins/smoothscroll/SmoothScroll.js"></script>
-<script src="js/custom.js"></script>
-</body>
-</html>
+<?php include("piepagina.php");  ?>
+<!-- FOOTER -->
 
