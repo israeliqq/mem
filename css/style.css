@@ -153,10 +153,6 @@ h5 {
     color: #99cc99;
     font-size: 25px;
     font-family: 'Dosis', sans-serif;
-    
-   
-  
-    
 }
  @media (min-width: 480px) {
     .card {
@@ -174,7 +170,17 @@ h5 {
     .card {
       width: 1170px; } }
 
-
+.titulo-galeria{
+  
+    width: auto;
+    text-align: center;
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #99cc99;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+}
 /*=== 1.COMMON ===*/
 .container {
   width: 100%; }
