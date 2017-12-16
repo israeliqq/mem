@@ -39,7 +39,7 @@
               </div>
             </li>
             <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
-              <img src="img/equipo_mem2.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+              <img src="img/CIERRE2017/1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
                 <div class="tp-caption rs-caption-1 sft start text-center"
                   data-hoffset="0"
@@ -68,7 +68,7 @@
               </div>
             </li>
             <li data-transition="fade" data-slotamount="5" data-masterspeed="700"  data-title="Slide 3">
-              <img src="img/home/slider/slider-3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+              <img src="img/CIERRE2017/13.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
                 <div class="tp-caption rs-caption-1 sft start text-right"
                   data-hoffset="0"
@@ -97,7 +97,7 @@
               </div>
             </li>
             <li data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
-              <img src="img/home/slider/slider-4.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+              <img src="img/CIERRE2017/4.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
                 <div class="tp-caption rs-caption-1 sft start text-center"
                   data-hoffset="0"
@@ -534,133 +534,23 @@
         <div class="row"></div>
 
         <div class="row isotopeContainer" id="container">
+        <?php for ($i = 1; $i <= 8; $i++) {?>
           <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
             <article class="">
               <figure>
-                <img src="img/home/home_gallery/gallery_sm_1.jpg" alt="image" class="img-rounded">
+                <img src="img/CIERRE2017/<?php echo $i;?>.JPG" alt="image" class="img-rounded">
                 <div class="overlay-background">
                   <div class="inner"></div>
                 </div>
                 <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_1.jpg">
+                  <a class="fancybox-pop" rel="portfolio-1" href="img/CIERRE2017/<?php echo $i;?>.JPG">
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
               </figure>
             </article>
           </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector nature">
-            <article class="">
-              <figure>
-                <img src="img/home/home_gallery/gallery_sm_2.jpg" alt="image" class="img-rounded">
-                <div class="overlay-background">
-                  <div class="inner"></div>
-                </div>
-                <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_2.jpg">
-                    <i class="fa fa-search-plus" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </figure>
-            </article>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector nature">
-            <article class="">
-              <figure>
-                <img src="img/home/home_gallery/gallery_sm_3.jpg" alt="image" class="img-rounded">
-                <div class="overlay-background">
-                  <div class="inner"></div>
-                </div>
-                <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_3.jpg">
-                    <i class="fa fa-search-plus" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </figure>
-            </article>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
-            <article class="">
-              <figure>
-                <img src="img/home/home_gallery/gallery_sm_4.jpg" alt="image" class="img-rounded">
-                <div class="overlay-background">
-                  <div class="inner"></div>
-                </div>
-                <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_4.jpg">
-                    <i class="fa fa-search-plus" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </figure>
-            </article>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector nature">
-            <article class="">
-              <figure>
-                <img src="img/home/home_gallery/gallery_sm_5.jpg" alt="image" class="img-rounded">
-                <div class="overlay-background">
-                  <div class="inner"></div>
-                </div>
-                <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_5.jpg">
-                    <i class="fa fa-search-plus" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </figure>
-            </article>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector children">
-            <article class="">
-              <figure>
-                <img src="img/home/home_gallery/gallery_sm_6.jpg" alt="image" class="img-rounded">
-                <div class="overlay-background">
-                  <div class="inner"></div>
-                </div>
-                <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_6.jpg">
-                    <i class="fa fa-search-plus" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </figure>
-            </article>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector children">
-            <article class="">
-              <figure>
-                <img src="img/home/home_gallery/gallery_sm_7.jpg" alt="image" class="img-rounded">
-                <div class="overlay-background">
-                  <div class="inner"></div>
-                </div>
-                <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_7.jpg">
-                    <i class="fa fa-search-plus" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </figure>
-            </article>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector children">
-            <article class="">
-              <figure>
-                <img src="img/home/home_gallery/gallery_sm_8.jpg" alt="image" class="img-rounded">
-                <div class="overlay-background">
-                  <div class="inner"></div>
-                </div>
-                <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/home/home_gallery/gallery_lg_8.jpg">
-                    <i class="fa fa-search-plus" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </figure>
-            </article>
-          </div>
+        <?php }?>         
         </div>
 
         <div class="btnArea">

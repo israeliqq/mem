@@ -32,7 +32,8 @@
               </span>
               <div class="media-body">
                 <h3 class="media-heading">Dirección:</h3>
-                <p>Obispo Labbé 1545, Iquique, Región de Tarapacá.</p>
+                <p>Calle Obispo Labbé #1545</p>
+                <p>Iquique, Región de Tarapacá - Chile</p>
               </div>
             </div>
           </div>
@@ -55,9 +56,8 @@
               </span>
               <div class="media-body">
                 <h3 class="media-heading">Correo:</h3>
-                <p><a href="mailto:contacto@mem.cl">contacto@mem.cl</a>
-                  <a href="mailto:director@mem.cl">director@mem.cl</a>
-                </p>
+                <p><a href="mailto:contacto@mem.cl">contacto@mem.cl</a></p>
+                <p><a href="mailto:director@mem.cl">director@mem.cl</a></p>
               </div>
             </div>
           </div>
