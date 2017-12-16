@@ -70,7 +70,7 @@
           <div class="row">
             <div class="col-sm-7">
               <ul class="list-inline topList">
-                <li><i class="fa fa-envelope " id="color-icons-topbar" aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">contacto@mem.cl</a></li>
+                <li><i class="fa fa-envelope " id="color-icons-topbar" aria-hidden="true"></i> <a href="mailto:contacto@mem.cl">contacto@mem.cl</a></li>
                 <li><i class="fa fa-phone " id="color-icons-topbar"  aria-hidden="true"></i> 57-2-398000</li>
                 <li><i class="fa fa-clock-o" id="color-icons-topbar" aria-hidden="true"></i> Horario 8:00 a 18:00</li>
               </ul>
@@ -103,7 +103,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img src="" alt="MEM-CHILE"></a>
+            <a class="navbar-brand" href="index.php"><img src="img/logomem.png" alt="MEM-CHILE"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -247,7 +247,7 @@
                 -->
               
             <li class="dropdown singleDrop color-3">
-                <a href="galeria1.php">
+                <a href="galeria.php">
                   <i class="fa fa-picture-o bg-color-4"  aria-hidden="false"></i> <span>Galeria</span>
                 </a>
               </li>
