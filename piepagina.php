@@ -21,7 +21,7 @@
   </div>
   
   <!-- FOOTER INFO AREA -->
-   <div class="footerInfoArea full-width clearfix" style="background-color: #99cc99">
+   <div class="footerInfoArea full-width clearfix" style="background-color:#F8F8F8">
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-xs-12">
@@ -122,7 +122,7 @@
 
 
         <div class="col-sm-3 col-xs-12">
-          <div class="footerTitle">
+          <div class="footerTitle" >
             <h4>Eventos Próximos</h4>
           </div>
           <div class="footerInfo">
@@ -193,7 +193,7 @@
     </div>
   </div>
 </footer>
-</div>
+
 
 <div class="scrolling">
 <a href="#pageTop" class="backToTop hidden-xs" id="backToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
@@ -215,6 +215,3 @@
 <script src="plugins/velocity/velocity.min.js"></script>
 <script src="plugins/smoothscroll/SmoothScroll.js"></script>
 <script src="js/custom.js"></script>
-</body>
-</html>
-
