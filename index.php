@@ -193,17 +193,17 @@
             </div>
           </div>
           <div class=" col-sm-6 col-xs-12">
-            <div class="media featuresContent">
+            <!--<div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-arrows bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
                 <h3 class="media-heading color-4">Directrices Educacionales</h3>
-                <p>Establecer, ejecutar y supervisar las políticas y directrices educacionales
+                <p>Establecer,ejecutar y supervisar las políticas y directrices educacionales
                     de la Iglesia Metodista de Chile para sus instituciones y pastorales
                     educativas.</p>
               </div>
-            </div>
+            </div>-->
           </div>
           <div class=" col-sm-6 col-xs-12">
             <div class="media featuresContent">
@@ -224,7 +224,7 @@
               </span>
               <div class="media-body">
                 <h3 class="media-heading color-4">Coordinación</h3>
-                <p>Coordinar las tareas de las Fundaciones locales, distritales o nacionales
+                <p>Coordinar las tareas de las Fundaciones locales,distritales o nacionales
                     que cree la Iglesia Metodista de Chile en el área de la educación.</p>
               </div>
             </div>
@@ -241,7 +241,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-xs-12">
+          <div class="col-sm-12 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-globe bg-color-4" aria-hidden="true"></i>
