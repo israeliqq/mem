@@ -41,12 +41,14 @@ $dato = $array->fetch_assoc();
                 <h3 class="color-1">Misión</h3>
                 <p><?php echo utf8_encode($dato['mision']); ?></p>
                 <hr>
-                <h3 class="color-1"><i class="fa fa-calendar" aria-hidden="true"></i> Telefono: <span style="color: #666666;">+56 <?php echo utf8_encode($dato['telefono']); ?></span></h3>
+                <h3 class="color-1"><i class="fa fa-phone-square" aria-hidden="true"></i> Telefono: <span style="color: #666666;">+56 <?php echo utf8_encode($dato['telefono']); ?></span></h3>
                 <hr>
-                <h3 class="color-1"><i class="fa fa-calendar" aria-hidden="true"></i> Email: <span style="color: #666666;"><?php echo utf8_encode($dato['email']); ?></span></h3>
+                <h3 class="color-1"><i class="fa fa-envelope" aria-hidden="true"></i> Email: <span style="color: #666666;"><?php echo utf8_encode($dato['email']); ?></span></h3>
                 <hr>
-                <h3 class="color-1"><i class="fa fa-calendar" aria-hidden="true"></i> Dirección: <span style="color: #666666;"><?php echo utf8_encode($dato['direccion']); ?></span></h3>
-
+                <h3 class="color-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección: <span style="color: #666666;"><?php echo utf8_encode($dato['direccion']); ?></span></h3>
+                <hr>
+                <h3 class="color-1"><i class="fa fa-internet-explorer" aria-hidden="true"></i> Sitio Web: <span style="color: #666666;"><?php echo utf8_encode($dato['web']); ?></span></h3>
+                <hr>    
 
 
 
@@ -195,14 +197,14 @@ $dato = $array->fetch_assoc();
             <aside>
               <div class="rightSidebar">
                 <div class="panel panel-default">
-                  <div class="panel-heading bg-color-1 border-color-1">
+                  <div class="panel-heading bg-color-1 ">
                     <h3 class="panel-title">Información</h3>
                   </div>
                   <div class="panel-body">
                     <ul class="media-list">
                       <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <div class="media-left iconContent bg-color-1">
+                          <i class="fa fa-university" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Nombre</h4>
@@ -210,8 +212,8 @@ $dato = $array->fetch_assoc();
                         </div>
                       </li>
                       <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <div class="media-left iconContent bg-color-1">
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Ciudad</h4>
@@ -219,8 +221,8 @@ $dato = $array->fetch_assoc();
                         </div>
                       </li>
                       <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <div class="media-left iconContent bg-color-1">
+                          <i class="fa fa-globe" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Distrito</h4>
@@ -228,7 +230,7 @@ $dato = $array->fetch_assoc();
                         </div>
                       </li>                                            
                       <li class="media">
-                        <div class="media-left iconContent bg-color-2">
+                        <div class="media-left iconContent bg-color-1">
                           <i class="fa fa-calendar" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
@@ -237,8 +239,8 @@ $dato = $array->fetch_assoc();
                         </div>
                       </li>
                       <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <div class="media-left iconContent bg-color-1">
+                          <i class="fa fa-book" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Matricula</h4>
@@ -246,8 +248,8 @@ $dato = $array->fetch_assoc();
                         </div>
                       </li>
                       <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <div class="media-left iconContent bg-color-1">
+                          <i class="fa fa-users" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Funcionarios</h4>
@@ -255,23 +257,23 @@ $dato = $array->fetch_assoc();
                         </div>
                       </li>
                       <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <div class="media-left iconContent bg-color-1">
+                          <i class="fa fa-user" aria-hidden="true"></i>
                         </div>
                         <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Director</h4>
                           <p><?php echo utf8_encode($dato['director']); ?></p>
                         </div>
                       </li>
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-2">
+                      <!-- <li class="media">
+                        <div class="media-left iconContent bg-color-1">
                           <i class="fa fa-calendar" aria-hidden="true"></i>
                         </div>
-                        <div class="media-body iconContent">
+                       <div class="media-body iconContent">
                           <h4 class="media-heading color-2">Capellan</h4>
                           <p><?php echo utf8_encode($dato['capellan']); ?></p>
                         </div>
-                      </li>                                                                 
+                      </li>  -->                                                               
                     </ul>
                   </div>
                 </div>

@@ -77,25 +77,25 @@
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-user"></i>
-                      <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="Nombre">
+                      <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="Nombre" required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-envelope" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-2" id="exampleInputEmail2" placeholder="Correo Electrónico">
+                      <input type="text" class="form-control border-color-2" id="exampleInputEmail2" placeholder="Correo Electrónico" required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-phone" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-5" id="exampleInputEmail3" placeholder="Teléfono">
+                      <input type="text" class="form-control border-color-5" id="exampleInputEmail3" placeholder="Teléfono" required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-book" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-6" id="exampleInputEmail4" placeholder="Asunto">
+                      <input type="text" class="form-control border-color-6" id="exampleInputEmail4" placeholder="Asunto" required>
                     </div>
                   </div>
                   <div class="col-xs-12">
