@@ -340,7 +340,7 @@
       </div>
     </section>
     <!-- COLOR SECTION -->
-    <section class="colorSection full-width clearfix bg-color-3 teamSection" id="ourTeam">
+    <section class="colorSection full-width clearfix bg-color-4 teamSection" id="ourTeam">
       <div class="container">
         <div class="sectionTitle text-center alt">
           <h2>

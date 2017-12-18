@@ -41,13 +41,13 @@ $dato = $array->fetch_assoc();
                 <h3 class="color-1">Misión</h3>
                 <p><?php echo utf8_encode($dato['mision']); ?></p>
                 <hr>
-                <h3 class="color-1"><i class="fa fa-phone-square" aria-hidden="true"></i> Telefono: <span style="color: #666666;">+56 <?php echo utf8_encode($dato['telefono']); ?></span></h3>
+                <p style="font-size: 20px;" class="color-1"><i class="fa fa-phone-square" aria-hidden="true"></i> Telefono: <span style="color: #666666; font-size: 17px;">+56 <?php echo utf8_encode($dato['telefono']); ?></span></p>
                 <hr>
-                <h3 class="color-1"><i class="fa fa-envelope" aria-hidden="true"></i> Email: <span style="color: #666666;"><?php echo utf8_encode($dato['email']); ?></span></h3>
+                <p style="font-size: 20px;" class="color-1"><i class="fa fa-envelope" aria-hidden="true"></i> Email: <span style="color: #666666; font-size: 17px;"><?php echo utf8_encode($dato['email']); ?></span></p>
                 <hr>
-                <h3 class="color-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección: <span style="color: #666666;"><?php echo utf8_encode($dato['direccion']); ?></span></h3>
+                <p style="font-size: 20px;" class="color-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección: <span style="color: #666666; font-size: 17px;"><?php echo utf8_encode($dato['direccion']); ?></span></p>
                 <hr>
-                <h3 class="color-1"><i class="fa fa-internet-explorer" aria-hidden="true"></i> Sitio Web: <span style="color: #666666;"><?php echo utf8_encode($dato['web']); ?></span></h3>
+                <p style="font-size: 20px;" class="color-1"><i class="fa fa-internet-explorer" aria-hidden="true"></i> Sitio Web: <span style="color: #666666; font-size: 17px;"><a target="_blank"  href="http://<?php echo utf8_encode($dato['web']); ?>"><?php echo utf8_encode($dato['web']); ?></a></span></p>
                 <hr>    
 
 
