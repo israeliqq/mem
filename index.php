@@ -180,7 +180,7 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-6 col-xs-12">
+          <div class="col-sm-4 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-line-chart bg-color-4" aria-hidden="true"></i>
@@ -192,20 +192,19 @@
               </div>
             </div>
           </div>
-          <div class=" col-sm-6 col-xs-12">
-            <!--<div class="media featuresContent">
+          <div class=" col-sm-4 col-xs-12">
+            <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-arrows bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-4">Directrices Educacionales</h3>
-                <p>Establecer,ejecutar y supervisar las políticas y directrices educacionales
-                    de la Iglesia Metodista de Chile para sus instituciones y pastorales
-                    educativas.</p>
+                <h3 class="media-heading color-4">Descentralización </h3>
+                <p>Descentralizar la acción educativa nacional fortaleciendo el trabajo en
+                    los distritos.</p>
               </div>
-            </div>-->
+            </div>
           </div>
-          <div class=" col-sm-6 col-xs-12">
+          <div class=" col-sm-4 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-university bg-color-4" aria-hidden="true"></i>
@@ -217,7 +216,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-xs-12">
+          <div class="col-sm-4 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-users bg-color-4" aria-hidden="true"></i>
@@ -229,7 +228,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-xs-12">
+          <div class="col-sm-4 col-xs-12">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-map bg-color-4" aria-hidden="true"></i>
@@ -241,16 +240,16 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-xs-12">
+          <div class="col-sm-4 col-xs-12">
             <div class="media featuresContent">
-              <span class="media-left bg-color-4">
+              <!--<span class="media-left bg-color-4">
                 <i class="fa fa-globe bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
                 <h3 class="media-heading color-4">Descentralización </h3>
                 <p>Descentralizar la acción educativa nacional fortaleciendo el trabajo en
                     los distritos.</p>
-              </div>
+              </div>-->
             </div>
           </div>
         </div>
