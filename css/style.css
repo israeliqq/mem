@@ -881,7 +881,7 @@ aside {
     font-size: 15px; }
 
 .pageTitleSection {
-  background-image: url("../img/page-title/page-title-bg.jpg");
+  background-image: url("../img/DE5.jpg");
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -889,12 +889,13 @@ aside {
   background-size: cover;
   background-position: center center;
   color: #ffffff;
-  padding: 75px 0; }
+  padding: 93px;
+     }
   .pageTitleSection .pageTitleInfo {
     text-align: center; }
     .pageTitleSection .pageTitleInfo h2 {
-      font-size: 40px;
-      line-height: 33px;
+      font-size: 55px;
+      line-height: 43px;
       color: #ffffff;
       margin-bottom: 40px;
       margin: 0 0 8px 0;
@@ -905,10 +906,10 @@ aside {
       background-color: transparent; }
       .pageTitleSection .pageTitleInfo .breadcrumb li {
         color: #ffffff;
-        font-size: 15px; }
+        font-size: 20px; }
         .pageTitleSection .pageTitleInfo .breadcrumb li a {
           color: #ffffff;
-          font-size: 15px; }
+          font-size: 20px; }
       .pageTitleSection .pageTitleInfo .breadcrumb > li + li::before {
         content: " \276F\00a0 "; }
 
