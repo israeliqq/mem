@@ -279,24 +279,24 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-4 col-xs-12 block">
+          <div class="col-sm-12 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"><img src="img/home/news/news-1.jpg" alt="image" class="img-responsive"></a>
+              <a href="noticias.php"><img src="img/home/news/news-1.jpg" alt="image" class="img-responsive"></a>
               
               <div class="caption border-color-1">
-                <h3><a href="single-blog-left-sidebar.html" class="color-1">The standard chunk of Lorem.</a></h3>
+                <h3><a href="noticias.php" class="color-1">Saludos de Navidad</a></h3>
                 <ul class="list-inline">
-                  <li><a href="single-blog-left-sidebar.html"><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</a></li>
-                  <li><a href="single-blog-left-sidebar.html"><i class="fa fa-comments-o" aria-hidden="true"></i>4 Comments</a></li>
+                  <!--<li><a href="single-blog-left-sidebar.html"><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</a></li>
+                  <li><a href="single-blog-left-sidebar.html"><i class="fa fa-comments-o" aria-hidden="true"></i>4 Comments</a></li>-->
                 </ul>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi cal Latin literature. </p>
+                <p>Saludo y buenos deseos de parte del Ministerio de Educación para esta navidad. </p>
                 <ul class="list-inline btn-yellow">
-                  <li><a href="single-blog-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Read More</a></li>
+                  <li><a href="noticias.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Leer Más</a></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12 block">
+          <!--<div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a href="single-blog-left-sidebar.html"><img src="img/home/news/news-2.jpg" alt="image" class="img-responsive"></a>
               
@@ -312,8 +312,8 @@
                 </ul>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4 col-xs-12 block">
+          </div>-->
+         <!-- <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a href="single-blog-left-sidebar.html"><img src="img/home/news/news-3.jpg" alt="image" class="img-responsive"></a>
               
@@ -329,7 +329,7 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div>-->
         </div>
 
         <div class="btnArea">

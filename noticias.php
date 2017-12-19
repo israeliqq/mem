@@ -5,10 +5,10 @@
     <section class="pageTitleSection">
       <div class="container">
         <div class="pageTitleInfo">
-          <h2>Blog Details</h2>
+          <h2>Noticias</h2>
           <ol class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li class="active">Blog Details</li>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="active">Noticias</li>
           </ol>
         </div>
       </div>
@@ -97,30 +97,30 @@
                     <div class="col-sm-4 col-xs-12">
                       <div class="form-group">
                         <i class="fa fa-user"></i>
-                        <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="First name">
+                        <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="Nombre">
                       </div>
                     </div>
                     <div class="col-sm-4 col-xs-12">
                       <div class="form-group">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <input type="text" class="form-control border-color-2" id="exampleInputEmail2" placeholder="Email address">
+                        <input type="text" class="form-control border-color-2" id="exampleInputEmail2" placeholder="Correo Electrónico">
                       </div>
                     </div>
                     <div class="col-sm-4 col-xs-12">
                       <div class="form-group">
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        <input type="text" class="form-control border-color-5" id="exampleInputEmail3" placeholder="Website">
+                        <input type="text" class="form-control border-color-5" id="exampleInputEmail3" placeholder="Telefono">
                       </div>
                     </div>
                     <div class="col-xs-12">
                       <div class="form-group">
                         <i class="fa fa-comments" aria-hidden="true"></i>
-                        <textarea class="form-control border-color-4" placeholder="Write message"></textarea>
+                        <textarea class="form-control border-color-4" placeholder="Escribir Mensaje"></textarea>
                       </div>
                     </div>
                     <div class="col-xs-12">
                       <div class="formBtnArea pull-left">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                       </div>
                     </div>
                   </div>
@@ -128,7 +128,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-4 col-xs-12 pull-left">
+          <!--<div class="col-md-3 col-sm-4 col-xs-12 pull-left">
             <aside>
               <div class="panel panel-default courseSidebar">
                 <div class="panel-heading bg-color-1 border-color-1">
@@ -203,7 +203,7 @@
                 </div>
               </div>
             </aside>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
