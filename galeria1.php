@@ -26,8 +26,8 @@
             <div class="thumbnail thumbnailContent">
               <a href="galeria.php"><img src="img/CIERRE2017/2.JPG" alt="image" class="img-responsive"></a>
               <div class="caption">
-                <h3><a href="galeria.php" class="titulo-galeria">Cena programa de religión</a></h3>
-                <p>Actividad de Cierre de año del programa de religión del MEM Distrito Norte. </p>
+                <h3><a href="galeria.php" class="titulo-galeria">Cena de cierre de actividades<br>MEM Distrito Norte</a></h3>
+                <p> Actividad fraternal de cierre de año de las redes de Religión y de Unidades Técnicas Pedagógicas de los colegios del distrito Norte. </p>
                   <time><small style="font-style:italic;">14 de Diciembre 2018 , Iquique.</small></time>
                 <ul class="list-inline btn-yellow">
                   <li><a href="galeria.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ver Más</a></li>

@@ -23,7 +23,7 @@
     <section class="mainContent full-width clearfix homeGallerySection">
       <div class="container">
         <div class="row">
-        	<h1 class="titulo-galeria" align="center">PROGRAMA DE RELIGIÓN - CIERRE DE AÑO - MEM DISTRITO NORTE 2017</h1>
+        	<h1 class="titulo-galeria-2">programa de religión - cierre de año 2017 - distrito norte</h1>
         	<hr>
         </div>
         <div class="row isotopeContainer" id="container">

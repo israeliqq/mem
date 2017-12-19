@@ -182,6 +182,18 @@ h5 {
     font-size: 25px;
     font-family: 'Dosis', sans-serif;
 }
+.titulo-galeria-2{
+  
+    width: auto;
+    text-align: center;
+    margin-top: 1px;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #99cc99;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+}
 .img-responsive{
     border-bottom:5px solid #99cc99;
 }
