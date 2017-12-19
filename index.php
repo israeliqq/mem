@@ -169,12 +169,12 @@
     </section>
 
     <!-- FEATURE SECTION -->
-    <section class="mainContent full-width clearfix featureSection" >
+    <section class="mainContent full-width clearfix featureSection" id="objetivos">
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
             <span class="shape shape-left bg-color-3"></span>
-            <span id="objetivos">Nuestros Objetivos</span>
+            <span >Nuestros Objetivos</span>
             <span class="shape shape-right bg-color-3"></span>
           </h2>
         </div>
@@ -257,12 +257,19 @@
     </section>
 
     <!-- PROMOTION SECTION-->
-    <section class="promotionWrapper" style="background-image: url(img/contacto.jpg);">
+    <!--<section class="promotionWrapper" style="background-image: url(img/contacto.jpg);">-->
+    <section class="promotionWrapper bg-color-6">
       <div class="container">
         <div class="promotionInfo">
-          <h2>Necesitas más información?</h2>
-          <p></p>
-          <a href="contacto.php" class="btn btn-primary"><i class="fa fa-phone" aria-hidden="true"></i>Contacto</a>
+         <div class="sectionTitle text-center alt">
+          <h2>
+            <span class="shape shape-left"></span>
+            <span>Quieres trabajar con nosotros?</span>
+            <span class="shape shape-right "></span>
+          </h2>
+          <p>Postula a nuestra cadena de colegios a lo largo del pais.</p>
+        </div>
+          <a href="contacto.php" class="btn btn-warning btn-pill" style="font-size: 25px"><i class="fa fa-paper-plane" aria-hidden="true"></i> Postular</a>
         </div>
       </div>
     </section>
@@ -560,10 +567,10 @@ $dato = $array->fetch_assoc();
 
 ?>
 
-    <section class="countUpSection">
+    <section class="countUpSection" >
       <div class="container">
         <div class="sectionTitleSmall">
-          <h2>Datos Estadisticos</h2>
+          <h2>Datos Estadísticos</h2>
           <p>Estos datos estan actualizados al 15 de diciembre del 2017.</p>
         </div>
 
@@ -614,64 +621,61 @@ $dato = $array->fetch_assoc();
         <div class="row">
           <div class="col-sm-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"><img src="img/home/courses/course-1.jpg" alt="image" class="img-responsive"></a>
+              <a href="#"><img src="img/home/courses/course-1.jpg" alt="image" class="img-responsive"></a>
               <div class="caption border-color-1">
-                <h3><a href="course-single-left-sidebar.html" class="color-1">Seminarios</a></h3>
+                <h3><a href="#" class="color-1">Seminarios</a></h3>
                 <ul class="list-unstyled">
-                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to 4 Years</li>
-                  <li><i class="fa fa-clock-o" aria-hidden="true"></i>9.00AM-11.00AM</li>
+                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>2018</li>
+                  
                 </ul>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                <p>SIN DATOS </p>
                 <ul class="list-inline btn-yellow">
-                  <li><a href="course-single-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> More</a></li>
+                  <li><a href="#" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> VER MAS</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"><img src="img/home/courses/course-2.jpg" alt="image" class="img-responsive"></a>
+              <a href="#"><img src="img/home/courses/course-2.jpg" alt="image" class="img-responsive"></a>
               <div class="caption border-color-2">
-                <h3><a href="course-single-left-sidebar.html" class="color-2">Aniversarios</a></h3>
+                <h3><a href="#" class="color-2">Aniversarios</a></h3>
                 <ul class="list-unstyled">
-                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to 4 Years</li>
-                  <li><i class="fa fa-clock-o" aria-hidden="true"></i>9.00AM-11.00AM</li>
+                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>2018</li>
                 </ul>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                <p>SIN DATOS </p>
                 <ul class="list-inline btn-green">
-                  <li><a href="course-single-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> VER MAS</a></li>
+                  <li><a href="#" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> VER MAS</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"><img src="img/home/courses/course-3.jpg" alt="image" class="img-responsive"></a>
+              <a href="#"><img src="img/home/courses/course-3.jpg" alt="image" class="img-responsive"></a>
               <div class="caption border-color-6">
-                <h3><a href="course-single-left-sidebar.html" class="color-6">Día de la Biblia</a></h3>
+                <h3><a href="#" class="color-6">Mes de la Biblia</a></h3>
                 <ul class="list-unstyled">
-                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to 4 Years</li>
-                  <li><i class="fa fa-clock-o" aria-hidden="true"></i>9.00AM-11.00AM</li>
+                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>A2018</li>
                 </ul>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                <p>SIN DATOS </p>
                 <ul class="list-inline btn-red">
-                  <li><a href="course-single-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> VER MAS</a></li>
+                  <li><a href="#" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> VER MAS</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="course-single-left-sidebar.html"><img src="img/home/courses/course-4.jpg" alt="image" class="img-responsive"></a>
+              <a href="#"><img src="img/home/courses/course-4.jpg" alt="image" class="img-responsive"></a>
               <div class="caption border-color-4">
-                <h3><a href="course-single-left-sidebar.html" class="color-4">Inicio Escolar</a></h3>
+                <h3><a href="#" class="color-4">Inicio Escolar</a></h3>
                 <ul class="list-unstyled">
-                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>Age 2 to 4 Years</li>
-                  <li><i class="fa fa-clock-o" aria-hidden="true"></i>9.00AM-11.00AM</li>
+                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>2018</li>
                 </ul>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                <p>SIN DATOS </p>
                 <ul class="list-inline btn-sky">
-                  <li><a href="course-single-left-sidebar.html" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> VER MAS</a></li>
+                  <li><a href="#" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> VER MAS</a></li>
                 </ul>
               </div>
             </div>

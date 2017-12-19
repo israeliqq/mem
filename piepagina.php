@@ -47,8 +47,8 @@
                     <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-1.png" alt="Image">
                   </a>
                   <div class="media-body">
-                    <h5 class="media-heading"><a href="single-blog.html">A Clean Website Gives More Experience To The Visitors</a></h5>
-                    <p>July 7 - 2016</p>
+                    <h5 class="media-heading"><a href="#">Noticia 1</a></h5>
+                    <p>Enero 15 - 2018</p>
                   </div>
                 </div>
               </li>
@@ -58,8 +58,8 @@
                     <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-2.png" alt="Image">
                   </a>
                   <div class="media-body">
-                    <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
-                    <p>July 7 - 2016</p>
+                    <h5 class="media-heading"><a href="#">Noticia 2</a></h5>
+                    <p>Enero 15 - 2018</p>
                   </div>
                 </div>
               </li>
@@ -69,8 +69,8 @@
                     <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-3.png" alt="Image">
                   </a>
                   <div class="media-body">
-                    <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
-                    <p>July 7 - 2016</p>
+                    <h5 class="media-heading"><a href="#">Noticia 3</a></h5>
+                    <p>Enero 15 - 2018</p>
                   </div>
                 </div>
               </li>
@@ -87,27 +87,27 @@
           <div class="footerInfo">
             <ul class="list-unstyled footerList">
               <li>
-                <a href="#noticias">
+                <a href="index.php#latestNews">
                 <i class="fa fa-angle-double-right" aria-hidden="true"></i>Noticias Recientes
                 </a>
               </li>
               <li>
-                <a href="#eventos">
+                <a href="index.php#ourCourses">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Eventos Próximos
                 </a>
               </li>
               <li>
-                <a href="index-v2.html">
+                <a href="index.php">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Descargar Documentos
                 </a>
               </li>
               <li>
-                <a href="#objetivos">
+                <a href="index.php#objetivos">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Nuestros Objetivos
                 </a>
               </li>
               <li>
-                <a href="photo-gallery.html">
+                <a href="index.php#ourGallery">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Galería de Fotos
                 </a>
               </li>
@@ -133,8 +133,8 @@
                     <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-1.png" alt="Image">
                   </a>
                   <div class="media-body">
-                    <h5 class="media-heading"><a href="single-blog.html">A Clean Website Gives More Experience To The Visitors</a></h5>
-                    <p>July 7 - 2016</p>
+                    <h5 class="media-heading"><a href="#">Evento 1</a></h5>
+                    <p>Enero 15 - 2018</p>
                   </div>
                 </div>
               </li>
@@ -144,8 +144,8 @@
                     <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-2.png" alt="Image">
                   </a>
                   <div class="media-body">
-                    <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
-                    <p>July 7 - 2016</p>
+                     <h5 class="media-heading"><a href="#">Evento 2</a></h5>
+                    <p>Enero 15 - 2018</p>
                   </div>
                 </div>
               </li>
@@ -155,8 +155,8 @@
                     <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-3.png" alt="Image">
                   </a>
                   <div class="media-body">
-                    <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
-                    <p>July 7 - 2016</p>
+                    <h5 class="media-heading"><a href="#">Evento 3</a></h5>
+                    <p>Enero 15 - 2018</p>
                   </div>
                 </div>
               </li>
