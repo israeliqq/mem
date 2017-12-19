@@ -257,7 +257,7 @@
     </section>
 
     <!-- PROMOTION SECTION-->
-    <section class="promotionWrapper" style="background-image: url(img/home/promotion-1.jpg);">
+    <section class="promotionWrapper" style="background-image: url(img/contacto.jpg);">
       <div class="container">
         <div class="promotionInfo">
           <h2>Necesitas más información?</h2>
@@ -282,7 +282,7 @@
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a href="single-blog-left-sidebar.html"><img src="img/home/news/news-1.jpg" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-1">10 <br>July</div>
+              
               <div class="caption border-color-1">
                 <h3><a href="single-blog-left-sidebar.html" class="color-1">The standard chunk of Lorem.</a></h3>
                 <ul class="list-inline">
@@ -299,7 +299,7 @@
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a href="single-blog-left-sidebar.html"><img src="img/home/news/news-2.jpg" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-2">10 <br>July</div>
+              
               <div class="caption border-color-2">
                 <h3><a href="single-blog-left-sidebar.html" class="color-2">Vestibulum congue massa vitae.</a></h3>
                 <ul class="list-inline">
@@ -316,7 +316,7 @@
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a href="single-blog-left-sidebar.html"><img src="img/home/news/news-3.jpg" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-5">10 <br>July</div>
+              
               <div class="caption border-color-5">
                 <h3><a href="single-blog-left-sidebar.html" class="color-5">Curabitur ac nulla sodales risus.</a></h3>
                 <ul class="list-inline">

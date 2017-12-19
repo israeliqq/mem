@@ -173,13 +173,17 @@ h5 {
 .titulo-galeria{
   
     width: auto;
-    text-align: center;
-    margin-top: 8px;
-    text-transform: uppercase;
-    font-weight: bold;
+    text-align: left;
+    margin-top: 1px;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+    font-weight: 700;
     color: #99cc99;
     font-size: 25px;
     font-family: 'Dosis', sans-serif;
+}
+.img-responsive{
+    border-bottom:5px solid #99cc99;
 }
 /*=== 1.COMMON ===*/
 .container {
@@ -868,16 +872,17 @@ aside {
   color: #ffffff; }
 
 .sectionTitleSmall {
-  margin-bottom: 40px; }
+  margin-bottom: 30px; }
   .sectionTitleSmall h2 {
     text-align: center;
     font-family: 'Dosis', sans-serif;
     text-transform: capitalize;
     margin: 0 0 12px 0;
-    color: #ffffff; }
+    color: #6A1201; }
   .sectionTitleSmall p {
-    color: #ffffff;
+    color: #6A1201;
     text-align: center;
+    font-weight: 700;
     font-size: 15px; }
 
 .pageTitleSection {
@@ -3856,11 +3861,11 @@ footer {
     font-size: 16px;
     line-height: 20px;
     font-weight: 600;
-    color: #ffffff;}
+    color: white;}
 
 /*=== 5.9 COUNT UP SECTION ===*/
 .countUpSection {
-  background-image: url("../img/home/countup.jpg");
+  background-image: url("../img/estadistica.jpg");
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -3868,7 +3873,7 @@ footer {
   background-size: cover;
   background-position: center center !important;
   background-attachment: fixed;
-  color: #ffffff;
+  color: #6A1201;
   padding: 80px 0; }
   .countUpSection .counter {
     width: 145px;
@@ -3878,7 +3883,7 @@ footer {
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-    border: 4px solid #ffffff; }
+    border: 4px solid #6A1201; }
     @media (min-width: 320px) {
       .countUpSection .counter {
         font-size: 32px;
@@ -3896,13 +3901,13 @@ footer {
     -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
-    background-color: #ea7066;
+    background-color: #6A1201;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
     font-size: 16px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #6A1201;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -4538,7 +4543,7 @@ footer {
 
 .box .sticker-round {
   width: auto;
-  padding: 10px;
+  padding: 20px;
   left: 7px;
   top: 7px;
   font-size: 13px; }

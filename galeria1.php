@@ -24,12 +24,11 @@
         <div class="row">
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="single-blog-left-sidebar.html"><img src="img/CIERRE2017/2.JPG" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-3">14 <br>Diciembre</div>
-              <div class="caption border-color-1">
-                <h3><a href="galeria.php" class="color-1">Cena programa de religión</a></h3>
-                
+              <a href="galeria.php"><img src="img/CIERRE2017/2.JPG" alt="image" class="img-responsive"></a>
+              <div class="caption">
+                <h3><a href="galeria.php" class="titulo-galeria">Cena programa de religión</a></h3>
                 <p>Actividad de Cierre de año del programa de religión del MEM Distrito Norte. </p>
+                  <time><small style="font-style:italic;">14 de Diciembre 2018 , Iquique.</small></time>
                 <ul class="list-inline btn-yellow">
                   <li><a href="galeria.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ver Más</a></li>
                 </ul>
