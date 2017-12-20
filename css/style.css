@@ -857,7 +857,7 @@ aside {
 
 .sectionTitle h2 {
   font-family: 'Dosis', sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   color: #ea7066;
   text-transform: capitalize;
   float: left;
@@ -886,16 +886,17 @@ aside {
 .sectionTitleSmall {
   margin-bottom: 30px; }
   .sectionTitleSmall h2 {
+      
     text-align: center;
     font-family: 'Dosis', sans-serif;
     text-transform: capitalize;
     margin: 0 0 12px 0;
-    color: #6A1201; }
+    color: #58ab58; }
   .sectionTitleSmall p {
-    color: #6A1201;
+    color: #58ab58;
     text-align: center;
     font-weight: 700;
-    font-size: 15px; }
+    font-size: 14px; }
 
 .pageTitleSection {
   background-image: url("../img/DE5.jpg");
@@ -3877,15 +3878,20 @@ footer {
 
 /*=== 5.9 COUNT UP SECTION ===*/
 .countUpSection {
-  background-image: url("../img/contacto.jpg");
+  background-color:#F8F8F8;
+  border: 1px solid #58ab58;    
   width: 100%;
+    border-radius: 2px;
+    /*-webkit-box-shadow: 2px 4px 39px 4px rgba(88,171,88,1);
+    -moz-box-shadow: 2px 4px 39px 1px rgba(88,171,88,1);*/
+    box-shadow: 10px 10px 10px 10px grey;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center center !important;
   background-attachment: fixed;
-  color: #6A1201;
+  color: #58ab58;
   padding: 80px 0; }
   .countUpSection .counter {
     width: 145px;
@@ -3895,7 +3901,7 @@ footer {
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-    border: 4px solid #6A1201; }
+    border: 4px solid #58ab58; }
     @media (min-width: 320px) {
       .countUpSection .counter {
         font-size: 32px;
@@ -3913,13 +3919,13 @@ footer {
     -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
-    background-color: #6A1201;
+    background-color: #ffffff;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
     font-size: 16px;
     text-transform: uppercase;
-    color: #6A1201;
+    color: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
