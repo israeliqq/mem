@@ -21,13 +21,13 @@
   </div>
   
   <!-- FOOTER INFO AREA -->
-   <div class="footerInfoArea full-width clearfix" style="background-color:#F8F8F8">
+   <div class="footerInfoArea full-width clearfix">
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-xs-12">
           <div class="footerTitle" align="center">
             <a href="index.php"><img src="img/logomem3.png"></a>
-            
+
           </div>
           <div class="footerInfo">
             <p >“Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia.”</p>

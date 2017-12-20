@@ -173,9 +173,9 @@
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
-            <span class="shape shape-left bg-color-3"></span>
-            <span >Nuestros Objetivos</span>
-            <span class="shape shape-right bg-color-3"></span>
+            <span class="shape shape-left bg-color-4"></span>
+            <span style="color: #4EAB62">Nuestros Objetivos</span>
+            <span class="shape shape-right bg-color-4"></span>
           </h2>
         </div>
 
@@ -279,9 +279,9 @@
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
-            <span class="shape shape-left bg-color-3"></span>
-            <span>Noticias</span>
-            <span class="shape shape-right bg-color-3"></span>
+            <span class="shape shape-left bg-color-4"></span>
+            <span style="color: #4EAB62">Noticias</span>
+            <span class="shape shape-right bg-color-4"></span>
           </h2>
         </div>
 
@@ -339,8 +339,8 @@
           </div>-->
         </div>
 
-        <div class="btnArea">
-          <a href="blog-grid.html" class="btn btn-primary">VER MÁS</a>
+        <div class="btnArea ">
+          <a href="blog-grid.html" class="btn bg-color-4">VER MÁS</a>
         </div>
 
       </div>
@@ -522,9 +522,9 @@
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
-            <span class="shape shape-left bg-color-3"></span>
-            <span>Galería</span>
-            <span class="shape shape-right bg-color-3"></span>
+            <span class="shape shape-left bg-color-4"></span>
+            <span style="color: #4EAB62">Galería</span>
+            <span class="shape shape-right bg-color-4"></span>
           </h2>
         </div>
 
@@ -551,7 +551,7 @@
         </div>
 
         <div class="btnArea">
-          <a href="galeria1.php" class="btn btn-primary">VER MÁS</a>
+          <a href="galeria1.php" class="btn bg-color-4">VER MÁS</a>
         </div>
 
       </div>
@@ -569,15 +569,24 @@ $dato = $array->fetch_assoc();
 
     <section class="countUpSection" >
       <div class="container">
-        <div class="sectionTitleSmall">
-          <h2>Datos Estadísticos</h2>
-          <p>Estos datos estan actualizados al 15 de diciembre del 2017.</p>
+        <div class="sectionTitle text-center">
+          <h2>
+            <span class="shape shape-left bg-color-4"></span>
+            <span style="color: #4EAB62">Datos Estadísticos</span>
+            <span class="shape shape-right bg-color-4"></span>
+          </h2>
         </div>
-
         <div class="row">
           <div class="col-sm-3 col-xs-12">
             <div class="text-center">
-              <div class="counter">179</div>
+              <?php $funcionarios = funcionarios(); $dato = $funcionarios->fetch_assoc(); ?>
+              <div class="counter"><?php echo $dato['total']; ?></div>
+              <div class="counterInfo bg-color-4">Funcionarios</div>
+            </div>
+          </div>          
+          <div class="col-sm-3 col-xs-12">
+            <div class="text-center">
+              <div class="counter">1</div>
               <div class="counterInfo bg-color-4">Eventos</div>
             </div>
           </div>
@@ -595,19 +604,17 @@ $dato = $array->fetch_assoc();
               <div class="counterInfo bg-color-4">Alumnos</div>
             </div>
           </div>
-          <div class="col-sm-3 col-xs-12">
-            <div class="text-center">
-              <?php $funcionarios = funcionarios(); $dato = $funcionarios->fetch_assoc(); ?>
-              <div class="counter"><?php echo $dato['total']; ?></div>
-              <div class="counterInfo bg-color-4">Funcionarios</div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
 
     <!-- WHITE SECTION -->
  
+
+
+     <!-- EVENTOS -->
+     <!--
   <section class="whiteSection full-width clearfix coursesSection" id="ourCourses">
       <div class="container">
         <div class="sectionTitle text-center">
@@ -683,6 +690,8 @@ $dato = $array->fetch_assoc();
         </div>
       </div>
     </section>
+    -->
+        <!-- EVENTOS -->
 
 
 
