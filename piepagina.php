@@ -25,8 +25,8 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-xs-12">
-          <div class="footerTitle">
-            <a href="index.php"><img src="img/logomem.png"></a>
+          <div class="footerTitle" align="center">
+            <a href="index.php"><img src="img/logomem3.png"></a>
           </div>
           <div class="footerInfo">
             <p >“Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia.”</p>
