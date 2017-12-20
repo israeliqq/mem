@@ -103,7 +103,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img src="img/logomem.png" alt="logo"></a>
+            <a class="navbar-brand" href="index.php"><img src="img/logomem.png" alt="logo"> </a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -171,6 +171,7 @@
                   <li><a href="directivos.php">Equipo Directivo</a></li>
                   <li><a href="proyectoeducativo.php">Proyecto Educativo</a></li>
                   <li><a href="index.php#objetivos">Nuestros Objetivos</a></li>
+                  <li><a href="resena.php">Reseña Historia</a></li>
                 </ul>
                 
               </li>
