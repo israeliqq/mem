@@ -242,14 +242,14 @@
           </div>
           <div class="col-sm-4 col-xs-12">
             <div class="media featuresContent">
-              <!--<span class="media-left bg-color-4">
+              <span class="media-left bg-color-4">
                 <i class="fa fa-globe bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
                 <h3 class="media-heading color-4">Descentralización </h3>
                 <p>Descentralizar la acción educativa nacional fortaleciendo el trabajo en
                     los distritos.</p>
-              </div>-->
+              </div>
             </div>
           </div>
         </div>
@@ -291,12 +291,12 @@
               <a href="noticias.php"><img src="img/home/news/news-1.jpg" alt="image" class="img-responsive"></a>
               
               <div class="caption border-color-1">
-                <h3><a href="noticias.php" class="color-1">Saludos de Navidad</a></h3>
+                <h3><a href="noticias.php" class="color-1"></a></h3>
                 <ul class="list-inline">
                   <!--<li><a href="single-blog-left-sidebar.html"><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</a></li>
                   <li><a href="single-blog-left-sidebar.html"><i class="fa fa-comments-o" aria-hidden="true"></i>4 Comments</a></li>-->
                 </ul>
-                <p>Saludo y buenos deseos de parte del Ministerio de Educación para esta navidad. </p>
+                <p> </p>
                 <ul class="list-inline btn-yellow">
                   <li><a href="noticias.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Leer Más</a></li>
                 </ul>
@@ -339,9 +339,9 @@
           </div>-->
         </div>
 
-        <div class="btnArea ">
+      <!--  <div class="btnArea ">
           <a href="blog-grid.html" class="btn bg-color-4">VER MÁS</a>
-        </div>
+        </div>-->
 
       </div>
     </section>
@@ -367,8 +367,7 @@
                       <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -386,8 +385,7 @@
                       <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                     
                       </ul>
                     </div>
                   </div>
@@ -405,8 +403,7 @@
                       <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                       
                       </ul>
                     </div>
                   </div>
@@ -424,8 +421,7 @@
                       <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    
                       </ul>
                     </div>
                   </div>
@@ -443,8 +439,7 @@
                       <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -462,8 +457,7 @@
                       <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                       
                       </ul>
                     </div>
                   </div>
@@ -481,8 +475,7 @@
                       <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                     
                       </ul>
                     </div>
                   </div>
@@ -500,8 +493,7 @@
                       <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                        
                       </ul>
                     </div>
                   </div>

@@ -2713,6 +2713,7 @@ footer {
 
 .footerInfo p {
   margin-bottom: 30px;
+    text-align: justify;
   color: #3B3B3B; }
 .footerInfo .input-group {
   border-radius: 5px;
@@ -3124,6 +3125,7 @@ footer {
   opacity: 1; }
 
 .media-body h3.media-heading {
+  text-align: justify;
   font-size: auto;
   line-height:45px;
   color: #ffffff;
@@ -3136,7 +3138,7 @@ footer {
 
 .featuresContent {
   margin-bottom: 50px;
-  text-align: left;}
+  text-align: justify;}
 @media only screen and (max-width: 980px) and (min-width: 821px){
     .featuresContent{
         margin-bottom: 30px;
@@ -3246,6 +3248,7 @@ footer {
   font-family: 'Dosis', sans-serif;
   font-size: 36px;
   line-height: 42px;
+  text-align: center;
   text-transform: capitalize;
   color: #ea7066;
   font-weight: 700; }
@@ -3257,6 +3260,7 @@ footer {
       margin: 0 0 25px 0; } }
 .schoolInfo p {
   font-size: 15px;
+  text-align: justify;    
   color: #222222;
   margin-bottom: 25px; }
 .schoolInfo .btn-primary {
@@ -3325,10 +3329,10 @@ footer {
       margin: 0 0 0 20px; } }
   @media (min-width: 320px) {
     .servicesContent.rightAlign .media-body .media-heading, .servicesContent.rightAlign .media-body > p {
-      text-align: left; } }
+      text-align: justify; } }
   @media (min-width: 768px) {
     .servicesContent.rightAlign .media-body .media-heading, .servicesContent.rightAlign .media-body > p {
-      text-align: right; } }
+      text-align: justify; } }
 
 /*=== 5.6 COURSES SECTION ===*/
 .block h3 {
@@ -3879,12 +3883,13 @@ footer {
 /*=== 5.9 COUNT UP SECTION ===*/
 .countUpSection {
   background-color:#F8F8F8;
-  border: 1px solid #58ab58;    
+  border-top: 1px solid #58ab58; 
+  border-bottom: 1px solid #58ab58;    
   width: 100%;
-    border-radius: 2px;
-    /*-webkit-box-shadow: 2px 4px 39px 4px rgba(88,171,88,1);
-    -moz-box-shadow: 2px 4px 39px 1px rgba(88,171,88,1);*/
-    box-shadow: 10px 10px 10px 10px grey;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 4px 39px 4px rgba(88,171,88,1);
+  -moz-box-shadow: 2px 4px 39px 1px rgba(88,171,88,1);
+  box-shadow: 10px 10px 10px 10px grey;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -4933,7 +4938,7 @@ footer {
   .aboutSchool {
     padding: 100px 0px 0px 0px !important; } }
 .aboutSchool .schoolInfo h2 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #e7655a;
   font-size: 30px; }
   .aboutSchool .schoolInfo h2 span {

@@ -68,23 +68,23 @@
       <div class="top-info-bar  hidden-xs" id="color-top-footer">
         <div class="container">
           <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-12">
               <ul class="list-inline topList">
-                <li><i class="fa fa-envelope " id="color-icons-topbar" aria-hidden="true"></i> <a href="mailto:contacto@mem.cl">contacto@mem.cl</a></li>
+                <li><i class="fa fa-envelope " id="color-icons-topbar" aria-hidden="true"></i> <a href="mailto:contacto@mem.cl">enriquequintana@colegioingles.org</a></li>
                 <li><i class="fa fa-phone " id="color-icons-topbar"  aria-hidden="true"></i> 57-2-398000</li>
                 <li><i class="fa fa-clock-o" id="color-icons-topbar" aria-hidden="true"></i> Horario 8:00 a 18:00</li>
               </ul>
             </div>
             <div class="col-sm-5">
               <ul class="list-inline functionList">
-                <li><i class="fa fa-globe" id="color-icons-topbar" aria-hidden="true"></i></li>
-                <li class="LanguageList">
+                <!--<li><i class="fa fa-globe" id="color-icons-topbar" aria-hidden="true"></i></li>-->
+                <!--<li class="LanguageList">
                   <select name="guiest_id1" id="guiest_id1" class="select-drop">
                     <option>Español </option>
                     <option value="2">Inglés</option>
 
                   </select>
-                </li>
+                </li>-->
                 <!--<li><i class="fa fa-unlock-alt bg-color-5" aria-hidden="true"></i> <a href='#loginModal' data-toggle="modal" >Ingresar</a><span>o</span><a href='#createAccount' data-toggle="modal">Crear una cuenta</a></li>-->
               </ul>
             </div>
@@ -169,9 +169,9 @@
                 <ul class="dropdown-menu dropdown-menu-right">
                   <li><a href="misionyvision.php">Misión y Visión</a></li>
                   <li><a href="directivos.php">Equipo Directivo</a></li>
-                  <li><a href="proyectoeducativo.php">Proyecto Educativo</a></li>
+                 <!--<li><a href="proyectoeducativo.php">Proyecto Educativo</a></li>-->
                   <li><a href="index.php#objetivos">Nuestros Objetivos</a></li>
-                  <li><a href="resena.php">Reseña Historia</a></li>
+                  <li><a href="resena.php">Reseña Histórica</a></li>
                 </ul>
                 
               </li>
