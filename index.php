@@ -269,7 +269,7 @@
           </h2>
           <p>Postula a nuestra cadena de colegios a lo largo del pais.</p>
         </div>
-          <a href="contacto.php" class="btn btn-warning btn-pill" style="font-size: 25px"><i class="fa fa-paper-plane" aria-hidden="true"></i> Postular</a>
+          <a href="postular.php" class="btn btn-warning btn-pill" style="font-size: 25px"><i class="fa fa-paper-plane" aria-hidden="true"></i> Postular</a>
         </div>
       </div>
     </section>
