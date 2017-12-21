@@ -72,36 +72,36 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="homeContactContent">
-              <form action="#" method="POST" role="form">
+              <form id="form1" action="enviar.php" method="post" name="form1" enctype="multipart/form-data">
                 <div class="row">
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-user"></i>
-                      <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="Nombre" required>
+                      <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="Nombre" name="nombre" required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-envelope" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-2" id="exampleInputEmail2" placeholder="Correo Electrónico" required>
+                      <input type="text" class="form-control border-color-2" id="exampleInputEmail2" name="correo" placeholder="Correo Electrónico" required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-phone" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-5" id="exampleInputEmail3" placeholder="Teléfono" required>
+                      <input type="text" class="form-control border-color-5" id="exampleInputEmail3" name="telefono" placeholder="Teléfono" required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-book" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-6" id="exampleInputEmail4" placeholder="Asunto" required>
+                      <input type="text" class="form-control border-color-6" id="exampleInputEmail4" name="asunto" placeholder="Asunto" required>
                     </div>
                   </div>
                   <div class="col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-comments" aria-hidden="true"></i>
-                      <textarea class="form-control border-color-4" placeholder="Escribir Mensaje"></textarea>
+                      <textarea class="form-control border-color-4" placeholder="Escribir Mensaje" name="mensaje"></textarea>
                     </div>
                   </div>
                   <div class="col-xs-12">
