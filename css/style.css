@@ -140,6 +140,7 @@ h5 {
     font-family: 'Dosis', sans-serif;
     
 }
+
 /*=== CONTENIDO GALERIA 1 ===*/
 .card-img-top {
     margin-top: 50px;
@@ -148,6 +149,7 @@ h5 {
     border-radius: 5px;
     
 }
+
 .card-text {
     width: 320px;;
     color: #666666;

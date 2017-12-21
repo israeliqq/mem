@@ -18,7 +18,7 @@ $dato = $array->fetch_assoc();
         <div class="pageTitleInfo">
           <h2><?php echo utf8_encode($dato['nombre']); ?></h2>
           <ol class="breadcrumb">
-            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.php">Inicio</a></li>
             <li>Colegio</li>
             <li><?php echo utf8_encode($dato['distrito']); ?></li>
             <li class="active"><?php echo utf8_encode(str_replace("<br>","",$dato['nombre'])); ?></li>
