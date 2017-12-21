@@ -35,19 +35,19 @@ $dato = $array->fetch_assoc();
             <div class="thumbnail thumbnailContent alt">
               <img src="img/course-single/course-single-title.jpg" alt="image" class="img-responsive">
               <div class="caption border-color-1">
-                <h3 class="color-1">Visión</h3>
-                <p><?php echo utf8_encode($dato['vision']); ?></p>
+                <h3 id="titulo-colegio">Visión</h3>
+                <p id="parrafo-colegio"><?php echo utf8_encode($dato['vision']); ?></p>
                 <hr>
-                <h3 class="color-1">Misión</h3>
-                <p><?php echo utf8_encode($dato['mision']); ?></p>
+                <h3 id="titulo-colegio" >Misión</h3>
+                <p id="parrafo-colegio"><?php echo utf8_encode($dato['mision']); ?></p>
                 <hr>
-                <p style="font-size: 20px;" class="color-1"><i class="fa fa-phone-square" aria-hidden="true"></i> Telefono: <span style="color: #666666; font-size: 17px;">+56 <?php echo utf8_encode($dato['telefono']); ?></span></p>
+                <p id="parrafo-colegio" class="color-1"><i class="fa fa-phone-square" aria-hidden="true"></i> Telefono: <span id="parrafo-colegio" style="font-weight: bold;">+56 <?php echo utf8_encode($dato['telefono']); ?></span></p>
                 <hr>
-                <p style="font-size: 20px;" class="color-1"><i class="fa fa-envelope" aria-hidden="true"></i> Email: <span style="color: #666666; font-size: 17px;"><?php echo utf8_encode($dato['email']); ?></span></p>
+                <p id="parrafo-colegio" class="color-1"><i class="fa fa-envelope" aria-hidden="true"></i> Email: <span id="parrafo-colegio"  style="font-weight: bold;"><?php echo utf8_encode($dato['email']); ?></span></p>
                 <hr>
-                <p style="font-size: 20px;" class="color-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección: <span style="color: #666666; font-size: 17px;"><?php echo utf8_encode($dato['direccion']); ?></span></p>
+                <p id="parrafo-colegio" class="color-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección: <span id="parrafo-colegio"  style="font-weight: bold;"><?php echo utf8_encode($dato['direccion']); ?></span></p>
                 <hr>
-                <p style="font-size: 20px;" class="color-1"><i class="fa fa-internet-explorer" aria-hidden="true"></i> Sitio Web: <span style="color: #666666; font-size: 17px;"><a target="_blank"  href="http://<?php echo utf8_encode($dato['web']); ?>"><?php echo utf8_encode($dato['web']); ?></a></span></p>
+                <p id="parrafo-colegio" class="color-1"><i class="fa fa-internet-explorer" aria-hidden="true"></i> Sitio Web: <span id="parrafo-colegio"  style="font-weight: bold;"><a target="_blank"  href="http://<?php echo utf8_encode($dato['web']); ?>"><?php echo utf8_encode($dato['web']); ?></a></span></p>
                 <hr>    
 
 

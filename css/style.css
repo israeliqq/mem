@@ -126,6 +126,20 @@ h5 {
 #color-icons-topbar{
     background-color: #61A615;
 }
+#titulo-colegio{
+    color: #F0C24B;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+#parrafo-colegio{
+    color: #666666;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Dosis', sans-serif;
+    
+}
 /*=== CONTENIDO GALERIA 1 ===*/
 .card-img-top {
     margin-top: 50px;
@@ -136,7 +150,7 @@ h5 {
 }
 .card-text {
     width: 320px;;
-    color: black;
+    color: #666666;
     font-size: 16px;
     text-transform: capitalize;
     text-align: justify;
@@ -3486,6 +3500,7 @@ footer {
   border-top: 5px solid #ffffff;
   background-color: #f8f8f8;
   padding: 15px; }
+
 
 /*=== 5.7 TEAM SECTION ===*/
 .owl-carousel.teamSlider .owl-nav {
