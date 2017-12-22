@@ -33,7 +33,7 @@ $dato = $array->fetch_assoc();
         <div class="row">
           <div class="col-md-9 col-sm-8 col-xs-12 block pull-right">
             <div class="thumbnail thumbnailContent alt">
-              <img src="img/course-single/course-single-title.jpg" alt="image" class="img-responsive">
+              <!--<img src="img/course-single/course-single-title.jpg" alt="image" class="img-responsive">-->
               <div class="caption border-color-1">
                 <h3 id="titulo-colegio">Visión</h3>
                 <p id="parrafo-colegio"><?php echo utf8_encode($dato['vision']); ?></p>

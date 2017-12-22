@@ -109,9 +109,9 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown singleDrop color-3">
+              <li class="dropdown singleDrop color-3 active">
                 <a href="index.php">
-                  <i class="fa fa-home bg-color-4"  aria-hidden="false"></i> <span>Inicio</span>
+                  <i class="fa fa-home bg-color-4"  aria-hidden="false"></i> <span class="active">Inicio</span>
                 </a>
               </li>
 
