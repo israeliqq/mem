@@ -1,7 +1,8 @@
 <!-- HEADER -->
 <?php include("cabezera.php");  
 
-
+$array = postular();
+$dato = $array->fetch_assoc();
 
 ?>
 <!-- HEADER -->
@@ -24,19 +25,26 @@
 
     <!-- MAIN SECTION -->
     <section class="mainContent full-width clearfix conactSection">
+    <?php for ($i = 1; $i<= 18; $i++) {?>
       <div class="container">
        <div class="row">
+            
            <div class="col-md-12 col-sm-12 col-xs-12">
+               
            <table class="table" >
+               
                <thead>
                 <tr>
                     <th scope="col">Nombre</th>
+                    <th scope="col">Ciudad</th>
                     <th scope="col">Correo</th>
                     <th scope="col">Número de Contacto</th>
                 </tr>
                </thead>
             <tbody>
+                    
                     <td><?php echo utf8_encode($dato['nombre']); ?></td>
+                    <td><?php echo utf8_encode($dato['ciudad']); ?></td>
                     <td><?php echo utf8_encode($dato['email']); ?></td>
                     <td>+56<?php echo utf8_encode($dato['telefono']); ?></td>
                 
@@ -79,6 +87,7 @@
               </div>
             </div>
           </div>-->
+           <?php }?>
         </div>
        
         <!--<div class="row">

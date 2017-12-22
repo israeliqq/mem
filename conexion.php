@@ -39,5 +39,8 @@ function cantidadColegios(){
    return $result;  
 }
 
-
+function postular(){
+    $result = Conexion()->query("SELECT * FROM institucion");
+    return $result;
+}
 ?> 

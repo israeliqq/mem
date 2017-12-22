@@ -502,6 +502,25 @@
         <?php }?>         
         </div>
 
+          <div class="row isotopeContainer" id="container">
+        <?php for ($i = 1; $i <= 8; $i++) {?>
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector congreso">
+            <article class="">
+              <figure>
+                <img src="img/CONGRESO2017/<?php echo $i;?>.jpg" alt="image" class="img-rounded">
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a class="fancybox-pop" rel="portfolio-1" href="img/CONGRESO2017/<?php echo $i;?>.jpg">
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
+        <?php }?>         
+        </div>
         <div class="btnArea">
           <a href="galeria.php" class="btn bg-color-4">VER MÁS</a>
         </div>
