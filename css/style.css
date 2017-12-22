@@ -1279,6 +1279,7 @@ aside {
 /*=== 2.7 DATEPICKER ===*/
 /*=== 2.8 THUMBNAIL ===*/
 .thumbnail {
+  float: left;
   padding: 0;
   border: none;
   -webkit-border-radius: 9px;

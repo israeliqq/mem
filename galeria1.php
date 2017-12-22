@@ -19,10 +19,10 @@
 
     <!-- MAIN SECTION -->
 
-    <section class="mainContent full-width clearfix homeGallerySection">
+    <section class="mainContent full-width clearfix newsSection">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-xs-12 block">
+          <div class="col-sm-6 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a href="galeria.php"><img src="img/CIERRE2017/2.JPG" alt="image" class="img-responsive"></a>
               <div class="caption">
@@ -34,8 +34,22 @@
                 </ul>
               </div>
             </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 block">
+            <div class="thumbnail thumbnailContent" >
+              <a href="galeria.php"><img src="img/CIERRE2017/2.JPG" alt="image" class="img-responsive"></a>
+              <div class="caption">
+                <h3><a href="galeria.php" class="titulo-galeria">Congreso MEM Nacional - 2017</a></h3>
+                <p> Congreso del Ministerio de Educación realizado el 28 y 29 de septiembre del 2017 en la ciudad de angol - fundo el vergel.</p>
+                  <time><small style="font-style:italic;">21 de Diciembre 2018 , Iquique.</small></time>
+                  <ul class="list-inline btn-yellow">
+                  <li><a href="galeria.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ver Más</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
+        
+    </div>
     </div>
 </section>
  

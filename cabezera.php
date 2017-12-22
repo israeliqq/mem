@@ -197,6 +197,7 @@
                   </li>
                   -->
                   <li><a target="_blank" href="documentos/reglamentointerno.pdf">Reglamento Interno</a></li>
+                    <li><a target="_blank" href="documentos/actaMEM2017.pdf">Acta MEM 2017</a></li>
                 </ul>
               
               </li>

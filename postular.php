@@ -27,31 +27,19 @@
       <div class="container">
        <div class="row">
            <div class="col-md-12 col-sm-12 col-xs-12">
-           <table class="table">
+           <table class="table" >
                <thead>
                 <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Colegio</th>
+                    <th scope="col">Nombre</th>
                     <th scope="col">Correo</th>
                     <th scope="col">Número de Contacto</th>
                 </tr>
                </thead>
             <tbody>
-                <tr>
-                    <th scope="row">1</th>
                     <td><?php echo utf8_encode($dato['nombre']); ?></td>
-                    
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
                     <td><?php echo utf8_encode($dato['email']); ?></td>
-                   
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
                     <td>+56<?php echo utf8_encode($dato['telefono']); ?></td>
-                    
-                </tr>
+                
             </tbody>
            </table>
            </div>

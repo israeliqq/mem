@@ -286,35 +286,34 @@
         </div>
 
         <div class="row">
-
           <div class="col-sm-6 col-sm-push-6 col-xs-12">
-            <br><br><br>
-            <img src="img/logomem.png" alt="image" class="img-responsive img-rounded">
+                <br><br><br>
+                <img src="img/logomem.png" alt="image" class="img-responsive img-rounded">
           </div>
-          <div class="col-sm-6 col-sm-pull-6 col-xs-12">
-            <div class="schoolInfo">
-<p>A todos y todas: la Paz de Dios sea sobre sus vidas.
-<br><br>
+        <div class="col-sm-6 col-sm-pull-6 col-xs-12">
+    <div class="schoolInfo">
+        <p>A todos y todas: la Paz de Dios sea sobre sus vidas.
+            <br><br>
 
-Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM). En las páginas siguientes podrán encontrar informaciones relacionadas con la red de Colegios Metodistas en Chile e informaciones de la <a href="http://www.alaime.net/web/">red internacional de educación metodista</a> red internacional de educación metodista, tanto a nivel latinoamericano como mundial. 
+            Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM). En las páginas siguientes podrán encontrar informaciones relacionadas con la red de Colegios Metodistas en Chile e informaciones de la <a href="http://www.alaime.net/web/">red internacional de educación metodista</a> red internacional de educación metodista, tanto a nivel latinoamericano como mundial. 
 
-<br><br>
+            <br><br>
 
-Nuestra tradición ha dado y seguirá dando una importancia especial a la educación, asumiendo que a través de ella se contribuye a los procesos de formación e integración social de cientos y miles de personas en Chile. Es una opción que nuestra Iglesia desea seguir fomentando y perfeccionando, como una manera de hacer su aporte a Chile, a sus habitantes y al desarrollo de la vida como país.
+            Nuestra tradición ha dado y seguirá dando una importancia especial a la educación, asumiendo que a través de ella se contribuye a los procesos de formación e integración social de cientos y miles de personas en Chile. Es una opción que nuestra Iglesia desea seguir fomentando y perfeccionando, como una manera de hacer su aporte a Chile, a sus habitantes y al desarrollo de la vida como país.
 
-<br><br>
+            <br><br>
 
-Las ciencias, las letras, la tecnología, la informática, los deportes, es nuestro compromiso realizarlo con excelencia, en el plano de una educación que tiene que ver con saberes que se comparten, se descubren y adquieren. Junto a ello, nuestros colegios desean también compartir el mensaje de Cristo, el Hijo de Dios, el Salvador del mundo. Por lo cual, no buscamos solamente cumplir programas de estudios, también buscamos inculcar sentido, conducta y propósitos de vida, que permitan a los estudiantes tener una existencia plena en su ser personal y social. 
+            Las ciencias, las letras, la tecnología, la informática, los deportes, es nuestro compromiso realizarlo con excelencia, en el plano de una educación que tiene que ver con saberes que se comparten, se descubren y adquieren. Junto a ello, nuestros colegios desean también compartir el mensaje de Cristo, el Hijo de Dios, el Salvador del mundo. Por lo cual, no buscamos solamente cumplir programas de estudios, también buscamos inculcar sentido, conducta y propósitos de vida, que permitan a los estudiantes tener una existencia plena en su ser personal y social. 
 
-<br><br>
+            <br><br>
 
-¡Para todos quienes visiten esta página, nuestro saludo con el mayor afecto cristiano y que Dios les bendiga!
-</p>
+            ¡Para todos quienes visiten esta página, nuestro saludo con el mayor afecto cristiano y que Dios les bendiga!
+            </p>
 
 
 
-<b>Presbítero Pedro Correa Montecinos<br>
-Pastor y Obispo de la Iglesia Metodista de Chile.</b>
+            <b>Presbítero Pedro Correa Montecinos<br>
+            Pastor y Obispo de la Iglesia Metodista de Chile.</b>
 
 
             </div>
@@ -359,7 +358,7 @@ Pastor y Obispo de la Iglesia Metodista de Chile.</b>
                 </ul>
               </div>
             </div>
-          </div>-->
+          </div>
         </div>
 
       <!--  <div class="btnArea ">
@@ -388,15 +387,15 @@ Pastor y Obispo de la Iglesia Metodista de Chile.</b>
                     <img src="img/home/team/team-1.jpg" alt="img" class="img-circle">
                     <div class="maskingContent">
                       <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/esquintanam"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/esquintanam?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         
                       </ul>
                     </div>
                   </div>
                   <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Smith</a></h3>
-                    <p>English Teacher</p>
+                    <h3><a href="teachers-details.html">Enrique Quintana</a></h3>
+                    <p>Presidente</p>
                   </div>
                 </div>
               </div>
@@ -406,15 +405,15 @@ Pastor y Obispo de la Iglesia Metodista de Chile.</b>
                     <img src="img/home/team/team-2.jpg" alt="img" class="img-circle">
                     <div class="maskingContent">
                       <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/Huchyvr"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <!--<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
                      
                       </ul>
                     </div>
                   </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
+                   <div class="teamInfo">
+                    <h3><a href="teachers-details.html">Lucila<br>Villegas</a></h3>
+                    <p>Vicepresidenta</p>
                   </div>
                 </div>
               </div>
@@ -424,16 +423,17 @@ Pastor y Obispo de la Iglesia Metodista de Chile.</b>
                     <img src="img/home/team/team-3.jpg" alt="img" class="img-circle">
                     <div class="maskingContent">
                       <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                       <!-- <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
                        
                       </ul>
                     </div>
                   </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
+                 <div class="teamInfo">
+                    <h3><a>Ellen<br>Jorquera</a></h3>
+                    <p>Tesorera</p>
                   </div>
+                 
                 </div>
               </div>
               <div class="slide">
@@ -442,87 +442,15 @@ Pastor y Obispo de la Iglesia Metodista de Chile.</b>
                     <img src="img/home/team/team-4.jpg" alt="img" class="img-circle">
                     <div class="maskingContent">
                       <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                       <!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
                     
                       </ul>
                     </div>
                   </div>
                   <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img src="img/home/team/team-1.jpg" alt="img" class="img-circle">
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img src="img/home/team/team-2.jpg" alt="img" class="img-circle">
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                       
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img src="img/home/team/team-3.jpg" alt="img" class="img-circle">
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                     
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="teamContent">
-                  <div class="teamImage">
-                    <img src="img/home/team/team-4.jpg" alt="img" class="img-circle">
-                    <div class="maskingContent">
-                      <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="teamInfo">
-                    <h3><a href="teachers-details.html">Amanda Stone</a></h3>
-                    <p>English Teacher</p>
+                    <h3><a href="teachers-details.html">Marlene Navarrete</a></h3>
+                    <p>Secretaria</p>
                   </div>
                 </div>
               </div>
@@ -543,11 +471,21 @@ Pastor y Obispo de la Iglesia Metodista de Chile.</b>
           </h2>
         </div>
 
-        <div class="row"></div>
+        <div class="row">
+            <div class="col-xs-12">
+            <div class="filter-container isotopeFilters">
+              <ul class="list-inline filter">
+                <li class="active"><a href="#" data-filter="*">Ver todos</a></li>
+                <li><a href="#" data-filter=".cena">Cena MEM</a></li>
+                <li><a href="#" data-filter=".congreso">Congreso MEM</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
         <div class="row isotopeContainer" id="container">
         <?php for ($i = 1; $i <= 8; $i++) {?>
-          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector cena">
             <article class="">
               <figure>
                 <img src="img/CIERRE2017/<?php echo $i;?>.JPG" alt="image" class="img-rounded">
