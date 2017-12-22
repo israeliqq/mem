@@ -249,7 +249,7 @@
                 -->
               
             <li class="dropdown singleDrop color-3">
-                <a href="galeria1.php">
+                <a href="galeria.php">
                   <i class="fa fa-picture-o bg-color-4"  aria-hidden="false"></i> <span>Galeria</span>
                 </a>
               </li>

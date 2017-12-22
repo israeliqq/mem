@@ -267,7 +267,7 @@
             <span>Quieres trabajar con nosotros?</span>
             <span class="shape shape-right "></span>
           </h2>
-          <p>Postula a nuestra cadena de colegios a lo largo del pais.</p>
+          <p>Postula a nuestra cadena de colegios a lo largo del país.</p>
         </div>
           <a href="postular.php" class="btn btn-warning btn-pill" style="font-size: 25px"><i class="fa fa-paper-plane" aria-hidden="true"></i> Postular</a>
         </div>
@@ -384,7 +384,7 @@
               <div class="slide">
                 <div class="teamContent">
                   <div class="teamImage">
-                    <img src="img/home/team/team-1.jpg" alt="img" class="img-circle">
+                    <img src="img/DIRECTIVA/enrique.jpg" alt="img" class="img-circle">
                     <div class="maskingContent">
                       <ul class="list-inline">
                         <li><a href="https://www.facebook.com/esquintanam"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -402,12 +402,11 @@
               <div class="slide">
                 <div class="teamContent">
                   <div class="teamImage">
-                    <img src="img/home/team/team-2.jpg" alt="img" class="img-circle">
+                    <img src="img/DIRECTIVA/lucila.jpg" alt="img" class="img-circle">
                     <div class="maskingContent">
                       <ul class="list-inline">
                         <li><a href="https://www.facebook.com/Huchyvr"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <!--<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
-                     
                       </ul>
                     </div>
                   </div>
@@ -420,7 +419,7 @@
               <div class="slide">
                 <div class="teamContent">
                   <div class="teamImage">
-                    <img src="img/home/team/team-3.jpg" alt="img" class="img-circle">
+                    <img src="img/DIRECTIVA/ellen.jpg" alt="img" class="img-circle">
                     <div class="maskingContent">
                       <ul class="list-inline">
                        <!-- <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -439,7 +438,7 @@
               <div class="slide">
                 <div class="teamContent">
                   <div class="teamImage">
-                    <img src="img/home/team/team-4.jpg" alt="img" class="img-circle">
+                    <img src="img/DIRECTIVA/marlene.jpg" alt="img" class="img-circle">
                     <div class="maskingContent">
                       <ul class="list-inline">
                        <!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -488,12 +487,12 @@
           <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector cena">
             <article class="">
               <figure>
-                <img src="img/CIERRE2017/<?php echo $i;?>.JPG" alt="image" class="img-rounded">
+                <img src="img/CIERRE2017/<?php echo $i;?>.jpg" alt="image" class="img-rounded">
                 <div class="overlay-background">
                   <div class="inner"></div>
                 </div>
                 <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/CIERRE2017/<?php echo $i;?>.JPG">
+                  <a class="fancybox-pop" rel="portfolio-1" href="img/CIERRE2017/<?php echo $i;?>.jpg">
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -504,7 +503,7 @@
         </div>
 
         <div class="btnArea">
-          <a href="galeria1.php" class="btn bg-color-4">VER MÁS</a>
+          <a href="galeria.php" class="btn bg-color-4">VER MÁS</a>
         </div>
 
       </div>

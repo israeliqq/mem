@@ -25,46 +25,32 @@
     <section class="whiteSection full-width clearfix testimonialArea">
       <div class="container">
         <div class="row testimonial-grid">
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-3 col-xs-12">
             <div class="testimonialContent  bg-color-1">
-              <span class="userSign border-color-1"><img src="img/testimonial/1.jpg" alt="img" class="img-circle img-responsive"></span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <h3>Physical Activity <br> <small>Sarah’s Father</small></h3>
+              <span class="userSign border-color-1"><img src="img/DIRECTIVA/enrique.jpg" alt="img" class="img-circle img-responsive"></span>
+              <p>"Escribir algunas palabras, habilidades o una cita de cada uno"</p>
+              <h3>Enrique Quintana <br> <small>Presidente</small></h3>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-3 col-xs-12">
             <div class="testimonialContent  bg-color-2">
-              <span class="userSign border-color-2"><img src="img/testimonial/2.jpg" alt="img" class="img-circle img-responsive"></span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <h3>Physical Activity <br> <small>Sarah’s Father</small></h3>
+              <span class="userSign border-color-2"><img src="img/DIRECTIVA/lucila.jpg" alt="img" class="img-circle img-responsive"></span>
+              <p>"Escribir algunas palabras, habilidades o una cita de cada uno"</p>
+              <h3>Lucila Villegas <br> <small>Vicepresidenta</small></h3>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-3 col-xs-12">
             <div class="testimonialContent  bg-color-3">
-              <span class="userSign border-color-3"><img src="img/testimonial/3.jpg" alt="img" class="img-circle img-responsive"></i></span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <h3>Physical Activity <br> <small>Sarah’s Father</small></h3>
+              <span class="userSign border-color-3"><img src="img/DIRECTIVA/ellen.jpg" alt="img" class="img-circle img-responsive"></i></span>
+              <p>"Escribir algunas palabras, habilidades o una cita de cada uno"</p>
+              <h3>Ellen Jorquera <br> <small>Tesorera</small></h3>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-sm-3 col-xs-12">
             <div class="testimonialContent  bg-color-4">
-              <span class="userSign border-color-4"><img src="img/testimonial/4.jpg" alt="img" class="img-circle img-responsive"></span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <h3>Physical Activity <br> <small>Sarah’s Father</small></h3>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12">
-            <div class="testimonialContent  bg-color-5">
-              <span class="userSign border-color-5"><img src="img/testimonial/5.jpg" alt="img" class="img-circle img-responsive"></span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <h3>Physical Activity <br> <small>Sarah’s Father</small></h3>
-            </div>
-          </div>
-          <div class="col-sm-4 col-xs-12">
-            <div class="testimonialContent  bg-color-6">
-              <span class="userSign border-color-6"><img src="img/testimonial/6.jpg" alt="img" class="img-circle img-responsive"></span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <h3>Physical Activity <br> <small>Sarah’s Father</small></h3>
+              <span class="userSign border-color-4"><img src="img/DIRECTIVA/marlene.jpg" alt="img" class="img-circle img-responsive"></span>
+              <p>"Escribir algunas palabras, habilidades o una cita de cada uno"</p>
+              <h3>Marlene Navarrete <br> <small>Secretaria</small></h3>
             </div>
           </div>
         </div>

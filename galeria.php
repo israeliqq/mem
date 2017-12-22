@@ -19,46 +19,40 @@
 
     <!-- MAIN SECTION -->
 
-
-    <section class="mainContent full-width clearfix homeGallerySection">
+    <section class="mainContent full-width clearfix newsSection">
       <div class="container">
         <div class="row">
-        	<h1 class="titulo-galeria-2">programa de religión - cierre de año 2017 - distrito norte</h1>
-        	<hr>
-        </div>
-        <div class="row isotopeContainer" id="container">
-
-
-
-        <?php for ($i = 1; $i <= 38; $i++) {?>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
-            <article class="">
-              <figure>
-                <img src="img/CIERRE2017/<?php echo $i;?>.JPG" alt="image" class="img-rounded">
-                <div class="overlay-background">
-                  <div class="inner"></div>
-                </div>
-                <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/CIERRE2017/<?php echo $i;?>.JPG">
-                    <i class="fa fa-search-plus" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </figure>
-            </article>
+          <div class="col-sm-6 col-xs-12 block">
+            <div class="thumbnail thumbnailContent">
+              <a href="CIERRE.php"><img src="img/CIERRE2017/2.jpg" alt="image" class="img-responsive"></a>
+              <div class="caption">
+                <h3><a href="galeria.php" class="titulo-galeria">Cena de cierre de actividades<br>MEM Distrito Norte</a></h3>
+                <p> Actividad fraternal de cierre de año de las redes de Religión y de Unidades Técnicas Pedagógicas de los colegios del distrito Norte. </p>
+                  <time><small style="font-style:italic;">14 de Diciembre 2018 , Iquique.</small></time>
+                <ul class="list-inline btn-yellow">
+                  <li><a href="CIERRE.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ver Más</a></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 block">
+            <div class="thumbnail thumbnailContent" >
+              <a href="CONGRESO.php"><img src="img/CONGRESO2017/34.JPG" alt="image" class="img-responsive"></a>
+              <div class="caption">
+                <h3><a href="galeria.php" class="titulo-galeria">Congreso MEM Nacional - 2017</a></h3>
+                <p> Congreso del Ministerio de Educación realizado el 28 y 29 de septiembre del 2017 en la ciudad de angol - fundo el vergel.</p>
+                  <time><small style="font-style:italic;">21 de Diciembre 2018 , Iquique.</small></time>
+                  <ul class="list-inline btn-yellow">
+                  <li><a href="CONGRESO.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ver Más</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-
-		<?php }?>
-
-
-        </div>
-        <!--
-          	<div class="btnArea">
-          	<a href="blog-grid.html" class="btn btn-primary">VER MÁS</a>
-        	</div>
-        -->
-      </div>
-    </section>
+        
+    </div>
+    </div>
+</section>
+ 
 
 
 
