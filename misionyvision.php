@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-sm-push-6 col-xs-12">
-            <img src="img/about_us/main.jpg" alt="image" class="img-responsive img-rounded">
+            <img src="img/logomem.png" alt="image" class="img-responsive img-rounded">
           </div>
           <div class="col-sm-6 col-sm-pull-6 col-xs-12">
             <div class="schoolInfo">

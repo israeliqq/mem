@@ -25,7 +25,7 @@ $dato = $array->fetch_assoc();
 
     <!-- MAIN SECTION -->
     <section class="mainContent full-width clearfix conactSection">
-    <?php for ($i = 1; $i<= 18; $i++) {?>
+    <?php for ($var = 1 ; $var <= sizeof ($dato) ; $var++) {?>
       <div class="container">
        <div class="row">
             

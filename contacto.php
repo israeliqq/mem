@@ -44,8 +44,8 @@
               </span>
               <div class="media-body">
                 <h3 class="media-heading">Teléfono:</h3>
-                <p>+56 9 1234 5678</p>
-                <p>+56 2 222 222</p>
+                <p>+56 9-62180455</p>
+                <p>57-2-398000 </p>
               </div>
             </div>
           </div>

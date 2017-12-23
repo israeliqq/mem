@@ -12,7 +12,7 @@
         <div class="fullscreenbanner">
           <ul>
             <li data-transition="fade" data-slotamount="5" data-masterspeed="800" data-title="Slide 1">
-              <img src="img/equipo_mem.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+              <img src="img/equipo_directivo.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
                 <div class="tp-caption rs-caption-1 sft start"
                   data-hoffset="0"
@@ -97,17 +97,17 @@
               </div>
             </li>
             <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 2">
-              <img src="img/CIERRE2017/4.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+              <img src="img/tarjeta_de_saludo.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
                 <div class="tp-caption rs-caption-1 sft start text-center"
                   data-hoffset="0"
                   data-x="center"
-                  data-y="200"
+                  data-y="100"
                   data-speed="800"
                   data-start="1000"
                   data-easing="Back.easeInOut"
                   data-endspeed="300">
-                  MEM
+                
                 </div>
 
                 <div class="tp-caption rs-caption-2 sft text-center"
@@ -120,8 +120,7 @@
                   data-endspeed="300"
                   data-endeasing="Power1.easeIn"
                   data-captionhidden="off">
-                  Ministerio de Educación Metodista <br>
-                  Chile 2018
+                
                 </div>
               </div>
             </li>

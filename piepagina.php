@@ -24,7 +24,7 @@
    <div class="footerInfoArea full-width clearfix">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3 col-xs-12">
+        <div class="col-sm-6 col-xs-12">
           <div class="footerTitle" align="center">
             <a href="index.php"><img src="img/logomem3.png"></a>
 
@@ -36,7 +36,7 @@
         </div>
 
 
-        <div class="col-sm-3 col-xs-12">
+        <!--<div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
             <h4>Noticias Recientes</h4>
           </div>
@@ -77,11 +77,11 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div>-->
 
 
 
-        <div class="col-sm-3 col-xs-12">
+        <div class="col-sm-6 col-xs-12">
           <div class="footerTitle">
             <h4>Enlaces MEM</h4>
           </div>
@@ -122,7 +122,7 @@
         </div>
 
 
-        <div class="col-sm-3 col-xs-12">
+      <!--  <div class="col-sm-3 col-xs-12">
           <div class="footerTitle" >
             <h4>Eventos Próximos</h4>
           </div>
@@ -163,7 +163,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
