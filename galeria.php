@@ -23,10 +23,10 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
+            <div class="thumbnailContent">
               <a href="CIERRE.php"><img src="img/CIERRE2017/2.jpg" alt="image" class="img-responsive"></a>
               <div class="caption">
-                <h3><a href="galeria.php" class="titulo-galeria">Cena de cierre de actividades<br>MEM Distrito Norte</a></h3>
+                <h3><a href="galeria.php" class="titulo-galeria color-4">Cena de cierre de actividades<br>MEM Distrito Norte</a></h3>
                 <p> Actividad fraternal de cierre de año de las redes de Religión y de Unidades Técnicas Pedagógicas de los colegios del distrito Norte. </p>
                   <time><small style="font-style:italic;">14 de Diciembre 2018 , Iquique.</small></time>
                 <ul class="list-inline btn-yellow">
@@ -36,10 +36,10 @@
             </div>
             </div>
             <div class="col-sm-6 col-xs-12 block">
-            <div class="thumbnail thumbnailContent" >
+            <div class="thumbnailContent" >
               <a href="CONGRESO.php"><img src="img/CONGRESO2017/34.JPG" alt="image" class="img-responsive"></a>
               <div class="caption">
-                <h3><a href="galeria.php" class="titulo-galeria">Congreso MEM Nacional - 2017</a></h3>
+                <h3><a href="galeria.php" class="titulo-galeria color-4">Congreso MEM Nacional - 2017</a></h3>
                 <p> Congreso del Ministerio de Educación realizado el 28 y 29 de septiembre del 2017 en la ciudad de angol - fundo el vergel.</p>
                   <time><small style="font-style:italic;">21 de Diciembre 2018 , Iquique.</small></time>
                   <ul class="list-inline btn-yellow">

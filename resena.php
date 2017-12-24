@@ -24,7 +24,7 @@
         <div class="row">
 
             <div class="schoolInfo" >
-              <h2>Reseña Historica - Ministerio de Educación Metodista</h2>
+              <h2 class="color-4">Reseña Historica - Ministerio de Educación Metodista</h2>
             </div>
 
 
