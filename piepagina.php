@@ -24,7 +24,7 @@
    <div class="footerInfoArea full-width clearfix">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-4 col-xs-12">
           <div class="footerTitle" align="center">
             <a href="index.php"><img src="img/logomem3.png"></a>
 
@@ -81,7 +81,7 @@
 
 
 
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-4 col-xs-12">
           <div class="footerTitle">
             <h4>Enlaces MEM</h4>
           </div>
@@ -94,9 +94,14 @@
               </li>
               <li>
                 <a href="index.php#ourCourses">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Eventos Próximos
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Próximos Eventos
+                </a> 
+             </li>
+              <li> 
+                  <a href="http://www.alaime.net/web/" target="_blank">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Sitio Oficial ALAIME
                 </a>
-              </li>
+              </li>     
               <li>
                 <a href="index.php">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Descargar Documentos

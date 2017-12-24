@@ -140,6 +140,11 @@ h5 {
     font-family: 'Dosis', sans-serif;
     
 }
+.lista-ordenada
+{
+    text-align: left;
+    font-size: 15px;
+}
 
 /*=== CONTENIDO GALERIA 1 ===*/
 .card-img-top {
@@ -1291,7 +1296,7 @@ aside {
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1); }
   .thumbnail > a img {
     border-radius: 9px 9px 0 0;
-    width: 100%; }
+    width: 80%; }
   .thumbnail img {
     border-radius: 9px 9px 0 0;
     width: 100%; }

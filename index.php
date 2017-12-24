@@ -132,7 +132,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3">
-              <a href="#ourCourses" class="sectionLink bg-color-4" id="coursesLink">
+              <a href="index.php#ourCourses" class="sectionLink bg-color-4" id="coursesLink">
                 <i class="fa fa-calendar linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Eventos</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
@@ -577,34 +577,45 @@ $dato = $array->fetch_assoc();
 
 
      <!-- EVENTOS -->
-     <!--
+    
   <section class="whiteSection full-width clearfix coursesSection" id="ourCourses">
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
-            <span class="shape shape-left bg-color-3"></span>
-            <span>Eventos</span>
-            <span class="shape shape-right bg-color-3"></span>
+            <span class="shape shape-left bg-color-4"></span>
+            <span style="color: #4EAB62">Próximos Eventos</span>
+            <span class="shape shape-right bg-color-4"></span>
           </h2>
         </div>
         <div class="row">
-          <div class="col-sm-3 col-xs-12 block">
+          <div class="col-sm-7 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a href="#"><img src="img/home/courses/course-1.jpg" alt="image" class="img-responsive"></a>
-              <div class="caption border-color-1">
-                <h3><a href="#" class="color-1">Seminarios</a></h3>
+              <a><img src="img/eventos/portada%20libro%20BASICA.jpg" alt="image" class="img-responsive"></a>
+              <div class="caption border-color-4">
+                <h3><a class="color-4">Diplomado</a></h3>
                 <ul class="list-unstyled">
-                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>2018</li>
+                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>05 al 10 de enero de 2018</li>
                   
                 </ul>
-                <p>SIN DATOS </p>
-                <ul class="list-inline btn-yellow">
+                <p style="text-align:justify;"> Tercera Jornada de Capacitación de Profesores de Religión de los Colegios Metodistas
+                    a realizarse en el Colegio Inglés de Iquique ubicado en Patricio Lynch 1580 Iquique,
+                    Organizado por el <b>Seminario Metodista y Ministerio de Educación Metodista</b></p>
+                  <br><br>
+                  <p><b>Contactos</b></p>
+                     <div class="lista-ordenada"><li>Obispo Mario Martínez: <b>mariomartinez50@yahoo.com</b></li>
+                      <br> 
+                      <li>Profesor Enrique Quintana Maldonado: <b>enriquequintana@colegioingles.org</b></li>
+                      <br>
+                      
+                      <li>Marlene Navarrete: <b>marlenenavarrete@colegioingles.org</b></li></div></div>
+                <!--<ul class="list-inline btn-yellow">
                   <li><a href="#" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> VER MAS</a></li>
-                </ul>
+                </ul>-->
               </div>
             </div>
-          </div>
-          <div class="col-sm-3 col-xs-12 block">
+        
+      
+          <!--<div class="col-sm-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a href="#"><img src="img/home/courses/course-2.jpg" alt="image" class="img-responsive"></a>
               <div class="caption border-color-2">
@@ -618,8 +629,8 @@ $dato = $array->fetch_assoc();
                 </ul>
               </div>
             </div>
-          </div>
-          <div class="col-sm-3 col-xs-12 block">
+          </div>-->
+         <!-- <div class="col-sm-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a href="#"><img src="img/home/courses/course-3.jpg" alt="image" class="img-responsive"></a>
               <div class="caption border-color-6">
@@ -633,8 +644,8 @@ $dato = $array->fetch_assoc();
                 </ul>
               </div>
             </div>
-          </div>
-          <div class="col-sm-3 col-xs-12 block">
+          </div>-->
+         <!-- <div class="col-sm-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a href="#"><img src="img/home/courses/course-4.jpg" alt="image" class="img-responsive"></a>
               <div class="caption border-color-4">
@@ -648,11 +659,11 @@ $dato = $array->fetch_assoc();
                 </ul>
               </div>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
-    -->
+ 
         <!-- EVENTOS -->
 
 
