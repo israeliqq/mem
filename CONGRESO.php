@@ -40,7 +40,7 @@
                   <div class="inner"></div>
                 </div>
                 <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/CIERRE2017/<?php echo $i;?>.JPG">
+                  <a class="fancybox-pop" rel="portfolio-1" href="img/CONGRESO2017/<?php echo $i;?>.JPG">
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>

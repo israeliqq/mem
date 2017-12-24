@@ -1,6 +1,6 @@
 <?php  
 function Conexion(){  
-   $link = new mysqli('localhost', 'user','', 'mem');
+   $link = new mysqli('localhost', 'memcl_user','educacion2018', 'memcl_mem');
    if ($link -> connect_errno) {
 
    die( "Fallo la conexión a MySQL: (" . $link -> mysqli_connect_errno() 
@@ -39,8 +39,5 @@ function cantidadColegios(){
    return $result;  
 }
 
-function postular(){
-    $result = Conexion()->query("SELECT * FROM institucion");
-    return $result;
-}
+
 ?> 

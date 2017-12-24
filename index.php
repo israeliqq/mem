@@ -1,6 +1,3 @@
-
-
-
 <!-- HEADER -->
 <?php include("cabezera.php");  ?>
 <!-- HEADER -->
@@ -12,7 +9,7 @@
         <div class="fullscreenbanner">
           <ul>
             <li data-transition="fade" data-slotamount="5" data-masterspeed="800" data-title="Slide 1">
-              <img src="img/equipo_directivo.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+              <img src="img/equipo_directivo.jpeg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
                 <div class="tp-caption rs-caption-1 sft start"
                   data-hoffset="0"
@@ -245,9 +242,8 @@
                 <i class="fa fa-globe bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-4">Descentralización </h3>
-                <p>Descentralizar la acción educativa nacional fortaleciendo el trabajo en
-                    los distritos.</p>
+                <h3 class="media-heading color-4">Difusión </h3>
+                <p>Difundir la Educación Metodista hacia las congregaciones y organismos laicos de la IMECH.</p>
               </div>
             </div>
           </div>
@@ -359,7 +355,6 @@
             </div>
           </div>
         </div>
-
       <!--  <div class="btnArea ">
           <a href="blog-grid.html" class="btn bg-color-4">VER MÁS</a>
         </div>-->
@@ -506,12 +501,12 @@
           <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector congreso">
             <article class="">
               <figure>
-                <img src="img/CONGRESO2017/<?php echo $i;?>.jpg" alt="image" class="img-rounded">
+                <img src="img/CONGRESO2017/<?php echo $i;?>.JPG" alt="image" class="img-rounded">
                 <div class="overlay-background">
                   <div class="inner"></div>
                 </div>
                 <div class="overlay">
-                  <a class="fancybox-pop" rel="portfolio-1" href="img/CONGRESO2017/<?php echo $i;?>.jpg">
+                  <a class="fancybox-pop" rel="portfolio-1" href="img/CONGRESO2017/<?php echo $i;?>.JPG">
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -532,9 +527,7 @@
 $matricula = matricula();
 $funcionarios = funcionarios();
 $colegios = cantidadColegios();
-
 $dato = $array->fetch_assoc();
-
 ?>
 
     <section class="countUpSection" >
@@ -594,7 +587,6 @@ $dato = $array->fetch_assoc();
             <span class="shape shape-right bg-color-3"></span>
           </h2>
         </div>
-
         <div class="row">
           <div class="col-sm-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
@@ -668,4 +660,3 @@ $dato = $array->fetch_assoc();
 <!-- FOOTER -->
 <?php include("piepagina.php");  ?>
 <!-- FOOTER -->
-
