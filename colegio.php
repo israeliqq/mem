@@ -37,6 +37,7 @@ $dato = $array->fetch_assoc();
               
               <div class="caption border-color-1">
                 <img src="<?php echo utf8_encode($dato['imagen']);?>" alt="colegio" class="img-responsive">
+                <br>
                 <h3 id="titulo-colegio">Visión</h3>
                 <p id="parrafo-colegio"><?php echo utf8_encode($dato['vision']); ?></p>
                 <hr>
