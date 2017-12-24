@@ -132,28 +132,28 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3">
-              <a href="#eventos" class="sectionLink bg-color-4" id="coursesLink">
+              <a href="#eventos" class="sectionLink bg-color-4">
                 <i class="fa fa-calendar linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Eventos</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="#ourTeam" class="sectionLink bg-color-4" id="teamLink">
+              <a href="#directiva" class="sectionLink bg-color-4" >
                 <i class="fa fa-users linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Directiva</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="#ourGallery" class="sectionLink bg-color-4" id="galleryLink">
+              <a href="#galeria" class="sectionLink bg-color-4" >
                 <i class="fa fa-picture-o linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Galería</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
               </a>
             </div>
             <div class="col-sm-3">
-              <a href="#latestNews" class="sectionLink bg-color-4" id="newsLink">
+              <a href="#noticias" class="sectionLink bg-color-4">
                 <i class="fa fa-newspaper-o linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Noticias</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
@@ -270,7 +270,7 @@
     </section>
 
     <!-- WHITE SECTION -->
-      <section class="whiteSection full-width clearfix newsSection" id="latestNews">
+      <section class="whiteSection full-width clearfix newsSection" id="noticias">
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
@@ -362,7 +362,7 @@
       </div>
     </section>
     <!-- COLOR SECTION -->
-    <section class="colorSection full-width clearfix bg-color-4 teamSection" id="ourTeam">
+    <section class="colorSection full-width clearfix bg-color-4 teamSection" id="directiva">
       <div class="container">
         <div class="sectionTitle text-center alt">
           <h2>
@@ -454,7 +454,7 @@
     </section>
 
     <!-- WHITE SECTION -->
-    <section class="whiteSection full-width clearfix homeGallerySection" id="ourGallery">
+    <section class="whiteSection full-width clearfix homeGallerySection" id="galeria">
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
@@ -578,22 +578,17 @@ $dato = $array->fetch_assoc();
 
      <!-- EVENTOS -->
     
-  <section class="whiteSection full-width clearfix coursesSection" id="eventos">
+  <section class="whiteSection full-width clearfix coursesSection" >
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
             <span class="shape shape-left bg-color-4"></span>
-            <span style="color: #4EAB62">Próximos Eventos</span>
+            <span style="color: #4EAB62" id="eventos">Próximos Eventos</span>
             <span class="shape shape-right bg-color-4"></span>
           </h2>
         </div>
         <div class="row">
-
-
-
           <div class="col-sm-4 col-xs-12 block"></div>
-
-
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnailContent">
               <a><img src="img/eventos/portada%20libro%20BASICA.jpg" alt="image" class="img-responsive"></a>

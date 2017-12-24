@@ -88,12 +88,12 @@
           <div class="footerInfo">
             <ul class="list-unstyled footerList">
               <li>
-                <a href="index.php#latestNews">
+                <a href="index.php#noticias">
                 <i class="fa fa-angle-double-right" aria-hidden="true"></i>Noticias Recientes
                 </a>
               </li>
               <li>
-                <a href="index.php#ourCourses">
+                <a href="index.php#eventos">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Próximos Eventos
                 </a> 
              </li>     
