@@ -1,6 +1,6 @@
 <?php  
 function Conexion(){  
-   $link = new mysqli('localhost', 'memcl_user','educacion2018', 'memcl_mem');
+   $link = new mysqli('localhost', 'user','', 'mem');
    if ($link -> connect_errno) {
 
    die( "Fallo la conexión a MySQL: (" . $link -> mysqli_connect_errno() 

@@ -33,8 +33,9 @@ $dato = $array->fetch_assoc();
         <div class="row">
           <div class="col-md-9 col-sm-8 col-xs-12 block pull-right">
             <div class="thumbnail thumbnailContent alt">
-              <!--<img src="img/course-single/course-single-title.jpg" alt="image" class="img-responsive">-->
+              
               <div class="caption border-color-1">
+                <img src="<?php echo utf8_encode($dato['imagen']);?>" alt="colegio" class="img-responsive">
                 <h3 id="titulo-colegio">Visión</h3>
                 <p id="parrafo-colegio"><?php echo utf8_encode($dato['vision']); ?></p>
                 <hr>
@@ -49,146 +50,6 @@ $dato = $array->fetch_assoc();
                 <hr>
                 <p id="parrafo-colegio" class="color-1"><i class="fa fa-internet-explorer" aria-hidden="true"></i> Sitio Web: <span id="parrafo-colegio"  style="font-weight: bold;"><a target="_blank"  href="http://<?php echo utf8_encode($dato['web']); ?>"><?php echo utf8_encode($dato['web']); ?></a></span></p>
                 <hr>    
-
-
-
-<!--        
-                <h3 class="color-1">Course Schedule</h3>
-
-
-                <div class="table-responsive">
-                  <table class="table table-curved">
-                    <thead>
-                      <tr>
-                        <th class="col-sm-2 bg-color-1">Time <i class="fa fa-arrow-down" aria-hidden="true"></i></th>
-                        <th class="col-sm-2 bg-color-2">Monday</th>
-                        <th class="col-sm-2 bg-color-3">Tuesday</th>
-                        <th class="col-sm-2 bg-color-4">Wednesday</th>
-                        <th class="col-sm-2 bg-color-5">Thursday</th>
-                        <th class="col-sm-2 bg-color-6">Friday</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>9.00 - 10.00 AM</td>
-                        <td>
-                          <span class="color-2">History</span>
-                          School History
-                        </td>
-                        <td>
-                          <span class="color-3">Math</span>
-                          Larning Numbers
-                        </td>
-                        <td>
-                          <span class="color-4">Geography</span>
-                          Making a Map
-                        </td>
-                        <td>
-                          <span class="color-5">English</span>
-                          Speaking English
-                        </td>
-                        <td>
-                          <span class="color-6">Art</span>
-                          Art
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>10.00 - 11.00 AM</td>
-                        <td>
-                          <span class="color-2">Geography</span>
-                          Making a Map
-                        </td>
-                        <td>
-                          <span class="color-3">English</span>
-                          Speaking English
-                        </td>
-                        <td>
-                          <span class="color-4">Art</span>
-                          Art
-                        </td>
-                        <td>
-                          <span class="color-5">Math</span>
-                          Larning Numbers
-                        </td>
-                        <td>
-                          <span class="color-6">History</span>
-                          School History
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>11.00 - 11.30 AM</td>
-                        <td>
-                          <span class="color-2">Break</span>
-                          Lunch
-                        </td>
-                        <td>
-                          <span class="color-3">Break</span>
-                          Lunch
-                        </td>
-                        <td>
-                          <span class="color-4">Break</span>
-                          Lunch
-                        </td>
-                        <td>
-                          <span class="color-5">Break</span>
-                          Lunch
-                        </td>
-                        <td>
-                          <span class="color-6">Break</span>
-                          Lunch
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>11.30 - 12.30 PM</td>
-                        <td>
-                          <span class="color-2">English</span>
-                          Speaking English
-                        </td>
-                        <td>
-                          <span class="color-3">Art</span>
-                          Art
-                        </td>
-                        <td>
-                          <span class="color-4">History</span>
-                          School History
-                        </td>
-                        <td>
-                          <span class="color-5">Geography</span>
-                          Making a Map
-                        </td>
-                        <td>
-                          <span class="color-6">Math</span>
-                          Larning Numbers
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>12.30 - 1.30 PM</td>
-                        <td>
-                          <span class="color-2">Geography</span>
-                          Making a Map
-                        </td>
-                        <td>
-                          <span class="color-3">English</span>
-                          Speaking English
-                        </td>
-                        <td>
-                          <span class="color-4">Art</span>
-                          Art
-                        </td>
-                        <td>
-                          <span class="color-5">Math</span>
-                          Larning Numbers
-                        </td>
-                        <td>
-                          <span class="color-6">History</span>
-                          School History
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
--->
               </div>          
             </div>
           </div>
