@@ -84,7 +84,7 @@
 
         <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
-            <h4>Enlaces MEM</h4>
+            <h4>Enlaces M.E.M.</h4>
           </div>
           <div class="footerInfo">
             <ul class="list-unstyled footerList">
@@ -99,17 +99,12 @@
                 </a> 
              </li>     
               <li>
-                <a href="index.php">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Descargar Documentos
-                </a>
-              </li>
-              <li>
                 <a href="index.php#objetivos">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Nuestros Objetivos
                 </a>
               </li>
               <li>
-                <a href="index.php#ourGallery">
+                <a href="galeria.php">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Galería de Fotos
                 </a>
               </li>
@@ -128,12 +123,12 @@
             <h4>Instituciones</h4>
           </div>
           <div class="footerInfo" align="center">
-            <a href="http://www.alaime.net/web/"></a>
-            <img src="img/alaime.png" >
+            <a href="http://www.alaime.net/web/">
+            <img src="img/alaime.png">
             </a>
             <hr>
-            <a href="http://www.metodistachile.cl/"></a>
-            <img src="img/imech.png" >
+            <a href="http://www.metodistachile.cl/">
+            <img src="img/imech.png">
             </a>
           </div>
         </div>
