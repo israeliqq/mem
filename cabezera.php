@@ -70,7 +70,7 @@
           <div class="row">
             <div class="col-sm-12">
               <ul class="list-inline topList">
-                <li><i class="fa fa-envelope " id="color-icons-topbar" aria-hidden="true"></i> <a href="mailto:contacto@mem.cl">enriquequintana@colegioingles.org</a></li>
+                <li><i class="fa fa-envelope " id="color-icons-topbar" aria-hidden="true"></i> <a href="mailto:contacto@mem.cl">contacto@mem.cl</a></li>
                 <li><i class="fa fa-phone " id="color-icons-topbar"  aria-hidden="true"></i> 57-2-398000</li>
                 <li><i class="fa fa-clock-o" id="color-icons-topbar" aria-hidden="true"></i> Horario 8:00 a 18:00</li>
               </ul>

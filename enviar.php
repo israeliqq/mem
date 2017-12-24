@@ -14,13 +14,13 @@ $Nombre  = $_POST['nombre'];
 $Telefono= $_POST['telefono'];
 $Email   = $_POST['correo'];
 $Asunto  = $_POST['asunto'];
-$Destino = 'israeliqq@live.cl';
+$Destino = 'contacto@mem.cl';
 
 
-$Mensaje = 'TELEFONO: '.$Telefono.'\r\n';
-$Mensaje .= 'ASUNTO: '.$Asunto.'\r\n';
-$Mensaje .= 'EMAIL: '.$Email.'\r\n';
-$Mensaje .= 'MENSAJE: '.$_POST['mensaje'].'\r\n';
+$Mensaje = 'TELEFONO: '.$Telefono.' || ';
+$Mensaje .= 'ASUNTO: '.$Asunto.' || ';
+$Mensaje .= 'EMAIL: '.$Email.' || ';
+$Mensaje .= 'MENSAJE: '.$_POST['mensaje'];
 
 
 $bool = mail(utf8_decode($destino),utf8_decode($Asunto),utf8_decode($Mensaje),utf8_decode($Correo));
@@ -28,9 +28,9 @@ $bool = mail(utf8_decode($destino),utf8_decode($Asunto),utf8_decode($Mensaje),ut
 
 $bool = mail("israeliqq@live.cl",$Asunto,$Mensaje,$headers);
 if($bool){
-    echo "Mensaje enviado";
+    header('Location: exitomail.php');
 }else{
-    echo "Mensaje no enviado";
+    header('Location: failmail.php');
 }
 
 
