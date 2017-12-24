@@ -24,15 +24,14 @@
    <div class="footerInfoArea full-width clearfix">
     <div class="container">
       <div class="row" >
-        <div class="col-sm-6 col-xs-12" >
+        <div class="col-sm-7 col-xs-12" >
           <div align="center">
             <a href="index.php"><img src="img/logomem3.png" height="80"></a>
           </div>
           <hr>
 
           <div class="footerInfo">
-            <p><b>“ </b>Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia. <b>”</b></p>
-            <p>Proverbios 2:3-6.</p>
+            <p><b>“ </b>Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia. <b>”</b> <br><br>Proverbios 2:3-6.</p>
           </div>
         </div>
 
@@ -82,7 +81,7 @@
 
 
 
-        <div class="col-sm-3 col-xs-12">
+        <div class="col-sm-2 col-xs-12">
           <div class="footerTitle">
             <h4>Enlaces M.E.M.</h4>
           </div>
@@ -118,7 +117,7 @@
         </div>
 
 
-        <div class="col-sm-3 col-xs-12">
+        <div class="col-sm-2 col-xs-12">
           <div class="footerTitle" >
             <h4>Instituciones</h4>
           </div>
@@ -132,6 +131,8 @@
             </a>
           </div>
         </div>
+
+        <div class="col-sm-1 col-xs-12"></div>
       </div>
     </div>
   </div>

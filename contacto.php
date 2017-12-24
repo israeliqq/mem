@@ -57,11 +57,13 @@
               <div class="media-body">
                 <h3 class="media-heading">Correo:</h3>
                 <p><a href="mailto:contacto@mem.cl">contacto@mem.cl</a></p>
-                <p><a href="mailto:director@mem.cl">director@mem.cl</a></p>
+                <p><a href="mailto:director@mem.cl">presidente@mem.cl</a></p>
               </div>
             </div>
           </div>
         </div>
+        <hr>
+        <!--
         <div class="row">
           <div class="col-xs-12">
             <div class="mapArea areaPadding">
@@ -69,6 +71,8 @@
             </div>
           </div>
         </div>
+        -->
+
         <div class="row">
           <div class="col-xs-12">
             <div class="homeContactContent">
@@ -118,10 +122,10 @@
     </section>
 
 
-
+<!--
 <script src="plugins/google-custom-map/google-map.js"></script>
 <script src="http://maps.google.com/maps/api/js?key=AIzaSyAjUY8rnvqvQmnUvnztrDgnIpQTLxidt18&callback=initMap"></script>
-
+-->
 
 <!-- FOOTER -->
 <?php include("piepagina.php");  ?>
