@@ -132,7 +132,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3">
-              <a href="index.php#ourCourses" class="sectionLink bg-color-4" id="coursesLink">
+              <a href="#eventos" class="sectionLink bg-color-4" id="coursesLink">
                 <i class="fa fa-calendar linkIcon border-color-4" aria-hidden="true"></i>
                 <span class="linkText">Eventos</span>
                 <i class="fa fa-chevron-down locateArrow" aria-hidden="true"></i>
@@ -578,7 +578,7 @@ $dato = $array->fetch_assoc();
 
      <!-- EVENTOS -->
     
-  <section class="whiteSection full-width clearfix coursesSection" id="ourCourses">
+  <section class="whiteSection full-width clearfix coursesSection" id="eventos">
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>

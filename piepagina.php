@@ -119,7 +119,7 @@
 
         <div class="col-sm-2 col-xs-12">
           <div class="footerTitle" >
-            <h4>Instituciones</h4>
+            <h4>Instituciones Relacionadas</h4>
           </div>
           <div class="footerInfo" align="center">
             <a href="http://www.alaime.net/web/">
