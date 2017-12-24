@@ -588,6 +588,12 @@ $dato = $array->fetch_assoc();
           </h2>
         </div>
         <div class="row">
+
+
+
+          <div class="col-sm-4 col-xs-12 block"></div>
+
+
           <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnailContent">
               <a><img src="img/eventos/portada%20libro%20BASICA.jpg" alt="image" class="img-responsive"></a>
@@ -596,28 +602,22 @@ $dato = $array->fetch_assoc();
                 <ul class="list-unstyled">
                   <li><i class="fa fa-calendar-o" aria-hidden="true"></i>05 al 10 de enero de 2018</li>
                 </ul>
-                <p style="text-align:justify;"> Tercera Jornada de Capacitación de Profesores de Religión de los Colegios Metodistas
-                    a realizarse en el Colegio Inglés de Iquique ubicado en Patricio Lynch 1580 Iquique,
-                    Organizado por el <b>Seminario Metodista y Ministerio de Educación Metodista.</b><br><br>
-                    <b><i class="fa fa-envelope" aria-hidden="true"></i> CONTACTOS</b>
+                <p align="justify"> Tercera Jornada de Capacitación de Profesores de Religión para los Colegios Metodistas, a realizarse en el Colegio Inglés de Iquique, ubicado en Patricio Lynch 1580 Iquique. Este es organizado por el <b>Seminario Metodista y Ministerio de Educación Metodista.</b>
                   </p>
-                  
-                   <div class="lista-ordenada">
-                      <li><b>Obispo Mario Martínez: </b>
-                      mariomartinez50@yahoo.com</li>
-
-                      <li><b>Profesor Enrique Quintana Maldonado </b>enriquequintana@colegioingles.org</li>
-
-                      <li><b>Marlene Navarrete: </b>
-                      marlenenavarrete@colegioingles.org</li>
-                    </div>
+                  <div align="center">
+                    <p><b><i class="fa fa-envelope" aria-hidden="true"></i> CONTACTOS</b></p>
+                    <ul class="list-unstyled para-list">
+                      <li><b>Obispo Mario Martínez</b></li>mariomartinez50@yahoo.com
+                      <li><b>Profesor Enrique Quintana</b></li>enriquequintana@colegioingles.org
+                      <li><b>Marlene Navarrete</b></li>marlenenavarrete@colegioingles.org
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
         
 
 
-          <div class="col-sm-4 col-xs-12 block"></div>
           <div class="col-sm-4 col-xs-12 block"></div>
       
           <!--<div class="col-sm-3 col-xs-12 block">
