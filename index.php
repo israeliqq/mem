@@ -477,7 +477,7 @@
         </div>
 
         <div class="row isotopeContainer" id="container">
-        <?php for ($i = 1; $i <= 8; $i++) {?>
+        <?php for ($i = 1; $i <= 4; $i++) {?>
           <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector cena">
             <article class="">
               <figure>
@@ -497,7 +497,7 @@
         </div>
 
           <div class="row isotopeContainer" id="container">
-        <?php for ($i = 1; $i <= 8; $i++) {?>
+        <?php for ($i = 1; $i <= 4; $i++) {?>
           <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector congreso">
             <article class="">
               <figure>
@@ -588,32 +588,37 @@ $dato = $array->fetch_assoc();
           </h2>
         </div>
         <div class="row">
-          <div class="col-sm-7 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
+          <div class="col-sm-4 col-xs-12 block">
+            <div class="thumbnailContent">
               <a><img src="img/eventos/portada%20libro%20BASICA.jpg" alt="image" class="img-responsive"></a>
               <div class="caption border-color-4">
                 <h3><a class="color-4">Diplomado</a></h3>
                 <ul class="list-unstyled">
                   <li><i class="fa fa-calendar-o" aria-hidden="true"></i>05 al 10 de enero de 2018</li>
-                  
                 </ul>
                 <p style="text-align:justify;"> Tercera Jornada de Capacitación de Profesores de Religión de los Colegios Metodistas
                     a realizarse en el Colegio Inglés de Iquique ubicado en Patricio Lynch 1580 Iquique,
-                    Organizado por el <b>Seminario Metodista y Ministerio de Educación Metodista</b></p>
-                  <br><br>
-                  <p><b>Contactos</b></p>
-                     <div class="lista-ordenada"><li>Obispo Mario Martínez: <b>mariomartinez50@yahoo.com</b></li>
-                      <br> 
-                      <li>Profesor Enrique Quintana Maldonado: <b>enriquequintana@colegioingles.org</b></li>
-                      <br>
-                      
-                      <li>Marlene Navarrete: <b>marlenenavarrete@colegioingles.org</b></li></div></div>
-                <!--<ul class="list-inline btn-yellow">
-                  <li><a href="#" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> VER MAS</a></li>
-                </ul>-->
+                    Organizado por el <b>Seminario Metodista y Ministerio de Educación Metodista.</b><br><br>
+                    <b><i class="fa fa-envelope" aria-hidden="true"></i> CONTACTOS</b>
+                  </p>
+                  
+                   <div class="lista-ordenada">
+                      <li><b>Obispo Mario Martínez: </b>
+                      mariomartinez50@yahoo.com</li>
+
+                      <li><b>Profesor Enrique Quintana Maldonado </b>enriquequintana@colegioingles.org</li>
+
+                      <li><b>Marlene Navarrete: </b>
+                      marlenenavarrete@colegioingles.org</li>
+                    </div>
+                </div>
               </div>
             </div>
         
+
+
+          <div class="col-sm-4 col-xs-12 block"></div>
+          <div class="col-sm-4 col-xs-12 block"></div>
       
           <!--<div class="col-sm-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">

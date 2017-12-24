@@ -24,11 +24,12 @@
    <div class="footerInfoArea full-width clearfix">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 col-xs-12">
-          <div class="footerTitle" align="center">
-            <a href="index.php"><img src="img/logomem3.png"></a>
+        <div class="col-sm-6 col-xs-12">
+          <div align="center">
+            <a href="index.php"><img src="img/logomem3.png" height="80"></a>
 
           </div>
+          <hr>
           <div class="footerInfo">
             <p >“Si clamares a la inteligencia y a la prudencia dieres tu voz… Entonces entenderás el temor del Señor y hallarás el conocimiento de Dios. Porque el Señor da la sabiduría y de su boca viene el conocimiento y la inteligencia.”</p>
             <p align="right">Proverbios 2:3-6.</p>
@@ -81,7 +82,7 @@
 
 
 
-        <div class="col-sm-4 col-xs-12">
+        <div class="col-sm-3 col-xs-12">
           <div class="footerTitle">
             <h4>Enlaces MEM</h4>
           </div>
@@ -96,12 +97,7 @@
                 <a href="index.php#ourCourses">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Próximos Eventos
                 </a> 
-             </li>
-              <li> 
-                  <a href="http://www.alaime.net/web/" target="_blank">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>Sitio Oficial ALAIME
-                </a>
-              </li>     
+             </li>     
               <li>
                 <a href="index.php">
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>Descargar Documentos
@@ -127,48 +123,20 @@
         </div>
 
 
-      <!--  <div class="col-sm-3 col-xs-12">
+        <div class="col-sm-3 col-xs-12">
           <div class="footerTitle" >
-            <h4>Eventos Próximos</h4>
+            <h4>Instituciones</h4>
           </div>
-          <div class="footerInfo">
-            <ul class="list-unstyled postLink">
-              <li>
-                <div class="media">
-                  <a class="media-left" href="single-blog.html">
-                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-1.png" alt="Image">
-                  </a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="#">Evento 1</a></h5>
-                    <p>Enero 15 - 2018</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="media">
-                  <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-2.png" alt="Image">
-                  </a>
-                  <div class="media-body">
-                     <h5 class="media-heading"><a href="#">Evento 2</a></h5>
-                    <p>Enero 15 - 2018</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="media">
-                  <a class="media-left" href="single-blog-left-sidebar.html">
-                    <img class="media-object img-rounded border-color-3" src="img/footer/footer-img-3.png" alt="Image">
-                  </a>
-                  <div class="media-body">
-                    <h5 class="media-heading"><a href="#">Evento 3</a></h5>
-                    <p>Enero 15 - 2018</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
+          <div class="footerInfo" align="center">
+            <a href="http://www.alaime.net/web/"></a>
+            <img src="img/alaime.png" >
+            </a>
+            <hr>
+            <a href="http://www.metodistachile.cl/"></a>
+            <img src="img/imech.png" >
+            </a>
           </div>
-        </div>-->
+        </div>
       </div>
     </div>
   </div>
