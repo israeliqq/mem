@@ -176,7 +176,7 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-md-6 col-xs-12 col-sm-4">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-line-chart bg-color-4" aria-hidden="true"></i>
@@ -188,7 +188,7 @@
               </div>
             </div>
           </div>
-          <div class=" col-sm-4 col-xs-12">
+          <div class="col-md-6 col-xs-12 col-sm-4">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-arrows bg-color-4" aria-hidden="true"></i>
@@ -200,7 +200,7 @@
               </div>
             </div>
           </div>
-          <div class=" col-sm-4 col-xs-12">
+          <div class=" col-md-6 col-xs-12 col-sm-4">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-university bg-color-4" aria-hidden="true"></i>
@@ -212,7 +212,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-md-6 col-xs-12 col-sm-4">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-users bg-color-4" aria-hidden="true"></i>
@@ -224,7 +224,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-md-6 col-xs-12 col-sm-4">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-map bg-color-4" aria-hidden="true"></i>
@@ -236,13 +236,13 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-xs-12">
+          <div class="col-md-6 col-xs-12 col-sm-4">
             <div class="media featuresContent">
               <span class="media-left bg-color-4">
                 <i class="fa fa-globe bg-color-4" aria-hidden="true"></i>
               </span>
               <div class="media-body">
-                <h3 class="media-heading color-4">Difusión </h3>
+                <h3 class="media-heading color-4">Difusión Educacional</h3>
                 <p>Difundir la Educación Metodista hacia las congregaciones y organismos laicos de la IMECH.</p>
               </div>
             </div>

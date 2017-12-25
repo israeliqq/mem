@@ -97,7 +97,7 @@
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <img src="img/logomem3.png" class="navbar-brand" style="width:300px;">
+            <img src="img/logomem3.png" class="navbar-brand">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>

@@ -1896,19 +1896,19 @@ aside {
 .navbar-header .navbar-brand {
   float: left; }
   .navbar-header .navbar-brand > img {
-    width: 53%;
+    width: 100%;
     margin-left: auto; 
     margin-bottom: 20px;  
     }
   @media (min-width: 320px) {
     .navbar-header .navbar-brand {
       height:auto;
-      width: 155px; } }
+      width: 292px; } }
   @media (min-width: 768px) {
     .navbar-header .navbar-brand {
       height: auto;
-      padding: 20px 10px;
-      width: 195px; } }
+      padding: 18px 1px;
+      width: 270px; } }
 
 .navbar-default .navbar-nav {
   background-color: #ffffff;
@@ -2514,8 +2514,8 @@ aside {
   @media (min-width: 768px) {
     #menuBar.bb-fixed-header .navbar-brand {
       height: auto;
-      padding: 20px 15px;
-      width: 190px; } }
+      padding: 10px 15px;
+      width: 274px; } }
   @media (min-width: 320px) {
     #menuBar.bb-fixed-header .navbar-nav > li > a {
       padding: 12px; } }
