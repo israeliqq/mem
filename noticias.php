@@ -7,7 +7,7 @@
         <div class="pageTitleInfo">
           <h2>Noticias</h2>
           <ol class="breadcrumb">
-            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.php">Inicio</a></li>
             <li class="active">Noticias</li>
           </ol>
         </div>
@@ -20,111 +20,34 @@
         <div class="row">
           <div class="col-md-9 col-sm-8 col-xs-12 block pull-right">
             <div class="thumbnail thumbnailContent">
-              <img src="img/blog/single-blog.jpg" alt="image" class="img-responsive">
-              <div class="sticker-round bg-color-1">10 <br>July</div>
+              <img src="img/logomem.png" alt="image" class="img-responsive">
+              <div class="sticker-round bg-color-4">20 <br>Diciembre</div>
               <div class="caption border-color-1 singleBlog">
-                <h3 class="color-1">Praesent quis felis non diam volutpat sollicitudin.</h3>
-                <ul class="list-inline blogInfo">
-                  <li><i class="fa fa-user" aria-hidden="true"></i>Jone Doe</li>
-                  <li><i class="fa fa-comments-o" aria-hidden="true"></i>4 Comments </li>
-                </ul>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                <p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                <ul class="list-inline socailLink">
-                  <li><a href="#" class="bg-color-1"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#" class="bg-color-2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#" class="bg-color-3"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                  <li><a href="#" class="bg-color-4"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                  <li><a href="#" class="bg-color-5"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="blogComments">
-              <h3>3 Comments</h3>
-              <ul class="media-list commentsList">
-                <li class="media">
-                  <div class="media-left">
-                    <img src="img/blog/blog-1.jpg" alt="image" class="img-circle">
-                  </div>
-                  <div class="media-body">
-                    <h4 class="media-heading">Sarah Smith</h4>
-                    <p>July 7, 2016</p>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                    <a href="#" class="btn btn-primary"><i class="fa fa-reply-all" aria-hidden="true"></i>Reply</a>
-                  </div>
-                </li>
-                <li class="media">
-                  <div class="media-left">
-                    <img src="img/blog/blog-2.jpg" alt="image" class="img-circle">
-                  </div>
-                  <div class="media-body">
-                    <h4 class="media-heading">Sarah Smith</h4>
-                    <p>July 7, 2016</p>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                    <a href="#" class="btn btn-primary"><i class="fa fa-reply-all" aria-hidden="true"></i>Reply</a>
-                  </div>
-                </li>
-                <li class="media">
-                  <div class="media-left">
-                    <img src="img/blog/blog-3.jpg" alt="image" class="img-circle">
-                  </div>
-                  <div class="media-body">
-                    <h4 class="media-heading">Sarah Smith</h4>
-                    <p>July 7, 2016</p>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                    <a href="#" class="btn btn-primary"><i class="fa fa-reply-all" aria-hidden="true"></i>Reply</a>
-                  </div>
-                </li>
-                <li class="media">
-                  <div class="media-left">
-                    <img src="img/blog/blog-4.jpg" alt="image" class="img-circle">
-                  </div>
-                  <div class="media-body">
-                    <h4 class="media-heading">Sarah Smith</h4>
-                    <p>July 7, 2016</p>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                    <a href="#" class="btn btn-primary"><i class="fa fa-reply-all" aria-hidden="true"></i>Reply</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="blogComments">
-              <h3>Leave A Reply</h3>
-              <div class="homeContactContent">
-                <form action="#" method="POST" role="form">
-                  <div class="row">
-                    <div class="col-sm-4 col-xs-12">
-                      <div class="form-group">
-                        <i class="fa fa-user"></i>
-                        <input type="text" class="form-control border-color-1" id="exampleInputEmail1" placeholder="Nombre">
-                      </div>
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                      <div class="form-group">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <input type="text" class="form-control border-color-2" id="exampleInputEmail2" placeholder="Correo Electrónico">
-                      </div>
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                      <div class="form-group">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <input type="text" class="form-control border-color-5" id="exampleInputEmail3" placeholder="Telefono">
-                      </div>
-                    </div>
-                    <div class="col-xs-12">
-                      <div class="form-group">
-                        <i class="fa fa-comments" aria-hidden="true"></i>
-                        <textarea class="form-control border-color-4" placeholder="Escribir Mensaje"></textarea>
-                      </div>
-                    </div>
-                    <div class="col-xs-12">
-                      <div class="formBtnArea pull-left">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
+                <h3 class="color-1">Saludo Episcopal</h3>
+                <p>A todos y todas: la Paz de Dios sea sobre sus vidas.
+            <br><br>
+
+            Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM). En las páginas siguientes podrán encontrar informaciones relacionadas con la red de Colegios Metodistas en Chile e informaciones de la <a href="http://www.alaime.net/web/">red internacional de educación metodista</a> red internacional de educación metodista, tanto a nivel latinoamericano como mundial. 
+
+            <br><br>
+
+            Nuestra tradición ha dado y seguirá dando una importancia especial a la educación, asumiendo que a través de ella se contribuye a los procesos de formación e integración social de cientos y miles de personas en Chile. Es una opción que nuestra Iglesia desea seguir fomentando y perfeccionando, como una manera de hacer su aporte a Chile, a sus habitantes y al desarrollo de la vida como país.
+
+            <br><br>
+
+            Las ciencias, las letras, la tecnología, la informática, los deportes, es nuestro compromiso realizarlo con excelencia, en el plano de una educación que tiene que ver con saberes que se comparten, se descubren y adquieren. Junto a ello, nuestros colegios desean también compartir el mensaje de Cristo, el Hijo de Dios, el Salvador del mundo. Por lo cual, no buscamos solamente cumplir programas de estudios, también buscamos inculcar sentido, conducta y propósitos de vida, que permitan a los estudiantes tener una existencia plena en su ser personal y social. 
+
+            <br><br>
+
+            ¡Para todos quienes visiten esta página, nuestro saludo con el mayor afecto cristiano y que Dios les bendiga!
+            </p>
+
+
+
+            <b>Presbítero Pedro Correa Montecinos<br>
+            Pastor y Obispo de la Iglesia Metodista de Chile.</b>
+
+
               </div>
             </div>
           </div>

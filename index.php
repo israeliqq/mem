@@ -275,50 +275,28 @@
         <div class="sectionTitle text-center">
           <h2>
             <span class="shape shape-left bg-color-4"></span>
-            <span style="color: #4EAB62">Saludo Episcopal</span>
+            <span style="color: #4EAB62">Noticias</span>
             <span class="shape shape-right bg-color-4"></span>
           </h2>
         </div>
 
-        <div class="row">
-          <div class="col-sm-6 col-sm-push-6 col-xs-12">
-                <br><br><br>
-                <img src="img/logomem.png" alt="image" class="img-responsive img-rounded">
-          </div>
-        <div class="col-sm-6 col-sm-pull-6 col-xs-12">
-    <div class="schoolInfo">
-        <p>A todos y todas: la Paz de Dios sea sobre sus vidas.
-            <br><br>
-
-            Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM). En las páginas siguientes podrán encontrar informaciones relacionadas con la red de Colegios Metodistas en Chile e informaciones de la <a href="http://www.alaime.net/web/">red internacional de educación metodista</a> red internacional de educación metodista, tanto a nivel latinoamericano como mundial. 
-
-            <br><br>
-
-            Nuestra tradición ha dado y seguirá dando una importancia especial a la educación, asumiendo que a través de ella se contribuye a los procesos de formación e integración social de cientos y miles de personas en Chile. Es una opción que nuestra Iglesia desea seguir fomentando y perfeccionando, como una manera de hacer su aporte a Chile, a sus habitantes y al desarrollo de la vida como país.
-
-            <br><br>
-
-            Las ciencias, las letras, la tecnología, la informática, los deportes, es nuestro compromiso realizarlo con excelencia, en el plano de una educación que tiene que ver con saberes que se comparten, se descubren y adquieren. Junto a ello, nuestros colegios desean también compartir el mensaje de Cristo, el Hijo de Dios, el Salvador del mundo. Por lo cual, no buscamos solamente cumplir programas de estudios, también buscamos inculcar sentido, conducta y propósitos de vida, que permitan a los estudiantes tener una existencia plena en su ser personal y social. 
-
-            <br><br>
-
-            ¡Para todos quienes visiten esta página, nuestro saludo con el mayor afecto cristiano y que Dios les bendiga!
-            </p>
-
-
-
-            <b>Presbítero Pedro Correa Montecinos<br>
-            Pastor y Obispo de la Iglesia Metodista de Chile.</b>
-
-
+        <div class="row">  
+        <div class="col-sm-6 col-xs-12 ">
+            <div class="thumbnail thumbnailContent">
+              <a href="#"><img src="img/logomem.png" alt="image" class="img-responsive"></a>
+              <div class="sticker-round bg-color-4">20<br>Diciembre</div>
+              <div class="caption">
+                <h3><a href="noticias.php" class="color-1">Saludo Episcopal</a></h3>
+             
+                <p>Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM). </p>
+                <ul class="list-inline btn-yellow">
+                  <li><a href="noticias.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer Más</a></li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-
-
-
-
-
+        </div> 
+     
 
           <!--<div class="col-sm-4 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
