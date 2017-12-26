@@ -215,9 +215,7 @@ h5 {
     font-size: 25px;
     font-family: 'Dosis', sans-serif;
 }
-.img-responsive{
-    border-bottom:5px solid #99cc99;
-}
+
 /*=== 1.COMMON ===*/
 .container {
   width: 100%; }
@@ -1284,7 +1282,7 @@ aside {
 /*=== 2.7 DATEPICKER ===*/
 /*=== 2.8 THUMBNAIL ===*/
 .thumbnail {
-  float: right;
+  
   padding: 0;
   border: none;
   -webkit-border-radius: 9px;
@@ -1296,7 +1294,7 @@ aside {
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1); }
   .thumbnail > a img {
     border-radius: 9px 9px 0 0;
-    width: 100%; }
+    width: auto; }
   .thumbnail img {
     border-radius: 9px 9px 0 0;
     width: 100%; }
@@ -3360,11 +3358,12 @@ footer {
 .block h3 {
   font-family: 'Dosis', sans-serif;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: bold;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0; 
+  text-align: center;}
   .block h3 a {
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -5677,15 +5676,18 @@ footer {
 .thumbnailContent > .caption.singleBlog h3 {
   line-height: 34px;
   font-family: 'Dosis', sans-serif;
-  text-transform: capitalize;
-  font-weight: 700;
-  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 16px 0 20px 0;
   width: 100%;
   text-overflow: ellipsis;
   white-space: normal;
   overflow: hidden;
   display: block; }
-
+ 
+#parrafo-noticias{
+    text-align: justify;
+}
 .socailLink.list-inline {
   text-align: left; }
   @media (min-width: 768px) {

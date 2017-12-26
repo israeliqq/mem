@@ -1,4 +1,8 @@
-<?php include("cabezera.php");  ?>
+<?php include("cabezera.php");  
+
+$array = noticias();
+$dato = $array->fetch_assoc();
+?>
 
 
     <!-- PAGE TITLE SECTION-->
@@ -23,31 +27,9 @@
               <img src="img/logomem.png" alt="image" class="img-responsive">
               <div class="sticker-round bg-color-4">20 <br>Diciembre</div>
               <div class="caption border-color-1 singleBlog">
-                <h3 class="color-1">Saludo Episcopal</h3>
-                <p>A todos y todas: la Paz de Dios sea sobre sus vidas.
-            <br><br>
-
-            Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM). En las páginas siguientes podrán encontrar informaciones relacionadas con la red de Colegios Metodistas en Chile e informaciones de la <a href="http://www.alaime.net/web/">red internacional de educación metodista</a> red internacional de educación metodista, tanto a nivel latinoamericano como mundial. 
-
-            <br><br>
-
-            Nuestra tradición ha dado y seguirá dando una importancia especial a la educación, asumiendo que a través de ella se contribuye a los procesos de formación e integración social de cientos y miles de personas en Chile. Es una opción que nuestra Iglesia desea seguir fomentando y perfeccionando, como una manera de hacer su aporte a Chile, a sus habitantes y al desarrollo de la vida como país.
-
-            <br><br>
-
-            Las ciencias, las letras, la tecnología, la informática, los deportes, es nuestro compromiso realizarlo con excelencia, en el plano de una educación que tiene que ver con saberes que se comparten, se descubren y adquieren. Junto a ello, nuestros colegios desean también compartir el mensaje de Cristo, el Hijo de Dios, el Salvador del mundo. Por lo cual, no buscamos solamente cumplir programas de estudios, también buscamos inculcar sentido, conducta y propósitos de vida, que permitan a los estudiantes tener una existencia plena en su ser personal y social. 
-
-            <br><br>
-
-            ¡Para todos quienes visiten esta página, nuestro saludo con el mayor afecto cristiano y que Dios les bendiga!
-            </p>
-
-
-
-            <b>Presbítero Pedro Correa Montecinos<br>
-            Pastor y Obispo de la Iglesia Metodista de Chile.</b>
-
-
+                <h3 class="color-1"><?php echo utf8_encode($dato['titulo']); ?></h3>
+                <p id="parrafo-noticias"><?php echo utf8_encode($dato['html']); ?> </p>
+                <p><small><b><?php echo utf8_encode($dato['autor']); ?> </b></small></p>  
               </div>
             </div>
           </div>
