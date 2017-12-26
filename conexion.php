@@ -38,8 +38,8 @@ function cantidadColegios(){
    //count(*)
    return $result;  
 }
-function noticias(){
-    $result = Conexion()->query("SELECT html,autor,titulo FROM noticia");
+function noticias($id){
+    $result = Conexion()->query("SELECT * FROM noticia WHERE id = '".$id."';");
     return $result; 
 
 }

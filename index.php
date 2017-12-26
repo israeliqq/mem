@@ -286,11 +286,11 @@
               <a><img src="img/logomem.png" alt="image" class="img-responsive"></a>
               <div class="sticker-round bg-color-4">20<br>Diciembre</div>
               <div class="caption">
-                <h3><a href="noticias.php" class="color-1">Saludo Episcopal</a></h3>
+                <h3><a href="noticias.php?id=<?php echo $dato['id']; ?>" class="color-1">Saludo Episcopal</a></h3>
              
                 <p>Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM)... </p>
                 <ul class="list-inline btn-yellow">
-                  <li><a href="noticias.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer Más</a></li>
+                  <li><a href="noticias.php?id=<?php echo $dato['id']; ?>" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer Más</a></li>
                 </ul>
               </div>
             </div>
@@ -300,13 +300,13 @@
               <a><img src="img/rev_hidalgo.jpg.png" alt="image" class="img-responsive"></a>
               <div class="sticker-round bg-color-4">25<br>Diciembre</div>
               <div class="caption">
-                <h3><a href="noticias.php" class="color-1">Reflexión - Tres cosas que no debemos olvidar</a></h3>
+                <h3><a href="noticias.php?id=<?php echo $dato['id']; ?>" class="color-1">Reflexión - Tres cosas que no debemos olvidar</a></h3>
              
                 <p>El presente texto bíblico, del libro de Hechos, es el texto lema de la presente directiva del MEM, directiva elegida en el último Congreso realizado en “El Vergel”, Angol...
 
                   </p>
                 <ul class="list-inline btn-yellow">
-                  <li><a href="noticias.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer más</a></li>
+                  <li><a href="noticias.php?id=<?php echo $dato['id']; ?>" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer más</a></li>
                 </ul>
               </div>
             </div>

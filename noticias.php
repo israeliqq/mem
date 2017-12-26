@@ -1,6 +1,6 @@
 <?php include("cabezera.php");  
-
-$array = noticias();
+$id = $_GET["id"];
+$array = noticias($id);
 $dato = $array->fetch_assoc();
 ?>
 
