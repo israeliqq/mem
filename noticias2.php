@@ -25,17 +25,31 @@
               <!--<img src="img/logomem.png" alt="image" class="img-responsive">-->
               <div class="sticker-round bg-color-4">20 <br>Diciembre</div>
               <div class="caption border-color-1 singleBlog">
-                <h3 class="color-1">Saludo Episcopal</h3>
-                <p id="parrafo-noticias">A todos y todas: la Paz de Dios sea sobre sus vidas.<br><br>
+                <h3 class="color-1">Reflexión - TRES COSAS QUE NO DEBEMOS OLVIDAR</h3>
+                <p id="parrafo-noticias">
+                    <i>"No temas, sino habla, y no calles; porque yo estoy contigo"
+                    (Hechos 18:9-10)</i><br><br>
 
-                        Bienvenidos en nombre de la IGLESIA METODISTA DE CHILE  a la web del Ministerio de Educación Metodista (MEM). En las páginas siguientes podrán encontrar informaciones relacionadas con la red de Colegios Metodistas en Chile e informaciones de la red internacional de educación metodista, tanto a nivel latinoamericano como mundial. 
-                        <br><br>
-                        Nuestra tradición ha dado y seguirá dando una importancia especial a la educación, asumiendo que a través de ella se contribuye a los procesos de formacion e integracion social de cientos y miles de personas en Chile. Es una opción que nuestra Iglesia desea seguir fomentando y perfeccionando, como una manera de hacer su aporte a Chile, a sus habitantes y al desarrollo de la vida como país.
-                        <br><br>
-                        Las ciencias, las letras, la tecnología, la informática, los deportes, es nuestro compromiso realizarlo con excelencia, en el plano de una educación que tiene que ver con saberes que se comparten, se descubren y adquieren. Junto a ello, nuestros colegios desean también compartir el mensaje de Cristo, el Hijo de Dios, el Salvador del mundo. Por lo cual, no buscamos solamente cumplir programas de estudios, también buscamos inculcar sentido, conducta y propósitos de vida, que permitan a los estudiantes tener una existencia plena en su ser personal y social. 
-                        <br><br>
-                        Para todos quienes visiten esta página, nuestro saludo con el mayor afecto cristiano y que Dios les bendiga!</p>
-                <p><small><b>Pedro Correa Montecinos<br>Pastor Obispo IMECH</b></small></p>  
+
+                    El presente texto bíblico, del libro de Hechos, es el texto lema de la presente directiva del MEM, directiva elegida en el último Congreso realizado en “El Vergel”, Angol.
+                    <br>
+                    <br>
+                    Si miramos detenidamente el texto, veremos que hay tres ideas básicas y profundas.  Podríamos hacer uso de nuestra imaginación y pensar que un padre está sentado frente a su hijo diciéndole “Hay tres cosas que nunca debes olvidar”.  Ciertamente que ese hijo estaría muy atento a escuchar de su padre aquellas tres orientaciones, direcciones a seguir.  Es lo que el pasaje nos está planteando a todos nosotros en este momento.  El Señor nos está presentando tres cosas que no debemos olvidar, ellas son las siguientes:
+                    <br>
+                    <br>
+                    “No temas”.  En esta sociedad llena de miedos a ser asaltados, engañados, estafados, olvidados, ignorados, desplazados, marginados, traicionados, insultados… se nos invita a confiar en Dios.  Resulta muy interesante que el misterio de la encarnación del Verbo, del Logos humanado, parta con las palabras del ángel a María de Nazaret: “María, no temas…” (Lucas 1:30).   Igualmente vemos a Jesús en sus apariciones de resucitado señalarle a sus discípulos: “Paz a vosotros…” (Juan 20:19), es decir, tengan paz, no tengan miedo, no teman. Sin embargo, el contexto próximo del pasaje bíblico es no tener miedo a hablar de Cristo.  ¿Cuántos de nosotros hemos perdido hermosas oportunidades de hablar de nuestro Salvador sólo por estar invadidos por el miedo?.  
+                    <br>
+                    <br>
+                    “Habla y no calles”: Esta frase está íntimamente relacionada con las otras.  Retomando la frase anterior podríamos reiterar que no debemos temer, sino hablar, no callar lo que Jesucristo ha hecho en nuestras vidas. Aprovecho de contarles una historia.  Una anciana se dejó encontrar por su Salvador Jesucristo y desde ese día comenzó a hablar a todos acerca de su Señor.  Era toda una evangelista.  Sin embargo ella tenía un problema en sus ojos y no veía muy bien.  Cierto día al salir del culto vespertino vio a alguien de pie, fuera del almacén de la esquina y de inmediato fue a hablarle del Señor.  Le estaba hablando con mucho entusiasmo cuando pasaron los jóvenes de la iglesia y le dijeron, burlándose de ella: “Hermana, le está predicando a un maniquí de madera”.  Ella se volvió a ellos con amor y le respondió: “Prefiero predicarle a todos, incluso a un maniquí de madera; que ser un maniquí de madera que no le habla a nadie de su Salvador Jesucristo”.   Podríamos preguntarnos ¿cuántas veces hemos sido simples maniquís de madera que no le hablamos a nadie de nuestro Bendito Señor y Salvador?.  Por tanto…”No temas…habla y no calles” lo que tu Salvador ha hecho en tu vida y te ha dado, por gracia.
+                    <br>
+                    <br>
+                    “Porque yo estoy contigo”: Esta frase es tan significativa que en el último versículo del Evangelio de Mateo, leemos que Jesús al despedirse de sus discípulos les dice: “… yo estoy con vosotros todos los días, hasta el fin del mundo” (Mateo 28:20).  La fuerza espiritual que necesitamos para perder el miedo y hablar en todo momento de nuestro Salvador no está en nosotros, no está en nuestra fuerza, en nuestra preparación bíblico-teológica, no está en nuestros títulos académicos, sino única y exclusivamente en que Él está a nuestro lado, Él está con nosotros, Él camina con nosotros. Él nos habla, en esta caminata y nosotros oímos.  Nosotros hablamos y Él oye.  Estar con Dios es estar en oración delante de él.  San Macario Egipcio (390) decía acertadamente: “Lanza tu ancla en el abismo de la oración, y el barco de tu vida resistirá con la fuerza de la gracia divina todas las olas de Satanás, las mareas y tormentas de este oscuro, engañoso y vanidoso mundo”.
+                    <br><br>
+                    Pedimos al Señor que estando en comunión con nosotros y nosotros con él, podamos perder el miedo para hablar y no callar acerca de su amor, de su gracia sanadora y salvadora, amén.
+                </p>
+                <p><small><b> Rev. Luis Hidalgo Ruiz<br>
+                              Educación cristiana y Capellanía
+                </b></small></p>  
               </div>
             </div>
           </div>

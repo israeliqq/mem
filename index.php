@@ -280,33 +280,34 @@
           </h2>
         </div>
 
-        <div class="row">  
-        <div class="col-sm-6 col-xs-12 block">
+        <div class="row"> 
+            <div class="col-sm-3 col-md-3 col-xs-12 block"></div>  
+        <div class="col-sm-3 col-md-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
               <a><img src="img/logomem.png" alt="image" class="img-responsive"></a>
               <div class="sticker-round bg-color-4">20<br>Diciembre</div>
               <div class="caption">
-                <h3><a href="noticias.php?id=<?php echo $dato['id']; ?>" class="color-1">Saludo Episcopal</a></h3>
+                <h3><a href="noticias.php">Saludo Episcopal</a></h3>
              
-                <p>Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM)... </p>
+                <p style="text-align:justify">Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM)... </p>
                 <ul class="list-inline btn-yellow">
-                  <li><a href="noticias.php?id=<?php echo $dato['id']; ?>" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer Más</a></li>
+                  <li><a href="noticias.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer Más</a></li>
                 </ul>
               </div>
             </div>
           </div>
-             <div class="col-sm-6 col-xs-12 block">
+            
+             <div class="col-sm-3 col-md-3 col-xs-12 block">
             <div class="thumbnail thumbnailContent">
-              <a><img src="img/rev_hidalgo.jpg.png" alt="image" class="img-responsive"></a>
+              <a><img src="img/rev_hidalgo.jpg" alt="image" class="img-responsive"></a>
               <div class="sticker-round bg-color-4">25<br>Diciembre</div>
               <div class="caption">
-                <h3><a href="noticias.php?id=<?php echo $dato['id']; ?>" class="color-1">Reflexión - Tres cosas que no debemos olvidar</a></h3>
+                <h3><a href="noticias2.php" class="color-1">Reflexión</a></h3>
              
-                <p>El presente texto bíblico, del libro de Hechos, es el texto lema de la presente directiva del MEM, directiva elegida en el último Congreso realizado en “El Vergel”, Angol...
-
-                  </p>
+                <p style="text-align:justify">El presente texto bíblico, del libro de Hechos, es el texto lema de la presente directiva del MEM, 
+                                              directiva elegida...</p>
                 <ul class="list-inline btn-yellow">
-                  <li><a href="noticias.php?id=<?php echo $dato['id']; ?>" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer más</a></li>
+                  <li><a href="noticias2.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer más</a></li>
                 </ul>
               </div>
             </div>
@@ -582,9 +583,9 @@ $dato = $array->fetch_assoc();
           </h2>
         </div>
         <div class="row">
-          <div class="col-sm-4 col-xs-12 block"></div>
-          <div class="col-sm-4 col-xs-12 block">
-            <div class="thumbnailContent">
+            <div class="col-sm-4 col-sm-4 col-xs-12 block"></div>
+          <div class="col-sm-4 col-sm-4 col-xs-12 block">
+            <div class="thumbnail thumbnailContent">
               <a><img src="img/eventos/portada%20libro%20BASICA.jpg" alt="image" class="img-responsive"></a>
               <div class="caption border-color-4">
                 <h3><a class="color-4">Diplomado</a></h3>
@@ -596,9 +597,12 @@ $dato = $array->fetch_assoc();
                   <div align="center">
                     <p><b><i class="fa fa-envelope" aria-hidden="true"></i> CONTACTOS</b></p>
                     <ul class="list-unstyled para-list">
-                      <li><b>Obispo Mario Martínez</b></li>mariomartinez50@yahoo.com
-                      <li><b>Profesor Enrique Quintana</b></li>enriquequintana@colegioingles.org
-                      <li><b>Marlene Navarrete</b></li>marlenenavarrete@colegioingles.org
+                      <li><b>Obispo Mario Martínez</b></li>
+                             mariomartinez50@yahoo.com
+                      <li><b>Profesor Enrique Quintana</b></li>
+                            enriquequintana@colegioingles.org
+                      <li><b>Marlene Navarrete</b></li>
+                            marlenenavarrete@colegioingles.org
                     </ul>
                   </div>
                 </div>
