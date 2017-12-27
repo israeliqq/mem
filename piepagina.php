@@ -122,11 +122,11 @@
             <h4>Instituciones Relacionadas</h4>
           </div>
           <div class="footerInfo" align="center">
-            <a href="http://www.alaime.net/web/">
+            <a href="http://www.alaime.net/web/" target="_blank">
             <img src="img/alaime.png">
             </a>
             <hr>
-            <a href="http://www.metodistachile.cl/">
+            <a href="http://www.metodistachile.cl/" target="_blank">
             <img src="img/imech.png">
             </a>
           </div>
