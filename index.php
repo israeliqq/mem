@@ -274,7 +274,7 @@
 <?php $array2 = noticiastodas(); ?>
 
 
-      <section class="whiteSection full-width clearfix newsSection" id="latestNews">
+      <section class="whiteSection full-width clearfix newsSection" id="noticias">
       <div class="container">
         <div class="sectionTitle text-center">
           <h2>
@@ -292,7 +292,7 @@
         
         <div class="col-sm-3 col-md-3 col-xs-12 block">
           <div class="thumbnail thumbnailContent">
-            <a><img src="<?php echo utf8_encode($dato['foto']); ?>" alt="image" class="img-responsive"></a>
+            <a><img src="<?php echo utf8_encode($dato['foto']); ?>" alt="image" class="img-responsive" style="width: 250px; height: 250px"></a>
             <div class="sticker-round bg-color-4"><?php echo utf8_encode($dato['fecha']); ?></div>
             <div class="caption">
               <h3><a href="noticias.php"><?php echo utf8_encode($dato['titulo']); ?></a></h3>
