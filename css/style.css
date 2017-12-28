@@ -1297,7 +1297,7 @@ aside {
     width: auto; }
   .thumbnail img {
     border-radius: 9px 9px 0 0;
-    width: 100%; }
+    width: 50%; }
 
 /*=== 2.9 MODAL ===*/
 .customModal .modal-content {
