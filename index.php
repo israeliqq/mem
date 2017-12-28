@@ -270,6 +270,10 @@
     </section>
 
     <!-- WHITE SECTION -->
+
+<?php $array2 = noticiastodas(); ?>
+
+
       <section class="whiteSection full-width clearfix newsSection" id="latestNews">
       <div class="container">
         <div class="sectionTitle text-center">
@@ -282,36 +286,28 @@
 
         <div class="row"> 
             <div class="col-sm-3 col-md-3 col-xs-12 block"></div>  
+      
+
+        <?php while ($dato = $array2->fetch_assoc()){  ?>
+        
         <div class="col-sm-3 col-md-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a><img src="img/logomem.png" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-4">20<br>Diciembre</div>
-              <div class="caption">
-                <h3><a href="noticias.php">Saludo Episcopal</a></h3>
-             
-                <p style="text-align:justify">Bienvenidos en nombre de la <b><a href="http://www.metodistachile.cl/">IGLESIA METODISTA DE CHILE</a></b> a la web del Ministerio de Educación Metodista (MEM)... </p>
-                <ul class="list-inline btn-yellow">
-                  <li><a href="noticias.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer Más</a></li>
-                </ul>
-              </div>
+          <div class="thumbnail thumbnailContent">
+            <a><img src="<?php echo utf8_encode($dato['foto']); ?>" alt="image" class="img-responsive"></a>
+            <div class="sticker-round bg-color-4"><?php echo utf8_encode($dato['fecha']); ?></div>
+            <div class="caption">
+              <h3><a href="noticias.php"><?php echo utf8_encode($dato['titulo']); ?></a></h3>
+           
+              <p style="text-align:justify"><?php echo utf8_encode(cortar_palabras($dato['cuerpo'],50)); ?></p>
+              <ul class="list-inline btn-yellow">
+                <li><a href="noticias.php?id=<?php echo utf8_encode($dato['id']); ?>" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer Más</a></li>
+              </ul>
             </div>
           </div>
-            
-             <div class="col-sm-3 col-md-3 col-xs-12 block">
-            <div class="thumbnail thumbnailContent">
-              <a><img src="img/rev_hidalgo.jpg" alt="image" class="img-responsive"></a>
-              <div class="sticker-round bg-color-4">25<br>Diciembre</div>
-              <div class="caption">
-                <h3><a href="noticias2.php" class="color-1">Reflexión</a></h3>
-             
-                <p style="text-align:justify">El presente texto bíblico, del libro de Hechos, es el texto lema de la presente directiva del MEM, 
-                                              directiva elegida...</p>
-                <ul class="list-inline btn-yellow">
-                  <li><a href="noticias2.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Leer más</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        </div>
+        <?php } ?>
+          
+
+
         </div> 
      
 

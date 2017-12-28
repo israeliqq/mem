@@ -11,7 +11,6 @@ function Conexion(){
    return $link;  
 }
 
-
 function Consulta($distrito){  
    $result = Conexion()->query("SELECT * FROM institucion WHERE distrito = '".utf8_encode($distrito)."';");
    return $result;  
@@ -41,7 +40,26 @@ function cantidadColegios(){
 function noticias($id){
     $result = Conexion()->query("SELECT * FROM noticia WHERE id = '".$id."';");
     return $result; 
-
 }
+
+function noticiastodas(){
+    $result = Conexion()->query("SELECT * FROM noticia;");
+    return $result; 
+}
+
+
+function cortar_palabras($texto, $largor, $puntos = "...") 
+{ 
+   $palabras = explode(' ', $texto); 
+   if (count($palabras) > $largor) 
+   { 
+     return implode(' ', array_slice($palabras, 0, $largor)) ." ". $puntos; 
+   } else
+         {
+           return $texto; 
+         } 
+}
+
+
 
 ?> 
