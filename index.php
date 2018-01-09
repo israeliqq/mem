@@ -285,14 +285,14 @@
         </div>
 
         <div class="row"> 
-            <div class="col-sm-3 col-md-3 col-xs-12 block"></div>  
+           
       
 
         <?php while ($dato = $array2->fetch_assoc()){  ?>
         
-        <div class="col-sm-3 col-md-3 col-xs-12 block">
+        <div class="col-sm-4 col-md-4 col-xs-12 block">
           <div class="thumbnail thumbnailContent">
-            <a><img src="<?php echo utf8_encode($dato['foto']); ?>" alt="image" class="img-responsive" style="width: 250px; height: 250px"></a>
+            <a><img src="<?php echo utf8_encode($dato['foto']); ?>" alt="image" class="img-responsive" ></a>
             <div class="sticker-round bg-color-4"><?php echo utf8_encode($dato['fecha']); ?></div>
             <div class="caption">
               <h3><a href="noticias.php"><?php echo utf8_encode($dato['titulo']); ?></a></h3>

@@ -1898,15 +1898,21 @@ aside {
     margin-left: auto; 
     margin-bottom: 20px;  
     }
+ @media (min-width: 240px) {
+    .navbar-header .navbar-brand {
+      height:auto;
+      width: 150px;
+      padding: 5px 20px;}
   @media (min-width: 320px) {
     .navbar-header .navbar-brand {
       height:auto;
-      width: 292px; } }
+      width: 170px;
+      padding: 5px 20px;} }
   @media (min-width: 768px) {
     .navbar-header .navbar-brand {
       height: auto;
-      padding: 18px 1px;
-      width: 270px; } }
+      padding: 10px 12px;
+      width: 170px; } }
 
 .navbar-default .navbar-nav {
   background-color: #ffffff;
@@ -2500,20 +2506,21 @@ aside {
   top: 3px; }
   @media (min-width: 480px) {
     #menuBar.bb-fixed-header {
-      height: 70px; } }
+      height: 79px; } }
   @media (min-width: 768px) {
     #menuBar.bb-fixed-header {
-      height: 90px; } }
+      height: 102px; } }
   @media (min-width: 480px) {
     #menuBar.bb-fixed-header .navbar-brand {
       height: auto;
-      padding: 15px;
-      width: 160px; } }
+      padding: 0px 2px;
+      width: 123px; 
+      margin-left: 8px;} }
   @media (min-width: 768px) {
     #menuBar.bb-fixed-header .navbar-brand {
       height: auto;
-      padding: 10px 15px;
-      width: 274px; } }
+      padding: 1px 5px;
+      width: 156px; } }
   @media (min-width: 320px) {
     #menuBar.bb-fixed-header .navbar-nav > li > a {
       padding: 12px; } }

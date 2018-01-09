@@ -88,7 +88,7 @@
                   <div class="col-sm-6 col-xs-12">
                     <div class="form-group">
                       <i class="fa fa-envelope" aria-hidden="true"></i>
-                      <input type="text" class="form-control border-color-2" id="exampleInputEmail2" name="correo" placeholder="Correo Electrónico" required>
+                      <input type="email" class="form-control border-color-2" id="exampleInputEmail2" name="correo" placeholder="Correo Electrónico" required>
                     </div>
                   </div>
                   <div class="col-sm-6 col-xs-12">
