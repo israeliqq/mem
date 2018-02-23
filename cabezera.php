@@ -99,7 +99,10 @@
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
              <img src="img/logomem.png" class="navbar-brand">
-               <a href="index.php"><p class="titulo-principal">Ministerio de <br> Educación<br> Metodista</p></a>
+              <div class="hidden-sm hidden-xs ">
+                <a href="index.php"><p class="titulo-principal">Ministerio de <br> Educación<br> Metodista</p></a>
+              </div>
+               
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>

@@ -22,7 +22,7 @@
     <section class="mainContent full-width clearfix newsSection">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-xs-12 block">
+          <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnailContent">
               <a href="CIERRE.php"><img src="img/CIERRE2017/2.jpg" alt="image" class="img-responsive"></a>
               <div class="caption">
@@ -35,7 +35,8 @@
               </div>
             </div>
             </div>
-            <div class="col-sm-6 col-xs-12 block">
+            
+            <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnailContent" >
               <a href="CONGRESO.php"><img src="img/CONGRESO2017/34.JPG" alt="image" class="img-responsive"></a>
               <div class="caption">
@@ -48,7 +49,21 @@
               </div>
             </div>
           </div>
-        
+            
+         <div class="col-sm-4 col-xs-12 block">
+            <div class="thumbnailContent">
+              <a href="CIERRE.php"><img src="img/CIERRE2017/2.jpg" alt="image" class="img-responsive"></a>
+              <div class="caption">
+                <h3><a href="galeria.php" class="titulo-galeria color-4">Asamblea General 2018</a></h3>
+                <p> Asamblea General de la Iglesia Metodista de Chile
+                Elección del nuevo Obispo Rvdo. Jorge Merino Riffo  </p>
+                  <time><small style="font-style:italic;">17 al 20 de Enero 2018 , Angol.</small></time>
+                <ul class="list-inline btn-yellow">
+                  <li><a href="ASAMBLEA_2018.php" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ver Más</a></li>
+                </ul>
+              </div>
+            </div>
+            </div>
     </div>
     </div>
 </section>
