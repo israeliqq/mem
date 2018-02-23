@@ -24,6 +24,7 @@
   <!-- GOOGLE FONT -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,600,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type="text/css"> 
 
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
@@ -98,6 +99,7 @@
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
              <img src="img/logomem.png" class="navbar-brand">
+               <a href="index.php"><p class="titulo-principal">Ministerio de <br> Educación<br> Metodista</p></a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
