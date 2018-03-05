@@ -65,7 +65,7 @@
               </div>
             </li>
             <li data-transition="fade" data-slotamount="5" data-masterspeed="900"  data-title="Slide 3">
-              <img src="img/CIERRE2017/13.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+              <img src="img/ASAMBLEA2018/60.JPG" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
                 <div class="tp-caption rs-caption-1 sft start text-right"
                   data-hoffset="0"
@@ -94,7 +94,7 @@
               </div>
             </li>
             <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 2">
-              <img src="img/tarjeta_de_saludo.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+              <img src="img/ASAMBLEA2018/41.JPG" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
               <div class="slider-caption container">
                 <div class="tp-caption rs-caption-1 sft start text-center"
                   data-hoffset="0"
@@ -462,6 +462,7 @@
                 <li class="active"><a href="#" data-filter="*">Ver todos</a></li>
                 <li><a href="#" data-filter=".cena">Cena MEM</a></li>
                 <li><a href="#" data-filter=".congreso">Congreso MEM</a></li>
+                  <li><a href="#" data-filter=".asamblea">Asamblea General 2018</a></li>
               </ul>
             </div>
           </div>
@@ -487,7 +488,7 @@
         <?php }?>         
         </div>
 
-          <div class="row isotopeContainer" id="container">
+    <div class="row isotopeContainer" id="container">
         <?php for ($i = 1; $i <= 4; $i++) {?>
           <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector congreso">
             <article class="">
@@ -498,6 +499,25 @@
                 </div>
                 <div class="overlay">
                   <a class="fancybox-pop" rel="portfolio-1" href="img/CONGRESO2017/<?php echo $i;?>.JPG">
+                    <i class="fa fa-search-plus" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </figure>
+            </article>
+          </div>
+        <?php }?>         
+        </div>
+     <div class="row isotopeContainer" id="container">
+        <?php for ($i = 1; $i <= 4; $i++) {?>
+          <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector asamblea">
+            <article class="">
+              <figure>
+                <img src="img/ASAMBLEA2018/<?php echo $i;?>.JPG" alt="image" class="img-rounded">
+                <div class="overlay-background">
+                  <div class="inner"></div>
+                </div>
+                <div class="overlay">
+                  <a class="fancybox-pop" rel="portfolio-1" href="img/ASAMBLEA2018/<?php echo $i;?>.JPG">
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>

@@ -172,9 +172,9 @@
               <li class="dropdown singleDrop color-3">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-users bg-color-4" aria-hidden="true"></i> <span>Nosotros</span></a>
-                <ul class="dropdown-menu dropdown-menu-right">
-                  <li><a href="misionyvision.php">Misión y Visión</a></li>
-                  <li><a href="directivos.php">Equipo Directivo</a></li>
+                <ul class="dropdown-menu dropdown-menu-right ">
+                  <!--<li><a href="#" class="disabled">Misión y Visión</a></li>
+                  <li><a href="#" class="disabled">Equipo Directivo</a></li>-->
                  <!--<li><a href="proyectoeducativo.php">Proyecto Educativo</a></li>-->
                   <li><a href="index.php#objetivos">Nuestros Objetivos</a></li>
                   <li><a href="resena.php">Reseña Histórica</a></li>

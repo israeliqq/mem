@@ -52,7 +52,7 @@
             
          <div class="col-sm-4 col-xs-12 block">
             <div class="thumbnailContent">
-              <a href="CIERRE.php"><img src="img/CIERRE2017/2.jpg" alt="image" class="img-responsive"></a>
+              <a href="CIERRE.php"><img src="img/ASAMBLEA2018/61.JPG" alt="image" class="img-responsive"></a>
               <div class="caption">
                 <h3><a href="galeria.php" class="titulo-galeria color-4">Asamblea General 2018</a></h3>
                 <p> Asamblea General de la Iglesia Metodista de Chile

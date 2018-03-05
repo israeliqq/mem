@@ -148,11 +148,11 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-5 col-sm-push-7 col-xs-12">
-          <ul class="list-inline">
+          <!--<ul class="list-inline">
             <li><a href="#" style="background-color: #3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li><a href="#" style="background-color: #00aced"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           
-          </ul>
+          </ul>-->
         </div>
         <div class="col-sm-7 col-sm-pull-5 col-xs-12">
           <div class="copyRightText">
